@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
-    "start:mock-ng-spree": "ng serve --configuration=mock-ng-spree",
+    "start:mock-amazon": "ng serve --configuration=mock-amazon",
     "e2e:dev-amazon": "ng e2e --configuration=dev-amazon",
     "lint:dev-amazon": "ng lint --configuration=dev-amazon",
     "test:dev-amazon": "ng test --configuration=dev-amazon",
