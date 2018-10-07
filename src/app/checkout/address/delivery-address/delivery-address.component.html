@@ -1,0 +1,30 @@
+<div class="items" *ngIf="address.full_name">
+  <div class="address-row">
+    <strong>Edit</strong>
+    <div class="name">{{address.full_name}}</div>
+    <div class="address">
+      <div class="address-content">
+        <div class="address-field">{{address.address1}}</div>
+        <div class="address-field">{{address.address2}}</div>
+        <span class="address-field">{{address.city}}</span>
+        <span class="address-field">-{{address.zipcode}}</span>
+        <br>
+        <span class="address-field">{{address.state?.name}}</span>
+        <div class="mob">
+          <span class="mob-lbl">Mobile: </span>
+          <span class="mob-no">{{address.phone}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="serviceability">
+      <div class="cod">
+        <span class="mid-dot">•</span>
+        Cash/Card on Delivery available
+      </div>
+      <div class="standard">
+        <span class="mid-dot">•</span>
+        Standard Delivery available
+      </div>
+    </div>
+  </div>
+</div>
