@@ -44,13 +44,14 @@ import { ToastrModule } from 'ngx-toastr';
 
     EffectsModule.forRoot([]),
     BrowserAnimationsModule,
-    BrowserModule.withServerTransition({ appId: 'amazonstones' }),
+    BrowserModule.withServerTransition({ appId: 'ng-spree' }),
     BrowserTransferStateModule,
     TransferHttpCacheModule,
     FormsModule,
     HttpModule,
     HomeModule,
     LayoutModule,
+    Ng2UiAuthModule.forRoot(myAuthConfig),
     ToastrModule.forRoot({
       timeOut: 1500,
       positionClass: 'toast-top-center',

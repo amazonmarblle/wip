@@ -3,27 +3,27 @@ import { DEFAULT_META_DATA } from './meta-data';
 
 export const DEFAULT_CONFIG = {
   // Add Your custom configs hereh
-  prodApiEndpoint: 'https://amazon-api.herokuapp.com/',
+  prodApiEndpoint: 'https://ngspree-api.herokuapp.com/',
   // prodApiEndpoint: 'http://localhost:3000/',
-  frontEndUrl: 'https://1538415571879.firebaseapp.com/',
-  appName: 'Amazon',
+  frontEndUrl: 'https://angularspree.firebaseapp.com/',
+  appName: 'Angularspree',
   fevicon: 'https://via.placeholder.com/350x150',
   header: {
     brand: {
       logo: '/assets/default/logo.svg',
-      name: 'Amazon',
+      name: 'Angularspree',
       height: '42',
       width: '140'
     },
-    searchPlaceholder: 'Search best marbles for me',
+    searchPlaceholder: 'Find good furniture for me please',
     showGithubRibon: false
   },
   showDummyCardInfo: true,
   // Following are the test crediantials for payubiz payment gateway.
-  payuBizSalt: 'xyz',
-  payuBizKey: 'xyz',
-  freeShippingAmount: 50000,
-  currency_symbol: 'Rs',
+  payuBizSalt: 'eCwWELxi',
+  payuBizKey: 'gtKFFx',
+  freeShippingAmount: 50,
+  currency_symbol: 'Rs', // USD $
   PaymentMethodCod: 'COD',
   PaymentMethodPayubiz: 'Payubiz',
   defaultPaymentMethod: 'Payubiz',
