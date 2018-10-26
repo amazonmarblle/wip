@@ -1,4 +1,4 @@
-import { NguCarousel } from '@ngu/carousel';
+import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
 import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
@@ -9,16 +9,19 @@ import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core
 })
 export class ProductSliderComponent implements OnInit {
   @Input() productsList = new Array(10);
-  public carouselOne: any;
+  public carouselOne: NguCarouselConfig;
   @Input() showRating: boolean;
   constructor() {
+
     this.carouselOne = {
       grid: { xs: 1, sm: 1, md: 2, lg: 5, all: 0 },
       slide: 2,
       speed: 400,
+      interval: {timing: 4000, initialDelay: 1000},
       animation: 'lazy',
       point: {
-        visible: false
+        visible: true,
+        hideOnSingleSlide: true // To apply our modification
       },
       load: 2,
       touch: true,

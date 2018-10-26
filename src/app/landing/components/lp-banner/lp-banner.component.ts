@@ -1,6 +1,6 @@
 import { environment } from './../../../../environments/environment';
 import { Component, OnInit, ChangeDetectionStrategy, ViewChild } from '@angular/core';
-import { NguCarousel, NguCarouselStore } from '@ngu/carousel';
+import { NguCarousel, NguCarouselStore, NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
   selector: 'app-lp-banner',
@@ -10,7 +10,7 @@ import { NguCarousel, NguCarouselStore } from '@ngu/carousel';
 })
 export class LpBannerComponent implements OnInit {
   public bannerItems = environment.config.landing_page_banner;
-  public carouselOne: any = [];
+  public carouselOne: NguCarouselConfig;
   @ViewChild('landingBanners') landingBanners: NguCarouselStore;
 
   constructor() {}
@@ -20,10 +20,10 @@ export class LpBannerComponent implements OnInit {
       grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
       slide: 1,
       speed: 400,
-      interval: 4000,
+      interval: {timing: 4000, initialDelay: 1000},
       point: {
         visible: true,
-        pointStyles: '.ngucarouselPoint {}' // To apply our modification
+        hideOnSingleSlide: true // To apply our modification
       },
       load: 2,
       touch: true,
