@@ -13,7 +13,7 @@ import { isPlatformBrowser } from '../../../../node_modules/@angular/common';
 })
 export class OrderFailedComponent implements OnInit {
   queryParams: any;
-  orderDetails: Order
+  orderDetails: Order;
   errorReason: string;
   isMobile = false;
   screenwidth: any;
@@ -27,10 +27,10 @@ export class OrderFailedComponent implements OnInit {
   ) {
     this.activatedRouter.queryParams
       .subscribe(params => {
-        this.queryParams = params
+        this.queryParams = params;
         this.errorReason = this.queryParams.reason;
         if (!this.queryParams.orderReferance) {
-          this.route.navigate(['/'])
+          this.route.navigate(['/']);
         }
       });
   }
@@ -39,8 +39,8 @@ export class OrderFailedComponent implements OnInit {
     this.userService
       .getOrderDetail(this.queryParams.orderReferance)
       .subscribe(order => {
-        this.orderDetails = order
-      })
+        this.orderDetails = order;
+      });
     this.screenwidth = window.innerWidth;
 
     this.calculateInnerWidth();

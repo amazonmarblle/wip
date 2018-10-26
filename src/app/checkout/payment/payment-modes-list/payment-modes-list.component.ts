@@ -66,10 +66,10 @@ export class PaymentModesListComponent implements OnInit {
 
   makePaymentCod() {
     const paymentModeId = this.selectedMode.id;
-    const shipping_pincode = (this.address.zipcode)
+    const shipping_pincode = (this.address.zipcode);
     this.checkoutService.shipmentAvailability(+shipping_pincode)
       .subscribe((res: any) => {
-        this.isShippeble = res.available
+        this.isShippeble = res.available;
         if (this.isShippeble && this.paymentAmount >= this.freeShippingAmount) {
           this.checkoutService.createNewPayment(paymentModeId, this.paymentAmount).pipe(
             tap(() => {
@@ -93,7 +93,7 @@ export class PaymentModesListComponent implements OnInit {
   makePaymentPayubiz() {
     this.checkoutService.makePayment(this.paymentAmount, this.address, this.orderNumber)
       .subscribe((response: any) => {
-        response = response
+        response = response;
         this.checkoutService.createNewPayment(this.selectedMode.id, this.paymentAmount).pipe(
           tap(() => {
             this.store.dispatch(this.checkoutActions.orderCompleteSuccess());
@@ -106,7 +106,7 @@ export class PaymentModesListComponent implements OnInit {
               window.open(response.url, '_self');
             }
           });
-      })
+      });
   }
 
   private redirectToNewPage() {

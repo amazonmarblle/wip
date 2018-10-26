@@ -10,7 +10,7 @@ import { NguCarousel, NguCarouselStore } from '@ngu/carousel';
 })
 export class LpBannerComponent implements OnInit {
   public bannerItems = environment.config.landing_page_banner;
-  public carouselOne: any;
+  public carouselOne: any = [];
   @ViewChild('landingBanners') landingBanners: NguCarouselStore;
 
   constructor() {}

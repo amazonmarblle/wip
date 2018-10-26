@@ -38,7 +38,7 @@ export class OrderTotalSummaryComponent implements OnInit, OnDestroy, OnChanges 
   }
 
   ngOnChanges() {
-    this.enableshippingcalculate()
+    this.enableshippingcalculate();
   }
 
   placeOrder() {

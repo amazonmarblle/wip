@@ -58,7 +58,7 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
         _totalCartValue = state.totalCartValue + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
         _itemTotal = state.itemTotal + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
         _lineItemEntity = { [_lineItemId]: _lineItem };
-        _shipTotal = state.shipTotal
+        _shipTotal = state.shipTotal;
 
         return state.merge({
           lineItemEntities: state.lineItemEntities.merge(_lineItemEntity),
@@ -74,7 +74,7 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
       _itemTotal = state.itemTotal + parseFloat(_lineItem.total);
       _lineItemEntity = { [_lineItemId]: _lineItem };
       _lineItemIds = state.lineItemIds.push(_lineItemId);
-      _shipTotal = state.shipTotal
+      _shipTotal = state.shipTotal;
 
       return state.merge({
         lineItemIds: _lineItemIds,
@@ -95,7 +95,7 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
         _totalCartItems = state.totalCartItems - _lineItem.quantity;
         _totalCartValue = state.totalCartValue - parseFloat(_lineItem.total);
         _itemTotal = state.itemTotal - parseFloat(_lineItem.total);
-        _shipTotal = state.shipTotal
+        _shipTotal = state.shipTotal;
       }
 
       return state.merge({
@@ -169,6 +169,7 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
     default:
       return state;
   }
-};
+}
+
 
 

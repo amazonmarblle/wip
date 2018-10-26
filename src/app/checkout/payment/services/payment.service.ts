@@ -3,7 +3,7 @@ import { environment } from '../../../../environments/environment';
 
 @Injectable()
 export class PaymentService {
-  paymentMethodName= environment.config.defaultPaymentMethod;
+  paymentMethodName = environment.config.defaultPaymentMethod;
   getDefaultSelectedMode(modes) {
     let selectedMode;
     modes.forEach((mode) => {

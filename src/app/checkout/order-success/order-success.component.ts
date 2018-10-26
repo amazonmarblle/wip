@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 export class OrderSuccessComponent implements OnInit {
 
   queryParams: any;
-  orderDetails: Order
+  orderDetails: Order;
   retryCount = 0;
   isMobile = false;
   screenwidth: any;
@@ -23,9 +23,9 @@ export class OrderSuccessComponent implements OnInit {
   ) {
     this.activatedRouter.queryParams
       .subscribe(params => {
-        this.queryParams = params
+        this.queryParams = params;
         if (!this.queryParams.orderReferance) {
-          this.route.navigate(['/'])
+          this.route.navigate(['/']);
         }
       });
   }
@@ -34,11 +34,11 @@ export class OrderSuccessComponent implements OnInit {
     this.userService
       .getOrderDetail(this.queryParams.orderReferance)
       .subscribe(order => {
-        this.orderDetails = order
+        this.orderDetails = order;
         if (this.orderDetails.shipment_state !== 'ready') {
-          this.refresh()
+          this.refresh();
         }
-      })
+      });
 
     this.screenwidth = window.innerWidth;
 
@@ -60,11 +60,11 @@ export class OrderSuccessComponent implements OnInit {
     this.userService
       .getOrderDetail(this.queryParams.orderReferance)
       .subscribe(order => {
-        this.orderDetails = order
+        this.orderDetails = order;
         this.retryCount = this.retryCount + 1;
         if (this.orderDetails.shipment_state !== 'ready' && this.retryCount <= 5) {
-          this.refresh()
+          this.refresh();
         }
-      })
+      });
   }
 }

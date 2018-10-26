@@ -30,7 +30,7 @@ export class ProductListComponent implements OnInit {
     @Inject(PLATFORM_ID) private platformId: any) {
     this.router.queryParams
       .subscribe(params => {
-        this.queryParams = params
+        this.queryParams = params;
       });
   }
 

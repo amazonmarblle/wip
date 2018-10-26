@@ -8,7 +8,7 @@
     "lint:dev-amazon": "ng lint --configuration=dev-amazon",
     "test:dev-amazon": "ng test --configuration=dev-amazon",
     "build:dev-amazon": "ng build --configuration=dev-amazon",
-    "start:dev-amazon": "ng serve --configuration=dev-amazon --port 2500",
+    "start:dev-amazon": "ng serve --configuration=dev-amazon --port 2500 --open",
     "build:prod-amazon": "ng build --configuration=prod-amazon",
     "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json -d docs/",
     "sw": "sw-precache --root=dist --config=sw-precache-config.js",

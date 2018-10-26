@@ -7,7 +7,7 @@ export const DEFAULT_CONFIG = {
   // prodApiEndpoint: 'http://localhost:3000/',
   frontEndUrl: 'https://angularspree.firebaseapp.com/',
   appName: 'Angularspree',
-  fevicon: 'https://via.placeholder.com/350x150',
+  fevicon: '/assets/default/favicon',
   header: {
     brand: {
       logo: '/assets/default/logo.svg',
