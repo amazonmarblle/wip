@@ -17,7 +17,7 @@ export class ProductSliderComponent implements OnInit {
       grid: { xs: 1, sm: 1, md: 2, lg: 5, all: 0 },
       slide: 2,
       speed: 400,
-      interval: {timing: 4000, initialDelay: 1000},
+      interval: {timing: 3000, initialDelay: 1000},
       // animation: 'lazy',
       point: {
         visible: true,
