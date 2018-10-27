@@ -9,10 +9,13 @@ import { Component, OnInit, Input, ChangeDetectionStrategy, OnChanges } from '@a
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class InnerIproductComponent implements OnInit {
-  @Input() product: Product;
+  @Input() product: Product | {};
   @Input() showRating: boolean;
 
   constructor() {
+    if (! this.product) {
+      this.product = {};
+    }
   }
 
   ngOnInit() {

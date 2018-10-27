@@ -18,14 +18,15 @@ export class ProductSliderComponent implements OnInit {
       slide: 2,
       speed: 400,
       interval: {timing: 4000, initialDelay: 1000},
-      animation: 'lazy',
+      // animation: 'lazy',
       point: {
         visible: true,
         hideOnSingleSlide: true // To apply our modification
       },
       load: 2,
       touch: true,
-      easing: 'ease-in',
+      loop: true,
+      // easing: 'ease-in',
       custom: 'banner'
     };
   }
