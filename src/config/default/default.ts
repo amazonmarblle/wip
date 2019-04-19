@@ -18,6 +18,14 @@ export const DEFAULT_CONFIG = {
     searchPlaceholder: 'Find good furniture for me please',
     showGithubRibon: false
   },
+  firebaseConfig: {
+    apiKey: "AIzaSyAaZV9o1GeX3xFjlqlNnEsjY3i4IpON8-A",
+    authDomain: "1538415571879.firebaseapp.com",
+    databaseURL: "https://1538415571879.firebaseio.com",
+    projectId: "amazon-1538415571879",
+    storageBucket: "",
+    messagingSenderId: "690488944028"
+  },
   showDummyCardInfo: true,
   // Following are the test crediantials for payubiz payment gateway.
   payuBizSalt: 'eCwWELxi',

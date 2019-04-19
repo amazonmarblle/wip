@@ -11,6 +11,7 @@ import { ToastrService } from 'ngx-toastr';
 import * as CryptoJS from 'crypto-js';
 import { environment } from '../../../environments/environment';
 import { isPlatformBrowser } from '@angular/common';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable()
 export class CheckoutService {
@@ -29,6 +30,7 @@ export class CheckoutService {
     private actions: CheckoutActions,
     private store: Store<AppState>,
     private toastyService: ToastrService,
+    private firestore: AngularFirestore,
     @Inject(PLATFORM_ID) private platformId: any) {
     this.store.select(getOrderNumber)
       .subscribe(number => (this.orderNumber = number));
@@ -67,13 +69,15 @@ export class CheckoutService {
    * @memberof CheckoutService
    */
   fetchCurrentOrder() {
-    return this.http.get<Order>('api/v1/orders/current').pipe(
+
+    return this.firestore.collection('orders').doc('xyz').get().pipe(
       map(order => {
-        if (order) {
-          const token = order.token;
+        if (order.exists) {
+          const orderData: Order = order.data() as Order;
+          const token = orderData.token;
           this.setOrderTokenInLocalStorage({ order_token: token });
           return this.store.dispatch(
-            this.actions.fetchCurrentOrderSuccess(order)
+            this.actions.fetchCurrentOrderSuccess(orderData)
           );
         } else {
           this.createEmptyOrder().subscribe();

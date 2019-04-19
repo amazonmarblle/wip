@@ -11,6 +11,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import {TransferHttpCacheModule} from '@nguniversal/common';
+import { AngularFireModule } from "@angular/fire";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
 
 // Components
 import { AppComponent } from './app.component';
@@ -39,7 +41,8 @@ import { ToastrModule } from 'ngx-toastr';
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: AppPreloadingStrategy, initialNavigation: 'enabled' }),
     StoreModule.forRoot(reducers, { metaReducers }),
-
+    AngularFireModule.initializeApp(environment.config.firebaseConfig),
+    AngularFirestoreModule,
     !environment.production ? StoreDevtoolsModule.instrument() : [],
 
     EffectsModule.forRoot([]),
