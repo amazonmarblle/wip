@@ -7,6 +7,7 @@ import { Injectable } from '@angular/core';
 import { Product } from '../models/product';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable()
 export class ProductService {
@@ -20,6 +21,7 @@ export class ProductService {
     private http: HttpClient,
     private toastrService: ToastrService,
     private apiParser: JsonApiParserService,
+    private firestore: AngularFirestore
   ) { }
   // tslint:disable-next-line:member-ordering
   success: any;
@@ -68,15 +70,28 @@ export class ProductService {
    * @memberof ProductService
    */
   getProducts(pageNumber: number): Observable<Array<Product>> {
-    return this.http
-      .get<{ data: CJsonApi[] }>(
-        `api/v1/products?q[s]=avg_rating+desc&page=${pageNumber}&per_page=100&data_set=small`
-      )
+    return this.firestore.collection('products').get()
       .pipe(
         map(
-          resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+          querySnapshot => {
+            let products : Array<Product> = [];
+            querySnapshot.forEach(function (doc) {
+              products.push(doc.data() as Product);
+            });
+            return products;
+          }
         )
       );
+
+    // return this.http
+    //   .get<{ data: CJsonApi[] }>(
+    //     `api/v1/products?q[s]=avg_rating+desc&page=${pageNumber}&per_page=100&data_set=small`
+    //   )
+    //   .pipe(
+    //     map(
+    //       resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+    //     )
+    //   );
   }
 
   markAsFavorite(id: number): Observable<{}> {
@@ -156,7 +171,7 @@ export class ProductService {
             pagination: resp.pagination,
             products: this.apiParser.parseArrayofObject(resp.data) as Array<
               Product
-              >
+            >
           };
         })
       );

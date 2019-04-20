@@ -29,8 +29,9 @@ function isCollection(data, path, depth) {
       return false;
     }
   }
-
-  return true;
+  // return true if you want to store them as subcollections; But note that we cant directly get subcollection
+  return false;
+  // return true;
 }
 
 // Checks if object is empty.
