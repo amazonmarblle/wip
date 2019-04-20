@@ -6,7 +6,7 @@ admin.initializeApp({
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-const data = require("./fakedb.json");
+const data = require("./data/taxonomiesCall3.json");
 
 /**
  * Data is a collection if

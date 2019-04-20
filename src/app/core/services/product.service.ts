@@ -59,7 +59,20 @@ export class ProductService {
    * @memberof ProductService
    */
   getTaxonomies(): any {
-    return this.http.get<Array<Taxonomy>>(`api/v1/taxonomies?set=nested`);
+    return this.firestore.collection('taxonomies').get()
+      .pipe(
+        map(
+          querySnapshot => {
+            let taxonomies: Array<Taxonomy> = [];
+            querySnapshot.forEach(function (doc) {
+              taxonomies.push(doc.data() as Taxonomy);
+            });
+            return taxonomies;
+          }
+        )
+      );
+
+    // return this.http.get<Array<Taxonomy>>(`api/v1/taxonomies?set=nested`);
   }
 
   /**
@@ -74,7 +87,7 @@ export class ProductService {
       .pipe(
         map(
           querySnapshot => {
-            let products : Array<Product> = [];
+            let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
             });

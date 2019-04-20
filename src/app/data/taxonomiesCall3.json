@@ -1,0 +1,1025 @@
+{
+    "taxonomies":{
+        "taxonomies": [
+            {
+                "id": 1,
+                "name": "Categories",
+                "root": {
+                    "id": 1,
+                    "name": "Categories",
+                    "pretty_name": "Categories",
+                    "permalink": "categories",
+                    "parent_id": null,
+                    "taxonomy_id": 1,
+                    "meta_title": null,
+                    "meta_description": null,
+                    "taxons": [
+                        {
+                            "id": 3,
+                            "name": "Living",
+                            "pretty_name": "Categories -> Living",
+                            "permalink": "living",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 19,
+                                    "name": "Sofas",
+                                    "pretty_name": "Categories -> Living -> Sofas",
+                                    "permalink": "living\/sofas",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 20,
+                                            "name": "Wooden Sofa Sets",
+                                            "pretty_name": "Categories -> Living -> Sofas -> Wooden Sofa Sets",
+                                            "permalink": "living\/sofas\/wooden-sofa-sets",
+                                            "parent_id": 19,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 21,
+                                            "name": "Leather Sofa Sets",
+                                            "pretty_name": "Categories -> Living -> Sofas -> Leather Sofa Sets",
+                                            "permalink": "living\/sofas\/leather-sofa-sets",
+                                            "parent_id": 19,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 22,
+                                            "name": "Modular Sofa Sets",
+                                            "pretty_name": "Categories -> Living -> Sofas -> Modular Sofa Sets",
+                                            "permalink": "living\/sofas\/modular-sofa-sets",
+                                            "parent_id": 19,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 23,
+                                            "name": "Divans",
+                                            "pretty_name": "Categories -> Living -> Sofas -> Divans",
+                                            "permalink": "living\/sofas\/divans",
+                                            "parent_id": 19,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 24,
+                                    "name": "Chairs",
+                                    "pretty_name": "Categories -> Living -> Chairs",
+                                    "permalink": "living\/chairs",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 25,
+                                            "name": "Lounge Chair",
+                                            "pretty_name": "Categories -> Living -> Chairs -> Lounge Chair",
+                                            "permalink": "living\/chairs\/lounge-chair",
+                                            "parent_id": 24,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 26,
+                                            "name": "Recliners",
+                                            "pretty_name": "Categories -> Living -> Chairs -> Recliners",
+                                            "permalink": "living\/chairs\/recliners",
+                                            "parent_id": 24,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 27,
+                                            "name": "Rocking Chairs",
+                                            "pretty_name": "Categories -> Living -> Chairs -> Rocking Chairs",
+                                            "permalink": "living\/chairs\/rocking-chairs",
+                                            "parent_id": 24,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 28,
+                                            "name": "Benches",
+                                            "pretty_name": "Categories -> Living -> Chairs -> Benches",
+                                            "permalink": "living\/chairs\/benches",
+                                            "parent_id": 24,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 29,
+                                            "name": "Accent Chairs",
+                                            "pretty_name": "Categories -> Living -> Chairs -> Accent Chairs",
+                                            "permalink": "living\/chairs\/accent-chairs",
+                                            "parent_id": 24,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 30,
+                                    "name": "Tables",
+                                    "pretty_name": "Categories -> Living -> Tables",
+                                    "permalink": "living\/tables",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 31,
+                                            "name": "Coffee Tables",
+                                            "pretty_name": "Categories -> Living -> Tables -> Coffee Tables",
+                                            "permalink": "living\/tables\/coffee-tables",
+                                            "parent_id": 30,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 32,
+                                            "name": "Nested Tables",
+                                            "pretty_name": "Categories -> Living -> Tables -> Nested Tables",
+                                            "permalink": "living\/tables\/nested-tables",
+                                            "parent_id": 30,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 33,
+                                            "name": "Console Table",
+                                            "pretty_name": "Categories -> Living -> Tables -> Console Table",
+                                            "permalink": "living\/tables\/console-table",
+                                            "parent_id": 30,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 34,
+                                            "name": "Side & End Tables",
+                                            "pretty_name": "Categories -> Living -> Tables -> Side & End Tables",
+                                            "permalink": "living\/tables\/side-and-end-tables",
+                                            "parent_id": 30,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 35,
+                                    "name": "Storage",
+                                    "pretty_name": "Categories -> Living -> Storage",
+                                    "permalink": "living\/storage",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 36,
+                                            "name": "Bookselves",
+                                            "pretty_name": "Categories -> Living -> Storage -> Bookselves",
+                                            "permalink": "living\/storage\/bookselves",
+                                            "parent_id": 35,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 37,
+                                            "name": "TV units",
+                                            "pretty_name": "Categories -> Living -> Storage -> TV units",
+                                            "permalink": "living\/storage\/tv-units",
+                                            "parent_id": 35,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 38,
+                                            "name": "Shoe Racks",
+                                            "pretty_name": "Categories -> Living -> Storage -> Shoe Racks",
+                                            "permalink": "living\/storage\/shoe-racks",
+                                            "parent_id": 35,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 39,
+                                    "name": "Decor",
+                                    "pretty_name": "Categories -> Living -> Decor",
+                                    "permalink": "living\/decor",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 40,
+                                            "name": "Carpets",
+                                            "pretty_name": "Categories -> Living -> Decor -> Carpets",
+                                            "permalink": "living\/decor\/carpets",
+                                            "parent_id": 39,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 41,
+                                            "name": "Curtains",
+                                            "pretty_name": "Categories -> Living -> Decor -> Curtains",
+                                            "permalink": "living\/decor\/curtains",
+                                            "parent_id": 39,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 42,
+                                            "name": "Cushion Covers",
+                                            "pretty_name": "Categories -> Living -> Decor -> Cushion Covers",
+                                            "permalink": "living\/decor\/cushion-covers",
+                                            "parent_id": 39,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                }
+                            ],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e12da709c93467550ac49dd6a07df4257f875288\/living.png"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Bedroom",
+                            "pretty_name": "Categories -> Bedroom",
+                            "permalink": "bedroom",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 51,
+                                    "name": "Bed",
+                                    "pretty_name": "Categories -> Bedroom -> Bed",
+                                    "permalink": "bedroom\/bed",
+                                    "parent_id": 4,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 52,
+                                            "name": "Double Bed",
+                                            "pretty_name": "Categories -> Bedroom -> Bed -> Double Bed",
+                                            "permalink": "bedroom\/bed\/double-bed",
+                                            "parent_id": 51,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 53,
+                                            "name": "Single Bed",
+                                            "pretty_name": "Categories -> Bedroom -> Bed -> Single Bed",
+                                            "permalink": "bedroom\/bed\/single-bed",
+                                            "parent_id": 51,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 54,
+                                            "name": "Hydraulic Storage Beds",
+                                            "pretty_name": "Categories -> Bedroom -> Bed -> Hydraulic Storage Beds",
+                                            "permalink": "bedroom\/bed\/hydraulic-storage-beds",
+                                            "parent_id": 51,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 55,
+                                            "name": "Bedroom Sets",
+                                            "pretty_name": "Categories -> Bedroom -> Bed -> Bedroom Sets",
+                                            "permalink": "bedroom\/bed\/bedroom-sets",
+                                            "parent_id": 51,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 56,
+                                    "name": "Storage and Accessories",
+                                    "pretty_name": "Categories -> Bedroom -> Storage and Accessories",
+                                    "permalink": "bedroom\/storage-and-accessories",
+                                    "parent_id": 4,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 57,
+                                            "name": "Wadrobes",
+                                            "pretty_name": "Categories -> Bedroom -> Storage and Accessories -> Wadrobes",
+                                            "permalink": "bedroom\/storage-and-accessories\/wadrobes",
+                                            "parent_id": 56,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 58,
+                                            "name": "Bed side tables",
+                                            "pretty_name": "Categories -> Bedroom -> Storage and Accessories -> Bed side tables",
+                                            "permalink": "bedroom\/storage-and-accessories\/bed-side-tables",
+                                            "parent_id": 56,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 59,
+                                    "name": "Decor",
+                                    "pretty_name": "Categories -> Bedroom -> Decor",
+                                    "permalink": "bedroom\/decor",
+                                    "parent_id": 4,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 60,
+                                            "name": "Bedsheets",
+                                            "pretty_name": "Categories -> Bedroom -> Decor -> Bedsheets",
+                                            "permalink": "bedroom\/decor\/bedsheets",
+                                            "parent_id": 59,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 61,
+                                            "name": "All curtains",
+                                            "pretty_name": "Categories -> Bedroom -> Decor -> All curtains",
+                                            "permalink": "bedroom\/decor\/all-curtains",
+                                            "parent_id": 59,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 62,
+                                            "name": "Table lamps",
+                                            "pretty_name": "Categories -> Bedroom -> Decor -> Table lamps",
+                                            "permalink": "bedroom\/decor\/table-lamps",
+                                            "parent_id": 59,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 63,
+                                            "name": "Cushion covers",
+                                            "pretty_name": "Categories -> Bedroom -> Decor -> Cushion covers",
+                                            "permalink": "bedroom\/decor\/cushion-covers",
+                                            "parent_id": 59,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 64,
+                                    "name": "Kids bedroom",
+                                    "pretty_name": "Categories -> Bedroom -> Kids bedroom",
+                                    "permalink": "bedroom\/kids-bedroom",
+                                    "parent_id": 4,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 65,
+                                            "name": "Kids beds",
+                                            "pretty_name": "Categories -> Bedroom -> Kids bedroom -> Kids beds",
+                                            "permalink": "bedroom\/kids-bedroom\/kids-beds",
+                                            "parent_id": 64,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 66,
+                                            "name": "Kids chair",
+                                            "pretty_name": "Categories -> Bedroom -> Kids bedroom -> Kids chair",
+                                            "permalink": "bedroom\/kids-bedroom\/kids-chair",
+                                            "parent_id": 64,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                }
+                            ],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBRZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1b1923beb3c5123074dae3cf3ad6b8f45c24618b\/bedroom.png"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Dining",
+                            "pretty_name": "Categories -> Dining",
+                            "permalink": "categories\/dining",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 67,
+                                    "name": "Dining tables and sets",
+                                    "pretty_name": "Categories -> Dining -> Dining tables and sets",
+                                    "permalink": "categories\/dining\/dining-tables-and-sets",
+                                    "parent_id": 13,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 69,
+                                            "name": "6 seater dining table sets",
+                                            "pretty_name": "Categories -> Dining -> Dining tables and sets -> 6 seater dining table sets",
+                                            "permalink": "categories\/dining\/dining-tables-and-sets\/6-seater-dining-table-sets",
+                                            "parent_id": 67,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 68,
+                                            "name": "4 seater dining table sets",
+                                            "pretty_name": "Categories -> Dining -> Dining tables and sets -> 4 seater dining table sets",
+                                            "permalink": "categories\/dining\/dining-tables-and-sets\/4-seater",
+                                            "parent_id": 67,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 70,
+                                            "name": "Dining table",
+                                            "pretty_name": "Categories -> Dining -> Dining tables and sets -> Dining table",
+                                            "permalink": "categories\/dining\/dining-tables-and-sets\/dining-table",
+                                            "parent_id": 67,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 71,
+                                            "name": "Wooden dining tables",
+                                            "pretty_name": "Categories -> Dining -> Dining tables and sets -> Wooden dining tables",
+                                            "permalink": "categories\/dining\/dining-tables-and-sets\/wooden-dining-tables",
+                                            "parent_id": 67,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 72,
+                                    "name": "Chairs",
+                                    "pretty_name": "Categories -> Dining -> Chairs",
+                                    "permalink": "categories\/dining\/chairs",
+                                    "parent_id": 13,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 73,
+                                            "name": "Dining chairs",
+                                            "pretty_name": "Categories -> Dining -> Chairs -> Dining chairs",
+                                            "permalink": "categories\/dining\/chairs\/dining-chairs",
+                                            "parent_id": 72,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 74,
+                                            "name": "Benches",
+                                            "pretty_name": "Categories -> Dining -> Chairs -> Benches",
+                                            "permalink": "categories\/dining\/chairs\/benches",
+                                            "parent_id": 72,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 76,
+                                    "name": "Decor",
+                                    "pretty_name": "Categories -> Dining -> Decor",
+                                    "permalink": "categories\/dining\/decor",
+                                    "parent_id": 13,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 77,
+                                            "name": "Carpets",
+                                            "pretty_name": "Categories -> Dining -> Decor -> Carpets",
+                                            "permalink": "categories\/dining\/decor\/carpets",
+                                            "parent_id": 76,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 78,
+                                            "name": "Curtains",
+                                            "pretty_name": "Categories -> Dining -> Decor -> Curtains",
+                                            "permalink": "categories\/dining\/decor\/curtains",
+                                            "parent_id": 76,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 79,
+                                            "name": "Ceiling lights",
+                                            "pretty_name": "Categories -> Dining -> Decor -> Ceiling lights",
+                                            "permalink": "categories\/dining\/decor\/ceiling-lights",
+                                            "parent_id": 76,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                }
+                            ],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBRdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--17d5f5da121190aad915d584c4fb919074bee50a\/dining.png"
+                        },
+                        {
+                            "id": 14,
+                            "name": "Study",
+                            "pretty_name": "Categories -> Study",
+                            "permalink": "categories\/study",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 80,
+                                    "name": "Study tables",
+                                    "pretty_name": "Categories -> Study -> Study tables",
+                                    "permalink": "categories\/study\/study-tables",
+                                    "parent_id": 14,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 82,
+                                            "name": "Study tables",
+                                            "pretty_name": "Categories -> Study -> Study tables -> Study tables",
+                                            "permalink": "categories\/study\/study-tables\/study-tables",
+                                            "parent_id": 80,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 83,
+                                            "name": "Computer tables",
+                                            "pretty_name": "Categories -> Study -> Study tables -> Computer tables",
+                                            "permalink": "categories\/study\/study-tables\/computer-tables",
+                                            "parent_id": 80,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 84,
+                                            "name": "Laptop tables",
+                                            "pretty_name": "Categories -> Study -> Study tables -> Laptop tables",
+                                            "permalink": "categories\/study\/study-tables\/laptop-tables",
+                                            "parent_id": 80,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 81,
+                                    "name": "Study chairs",
+                                    "pretty_name": "Categories -> Study -> Study chairs",
+                                    "permalink": "categories\/study\/new-node",
+                                    "parent_id": 14,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 86,
+                                            "name": "Study chairs",
+                                            "pretty_name": "Categories -> Study -> Study chairs -> Study chairs",
+                                            "permalink": "categories\/study\/new-node\/study-chairs",
+                                            "parent_id": 81,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 87,
+                                            "name": "Office Chairs",
+                                            "pretty_name": "Categories -> Study -> Study chairs -> Office Chairs",
+                                            "permalink": "categories\/study\/new-node\/office-chairs",
+                                            "parent_id": 81,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 88,
+                                            "name": "All study chairs",
+                                            "pretty_name": "Categories -> Study -> Study chairs -> All study chairs",
+                                            "permalink": "categories\/study\/new-node\/all-study-chairs",
+                                            "parent_id": 81,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 85,
+                                    "name": "Storage",
+                                    "pretty_name": "Categories -> Study -> Storage",
+                                    "permalink": "categories\/study\/storage",
+                                    "parent_id": 14,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [
+                                        {
+                                            "id": 89,
+                                            "name": "Book shelves",
+                                            "pretty_name": "Categories -> Study -> Storage -> Book shelves",
+                                            "permalink": "categories\/study\/storage\/book-shelves",
+                                            "parent_id": 85,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 90,
+                                            "name": "Open book shelves",
+                                            "pretty_name": "Categories -> Study -> Storage -> Open book shelves",
+                                            "permalink": "categories\/study\/storage\/open-book-shelves",
+                                            "parent_id": 85,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        },
+                                        {
+                                            "id": 91,
+                                            "name": "Wall book shelves",
+                                            "pretty_name": "Categories -> Study -> Storage -> Wall book shelves",
+                                            "permalink": "categories\/study\/storage\/wall-book-shelves",
+                                            "parent_id": 85,
+                                            "taxonomy_id": 1,
+                                            "meta_title": null,
+                                            "meta_description": null,
+                                            "taxons": [],
+                                            "icon": null
+                                        }
+                                    ],
+                                    "icon": null
+                                }
+                            ],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--026ffe294bbadf5a79112261e23769a3fcc12dcf\/study.png"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 4,
+                "name": "Brands",
+                "root": {
+                    "id": 15,
+                    "name": "Brands",
+                    "pretty_name": "Brands",
+                    "permalink": "brands",
+                    "parent_id": null,
+                    "taxonomy_id": 4,
+                    "meta_title": null,
+                    "meta_description": null,
+                    "taxons": [
+                        {
+                            "id": 16,
+                            "name": "IKEA",
+                            "pretty_name": "Brands -> IKEA",
+                            "permalink": "brands\/ikea",
+                            "parent_id": 15,
+                            "taxonomy_id": 4,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 43,
+                                    "name": "Living",
+                                    "pretty_name": "Brands -> IKEA -> Living",
+                                    "permalink": "brands\/ikea\/living",
+                                    "parent_id": 16,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 44,
+                                    "name": "New node",
+                                    "pretty_name": "Brands -> IKEA -> New node",
+                                    "permalink": "brands\/ikea\/new-node",
+                                    "parent_id": 16,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 45,
+                                    "name": "Bedroom",
+                                    "pretty_name": "Brands -> IKEA -> Bedroom",
+                                    "permalink": "brands\/ikea\/bedroom",
+                                    "parent_id": 16,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 46,
+                                    "name": "Study",
+                                    "pretty_name": "Brands -> IKEA -> Study",
+                                    "permalink": "brands\/ikea\/study",
+                                    "parent_id": 16,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                }
+                            ],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--56f8e26141a732e699948532bde4514b1ac13732\/ikea.png"
+                        },
+                        {
+                            "id": 17,
+                            "name": "T.J.maxx",
+                            "pretty_name": "Brands -> T.J.maxx",
+                            "permalink": "brands\/tjmaxx",
+                            "parent_id": 15,
+                            "taxonomy_id": 4,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 47,
+                                    "name": "Living",
+                                    "pretty_name": "Brands -> T.J.maxx -> Living",
+                                    "permalink": "brands\/tjmaxx\/living",
+                                    "parent_id": 17,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 48,
+                                    "name": "Study",
+                                    "pretty_name": "Brands -> T.J.maxx -> Study",
+                                    "permalink": "brands\/tjmaxx\/study",
+                                    "parent_id": 17,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 49,
+                                    "name": "Dining",
+                                    "pretty_name": "Brands -> T.J.maxx -> Dining",
+                                    "permalink": "brands\/tjmaxx\/dining",
+                                    "parent_id": 17,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                },
+                                {
+                                    "id": 50,
+                                    "name": "Bedroom",
+                                    "pretty_name": "Brands -> T.J.maxx -> Bedroom",
+                                    "permalink": "brands\/tjmaxx\/bedroom",
+                                    "parent_id": 17,
+                                    "taxonomy_id": 4,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "taxons": [],
+                                    "icon": null
+                                }
+                            ],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--19f966cc46325aaef8136fc78e6034649133dabf\/tjmaxx.png"
+                        },
+                        {
+                            "id": 18,
+                            "name": "Whirlpool",
+                            "pretty_name": "Brands -> Whirlpool",
+                            "permalink": "brands\/whirlpool",
+                            "parent_id": 15,
+                            "taxonomy_id": 4,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [],
+                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--07a0c96abb5eba6036d4b9e7a66ec25cdeb48d3b\/whirlpool.png"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 3,
+                "name": "Today's Deals",
+                "root": {
+                    "id": 12,
+                    "name": "Today's Deals",
+                    "pretty_name": "Today's Deals",
+                    "permalink": "todays-deals",
+                    "parent_id": null,
+                    "taxonomy_id": 3,
+                    "meta_title": null,
+                    "meta_description": null,
+                    "taxons": []
+                }
+            }
+        ],
+        "count": 3,
+        "current_page": 1,
+        "pages": 1
+    }
+}
