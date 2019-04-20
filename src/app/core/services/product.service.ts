@@ -72,7 +72,7 @@ export class ProductService {
         )
       );
 
-    // return this.http.get<Array<Taxonomy>>(`api/v1/taxonomies?set=nested`);
+    //  return this.http.get<Array<Taxonomy>>(`api/v1/taxonomies?set=nested`);
   }
 
   /**
@@ -83,15 +83,15 @@ export class ProductService {
    * @memberof ProductService
    */
   getProducts(pageNumber: number): Observable<Array<Product>> {
-    return this.firestore.collection('products').get()
+    return this.firestore.collection('productsLandingPage').get()
       .pipe(
         map(
           querySnapshot => {
-            let products: Array<Product> = [];
+            let products : Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
             });
-            return products;
+            return this.apiParser.parseArrayofObject(products) as Array<Product>;
           }
         )
       );

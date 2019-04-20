@@ -1,0 +1,649 @@
+{
+    "productsLandingPage": [
+      {
+        "id": 18,
+        "type": "products",
+        "attributes": {
+          "slug": "tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-brown-clear-glass",
+          "name": "TV storage combination\/glass doors",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fe12c7baebd5ed90418b5848b582c78d3b449f5d\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/best%C3%A5-tv-storage-combination.jpg",
+          "price": "999.0",
+          "cost_price": "1199.0",
+          "avg_rating": "5.0",
+          "reviews_count": 2,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 20,
+        "type": "products",
+        "attributes": {
+          "slug": "blue-white-bedsheets",
+          "name": "Blue white bedsheets",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg",
+          "price": "25.0",
+          "cost_price": "26.4",
+          "avg_rating": "4.33333",
+          "reviews_count": 3,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 23,
+        "type": "products",
+        "attributes": {
+          "slug": "aesthetic-and-timeless-beach-chair-design-for-home-outdoor-furniture",
+          "name": "Aesthetic and Timeless Beach Chair Design for Home Outdoor Furniture",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--000c6573c47239934fda01e3bade5f1638ee171e\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Aesthetic-and-Timeless-Beach-Chair-Design-for-Home-Outdoor-Furniture-SPA-Collection-by-Richard-Frinier.jpg",
+          "price": "260.0",
+          "cost_price": "270.0",
+          "avg_rating": "4.33333",
+          "reviews_count": 3,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 17,
+        "type": "products",
+        "attributes": {
+          "slug": "ekebol-wooden-steal",
+          "name": "Sofa, Katorp natural",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4c8261617f85badcfec9dd807f0bc47a36ea04ab\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/EKEBOL-wooden-1.JPG",
+          "price": "399.0",
+          "cost_price": "420.0",
+          "avg_rating": "4.0",
+          "reviews_count": 2,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 24,
+        "type": "products",
+        "attributes": {
+          "slug": "wood-chest-of-drawers-the-console-piece-of-furniture",
+          "name": "Wood Chest Of Drawers The Console Piece Of Furniture",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBWUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8e43b4bb6cacb9f85f95edc16c09a7bddb641eb2\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Wood-Chest-Of-Drawers-The-Console-Piece-Of-Furniture-2000125.jpg",
+          "price": "160.0",
+          "cost_price": "180.0",
+          "avg_rating": "4.0",
+          "reviews_count": 1,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 36,
+        "type": "products",
+        "attributes": {
+          "slug": "wooden-dining-table-with-plastic-chairs",
+          "name": "Wooden dining table with plastic chairs",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBadz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f9f6710bf5d291b96876c49fe94e46f6d2640bd6\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/alex-jones-3443-unsplash.jpg",
+          "price": "68.0",
+          "cost_price": "75.0",
+          "avg_rating": "4.0",
+          "reviews_count": 1,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 19,
+        "type": "products",
+        "attributes": {
+          "slug": "cushion",
+          "name": "Cushion",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--103ef9f8c4d9082c4bb2e6ebfe6331fccffb3c92\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/nedja-cushion-multicolour1.jpg",
+          "price": "5.3",
+          "cost_price": "6.5",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 21,
+        "type": "products",
+        "attributes": {
+          "slug": "cot-wooden-kids-bed",
+          "name": "Cot Wooden kids Bed",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--12d625f19ac66010431e2d0ac93b50a3ec2779d5\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Cradle-Digital-Art-Isolated-Cot-Wooden-Bed-Bed-1786088.png",
+          "price": "120.0",
+          "cost_price": "135.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 25,
+        "type": "products",
+        "attributes": {
+          "slug": "kalosi-hand-tufted-carpet",
+          "name": "Kalosi Hand Tufted Carpet",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBWZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--85e65bd217123585b26ad3562ae31f471ba11b22\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Kalosi_Hand_Tufted_Carpet_Multi_Coloured_2.jpg",
+          "price": "240.0",
+          "cost_price": "260.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 26,
+        "type": "products",
+        "attributes": {
+          "slug": "wooden-dining-table-with-4-chairs",
+          "name": "Wooden Dining table with 4 chairs",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBXdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e9f654beeaf3da61a8bc4238b9b53a382dc17fd6\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/brooke-lark-93583-unsplash.jpg",
+          "price": "110.0",
+          "cost_price": "120.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 27,
+        "type": "products",
+        "attributes": {
+          "slug": "bowden-metal-wrap-coffee-table",
+          "name": "Bowden Metal Wrap Coffee Table",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBXQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--886648460a29e0b5327ee7a1b010779e81372294\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/photo-1519304746291-4408d99492ff.jpeg",
+          "price": "142.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 28,
+        "type": "products",
+        "attributes": {
+          "slug": "wodden-lounge-chair",
+          "name": "Wodden Lounge Chair",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBXUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--34426f68951ce9e3f2d8d837a62634e957326ae1\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/alexander-pemberton-95212-unsplash.jpg",
+          "price": "120.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 29,
+        "type": "products",
+        "attributes": {
+          "slug": "beige-leather-2-seat-sofa",
+          "name": "beige leather 2-seat sofa",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBZdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d738d295506023caedd36352844ace82b5c49c19\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/christian-kaindl-466824-unsplash.jpg",
+          "price": "783.0",
+          "cost_price": "790.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 30,
+        "type": "products",
+        "attributes": {
+          "slug": "matheney-panel-double-bed",
+          "name": "Matheney Panel Double Bed",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBYUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3022a265601eb46378c25369de865425f81948a3\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/matheny-2.jpg",
+          "price": "89.19",
+          "cost_price": "75.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 31,
+        "type": "products",
+        "attributes": {
+          "slug": "aurora-hand-loom-carpet",
+          "name": "Aurora Hand Loom Carpet",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBYZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--dd8c607dfca076c4a61748f35932d0c435deca80\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Aurora_Paprika_Red_Medium_02_IMG_0054.jpg",
+          "price": "300.0",
+          "cost_price": "550.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 32,
+        "type": "products",
+        "attributes": {
+          "slug": "yellow-wooden-lounge-chair",
+          "name": "Yellow wooden lounge chair",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBZQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--44fe5fd93bc7f50ecba86456f2dcf1d48a881da3\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/kari-shea-207221-unsplash.jpg",
+          "price": "150.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 33,
+        "type": "products",
+        "attributes": {
+          "slug": "abigail-standard-bookcase",
+          "name": "Abigail Standard Bookcase",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBZUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b32e7be1cc4acb84518b9ff9658fd782cdb1d4e8\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/wu-yi-692203-unsplash.jpg",
+          "price": "157.0",
+          "cost_price": "200.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 34,
+        "type": "products",
+        "attributes": {
+          "slug": "mandel-hand-tufted-carpet",
+          "name": "Mandel Hand Tufted Carpet",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBaUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3dee3ac42e5caea7547ac9a9819fad1684edff1a\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Mandel_Hand_Tufted_Carpet_Navy_Black_1.jpg",
+          "price": "300.0",
+          "cost_price": "350.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 35,
+        "type": "products",
+        "attributes": {
+          "slug": "blue-cushion-lounge-chair",
+          "name": "Blue cushion lounge chair",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBaQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0d8897adc2b0604636b5fb44178791b8d6a6694e\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/joshua-hoehne-724863-unsplash.jpg",
+          "price": "135.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 37,
+        "type": "products",
+        "attributes": {
+          "slug": "blue-3-seat-sofa",
+          "name": "blue 3-seat sofa ",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBhQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b6d6db8f61b00a8a3c28ddfc3fc3be24694687bf\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/rawpixel-760112-unsplash.jpg",
+          "price": "300.0",
+          "cost_price": "250.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 38,
+        "type": "products",
+        "attributes": {
+          "slug": "henley-manual-recliner",
+          "name": "Henley Manual Recliner",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBjZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a4ca9a2a941ad307f786355ab0be9cf6f834b431\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Screen%20Shot%202018-09-21%20at%206.47.08%20PM.png",
+          "price": "340.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 39,
+        "type": "products",
+        "attributes": {
+          "slug": "clintonville-standard-bookcase",
+          "name": "Clintonville Standard Bookcase",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBidz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9c1aebe239c59607bd04b3d771e8be90a054c3be\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/katy-belcher-660945-unsplash.jpg",
+          "price": "152.99",
+          "cost_price": "160.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 40,
+        "type": "products",
+        "attributes": {
+          "slug": "abey-platform-bed",
+          "name": "Abey Platform Bed",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBkQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3017808628a45518a1498524a19f034819e08341\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/abey.jpg",
+          "price": "129.0",
+          "cost_price": "120.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 41,
+        "type": "products",
+        "attributes": {
+          "slug": "window-curtains",
+          "name": "Red Window Curtains",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBiQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--901e48802e98212501a685a58c3783641020a44b\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/red%20curton.jpeg",
+          "price": "100.0",
+          "cost_price": "120.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 42,
+        "type": "products",
+        "attributes": {
+          "slug": "brown-wooden-dining-table",
+          "name": "Brown wooden dining table",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBjQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--411e79788c62baab3d8156571a418c45a1dcd83b\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/jacalyn-beales-663179-unsplash.jpg",
+          "price": "45.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 43,
+        "type": "products",
+        "attributes": {
+          "slug": "green-window-curtains",
+          "name": "Green Window Curtains",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBkZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e9170a983c7f332ffcf04b3c86ba1730372c3a1d\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/green%20curton.jpeg",
+          "price": "130.0",
+          "cost_price": "140.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 44,
+        "type": "products",
+        "attributes": {
+          "slug": "grey-couch-for-living-room",
+          "name": "grey couch for living room",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBmUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4009f4abb72682bf2cce1b49ffb254fb55d81e3f\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/angelo-pantazis-237143-unsplash.jpg",
+          "price": "265.0",
+          "cost_price": "265.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 46,
+        "type": "products",
+        "attributes": {
+          "slug": "red-window-curtains",
+          "name": "White Window Curtains",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBlZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ad239f8a1b29cc1052ea6806961d3c6287853d0d\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/white%20curten.jpeg",
+          "price": "140.0",
+          "cost_price": "160.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 47,
+        "type": "products",
+        "attributes": {
+          "slug": "gatewood-standard-bookcase",
+          "name": "Gatewood Standard Bookcase",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBldz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b641ba979b09cefac53df2c24dcf3042cdec16b2\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/yan-ots-600906-unsplash.jpg",
+          "price": "152.99",
+          "cost_price": "200.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 48,
+        "type": "products",
+        "attributes": {
+          "slug": "valazquez-coffee-table",
+          "name": "Valazquez Coffee Table",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBmZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4ea3e48b6eab96501855c480e6742956feac141b\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/8184525129_0707a1a7f3.jpg",
+          "price": "56.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 49,
+        "type": "products",
+        "attributes": {
+          "slug": "eudy-manual-swivel-recliner-with-ottoman",
+          "name": "Eudy Manual Swivel Recliner with Ottoman",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBmQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--28cabfb78aeabd3902edea93ddd15ac5bb45e5c5\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Screen%20Shot%202018-09-21%20at%206.52.58%20PM.png",
+          "price": "500.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 51,
+        "type": "products",
+        "attributes": {
+          "slug": "molinaro-queen-platform-bed",
+          "name": "Molinaro Queen Platform Bed",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWUE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d7b1c873a6a8196a16f9948b3343071172eae08\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/molinaro.jpg",
+          "price": "239.0",
+          "cost_price": "230.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 52,
+        "type": "products",
+        "attributes": {
+          "slug": "nola-rocking-chair",
+          "name": "Nola Rocking Chair",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBmdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--94e0b2d6eb581d554337da02364352fc21e63ae2\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Screen%20Shot%202018-09-21%20at%206.56.18%20PM.png",
+          "price": "340.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 53,
+        "type": "products",
+        "attributes": {
+          "slug": "coledale-47-tv-stand",
+          "name": "Coledale 47\" TV Stand",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWU09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2207c112f9af4361146b8de64a973420ea968fda\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/jens-kreuter-85328-unsplash.jpg",
+          "price": "182.0",
+          "cost_price": "200.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 54,
+        "type": "products",
+        "attributes": {
+          "slug": "ivanhoe-rocking-chair",
+          "name": "Ivanhoe Rocking Chair",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWDQ9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--947eb3e675825d8e5c35a2dd69663898be8578ce\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Screen%20Shot%202018-09-21%20at%206.58.40%20PM.png",
+          "price": "340.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 55,
+        "type": "products",
+        "attributes": {
+          "slug": "foglia-cushion-cover",
+          "name": "Foglia Cushion Cover ",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWVU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9023388e8cd3484c69593f4777e0b2ce0d28c776\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/cusion.jpeg",
+          "price": "50.0",
+          "cost_price": "60.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 57,
+        "type": "products",
+        "attributes": {
+          "slug": "berg-rocking-chair",
+          "name": "Berg Rocking Chair",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWVk9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--30da8edb470b93f1b751a4f15b2202b66880870a\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Screen%20Shot%202018-09-21%20at%207.01.24%20PM.png",
+          "price": "500.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 58,
+        "type": "products",
+        "attributes": {
+          "slug": "schererville-36-tv-stand",
+          "name": "Schererville 36\" TV Stand",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWkk9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4be60c9211723acb3c910ae8c81b2cc25d38fc88\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/tv1.png",
+          "price": "279.0",
+          "cost_price": "300.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 59,
+        "type": "products",
+        "attributes": {
+          "slug": "botanical-blueprint-cushion-cover",
+          "name": "Botanical Blueprint Cushion Cover",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWWs9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c9082512ac0bbb503d126ec9e736a9b05d558506\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Botanical_Blueprint_BranchShadow_Cushion_Cover_LP.jpg",
+          "price": "60.0",
+          "cost_price": "80.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 60,
+        "type": "products",
+        "attributes": {
+          "slug": "swanley-upholstered-panel",
+          "name": "Swanley Upholstered Panel",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWW89IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fb3ddf21e3749d57e96268a02001bb3ab4751c9a\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/swanley.jpg",
+          "price": "274.0",
+          "cost_price": "265.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 61,
+        "type": "products",
+        "attributes": {
+          "slug": "botanical-cushion-cover",
+          "name": "Botanical Cushion Cover",
+          "product_url": null,
+          "price": "56.0",
+          "cost_price": "70.0",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 62,
+        "type": "products",
+        "attributes": {
+          "slug": "boston-faux-leather-storage-bench",
+          "name": "Boston Faux Leather Storage Bench",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWTg9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--99d98254bd16b6ffe65b8382560375290e1ba44e\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/Screen%20Shot%202018-09-21%20at%207.05.16%20PM.png",
+          "price": "135.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 63,
+        "type": "products",
+        "attributes": {
+          "slug": "branham-54-tv-stand",
+          "name": "Branham 54\" TV Stand",
+          "product_url": null,
+          "price": "400.0",
+          "cost_price": "",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      }
+    ]
+  }

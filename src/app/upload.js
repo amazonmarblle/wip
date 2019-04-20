@@ -6,7 +6,7 @@ admin.initializeApp({
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-const data = require("./data/taxonomiesCall3.json");
+const data = require("./data/call2ProductsLandingPage.json");
 
 /**
  * Data is a collection if
