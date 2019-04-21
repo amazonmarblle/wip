@@ -168,9 +168,21 @@ export class ProductService {
   }
 
   getTaxonByName(name: string): Observable<Array<Taxonomy>> {
-    return this.http.get<Array<Taxonomy>>(
-      `api/v1/taxonomies?q[name_cont]=${name}&set=nested&per_page=2`
+    return this.firestore.collection('taxonomies', ref => ref.where('name', '==', name)).get().pipe(
+      map(
+        querySnapshot => {
+          let taxonomies: Array<Taxonomy> = [];
+          querySnapshot.forEach(function (doc) {
+            taxonomies.push(doc.data() as Taxonomy);
+          });
+          return taxonomies;
+        }
+      )
     );
+
+    // return this.http.get<Array<Taxonomy>>(
+    //   `api/v1/taxonomies?q[name_cont]=${name}&set=nested&per_page=2`
+    // );
   }
 
   getproductsByKeyword(keyword: string): Observable<any> {

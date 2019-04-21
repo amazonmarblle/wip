@@ -41,8 +41,8 @@ export class LandingComponent implements OnInit {
     this.products_by_taxons$ = this.productService.getTaxonByName(this.dealsType).pipe(
       switchMap(response => {
         this.taxon_by_name = response;
-        if (this.taxon_by_name.count > 0) {
-          this.taxons_id = this.taxon_by_name.taxonomies[0].root.id;
+        if (this.taxon_by_name.length > 0) {
+          this.taxons_id = this.taxon_by_name[0].root.id;
           return this.productService.getProductsByTaxonNP(this.taxons_id);
         } else {
           return [];

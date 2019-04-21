@@ -79,7 +79,7 @@ export function reducer(state = initialState, { type, payload }: any): SearchSta
       }) as SearchState;
 
     case SearchActions.GET_TAXONOMIES_BY_NAME_SUCCESS:
-      let _taxonomiByName: Taxonomy[] = payload.taxonomiList.taxonomiList.taxonomies;
+      let _taxonomiByName: Taxonomy[] = payload.taxonomiList.taxonomiList;
       const brandArray = [];
       const brandsRoot = _taxonomiByName[0].root;
       const lengthBrands = brandsRoot.taxons.length;
