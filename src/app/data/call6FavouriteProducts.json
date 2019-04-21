@@ -1,0 +1,64 @@
+{
+    "favouriteProducts": [
+      {
+        "id": 19,
+        "type": "products",
+        "attributes": {
+          "slug": "cushion",
+          "name": "Cushion",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--103ef9f8c4d9082c4bb2e6ebfe6331fccffb3c92\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/nedja-cushion-multicolour1.jpg",
+          "price": "5.3",
+          "cost_price": "6.5",
+          "avg_rating": "0.0",
+          "reviews_count": 0,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 20,
+        "type": "products",
+        "attributes": {
+          "slug": "blue-white-bedsheets",
+          "name": "Blue white bedsheets",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg",
+          "price": "25.0",
+          "cost_price": "26.4",
+          "avg_rating": "4.33333",
+          "reviews_count": 3,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 24,
+        "type": "products",
+        "attributes": {
+          "slug": "wood-chest-of-drawers-the-console-piece-of-furniture",
+          "name": "Wood Chest Of Drawers The Console Piece Of Furniture",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBWUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8e43b4bb6cacb9f85f95edc16c09a7bddb641eb2\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Wood-Chest-Of-Drawers-The-Console-Piece-Of-Furniture-2000125.jpg",
+          "price": "160.0",
+          "cost_price": "180.0",
+          "avg_rating": "4.0",
+          "reviews_count": 1,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      {
+        "id": 17,
+        "type": "products",
+        "attributes": {
+          "slug": "ekebol-wooden-steal",
+          "name": "Sofa, Katorp natural",
+          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4c8261617f85badcfec9dd807f0bc47a36ea04ab\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/EKEBOL-wooden-1.JPG",
+          "price": "399.0",
+          "cost_price": "420.0",
+          "avg_rating": "4.0",
+          "reviews_count": 2,
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      }
+    ]
+  }

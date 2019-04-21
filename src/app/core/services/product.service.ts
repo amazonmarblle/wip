@@ -7,6 +7,7 @@ import { Injectable } from '@angular/core';
 import { Product } from '../models/product';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
+import { forkJoin } from "rxjs/observable/forkJoin";
 import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable()
@@ -87,7 +88,7 @@ export class ProductService {
       .pipe(
         map(
           querySnapshot => {
-            let products : Array<Product> = [];
+            let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
             });
@@ -116,15 +117,27 @@ export class ProductService {
   }
 
   getFavoriteProducts(): Observable<Array<Product>> {
-    return this.http
-      .get<{ data: CJsonApi[] }>(
-        `favorite_products.json?per_page=20&data_set=small`
-      )
+    return this.firestore.collection('favouriteProducts').get()
       .pipe(
         map(
-          resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+          querySnapshot => {
+            let products: Array<Product> = [];
+            querySnapshot.forEach(function (doc) {
+              products.push(doc.data() as Product);
+            });
+            return this.apiParser.parseArrayofObject(products) as Array<Product>;
+          }
         )
       );
+    // return this.http
+    //   .get<{ data: CJsonApi[] }>(
+    //     `favorite_products.json?per_page=20&data_set=small`
+    //   )
+    //   .pipe(
+    //     map(
+    //       resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+    //     )
+    //   );
   }
 
   getUserFavoriteProducts(): Observable<Array<Product>> {
@@ -156,15 +169,79 @@ export class ProductService {
   }
 
   getProductsByTaxonNP(id: string): Observable<Array<Product>> {
-    return this.http
-      .get<{ data: CJsonApi[] }>(
-        `api/v1/taxons/products?id=${id}&per_page=20&data_set=small`
-      )
-      .pipe(
-        map(
-          resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
-        )
-      );
+    let products = this.firestore.collection('products').get();
+    let consiceProducts = this.firestore.collection('productsLandingPage').get();
+
+    return forkJoin([products, consiceProducts]).pipe(map(
+      results => {
+        let productIds = new Array<number>();
+        results[0].forEach(function (doc) {
+          let taxon_ids = doc.data().taxon_ids;
+          if (taxon_ids.indexOf(id) != -1) {
+            productIds.push(doc.data().id);
+          }
+        });
+
+        let products: Array<Product> = [];
+        results[1].forEach(function (doc) {
+          if (productIds.indexOf(doc.data().id) != -1)
+            products.push(doc.data() as Product);
+        });
+        console.error("Optimize this call to use the cached consiceProduct data instead of new db call");
+        return this.apiParser.parseArrayofObject(products) as Array<Product>;
+      }
+    ));
+
+
+    // No need to use this way as call 1 & 2 can be fired in parall, use below code when Call 1 data 
+    // is needed in call 2. 
+    // Approach 1 starts here
+
+    // let productIds = new Array<number>();
+    // return this.firestore.collection('products').get()
+    //   .pipe(
+    //     mergeMap(
+    //       querySnapshot => {
+    //         querySnapshot.forEach(function (doc) {
+    //           let taxon_ids = doc.data().taxon_ids;
+    //           if (taxon_ids.indexOf(id) != -1) {
+    //             productIds.push(doc.data().id);
+    //           }
+
+    //         });
+
+    //         return this.firestore.collection('productsLandingPage').get()
+    //           .pipe(
+    //             map(
+    //               querySnapshot => {
+    //                 let products: Array<Product> = [];
+    //                 querySnapshot.forEach(function (doc) {
+    //                   if (productIds.indexOf(doc.data().id) != -1)
+    //                     products.push(doc.data() as Product);
+    //                 });
+    //                 return this.apiParser.parseArrayofObject(products) as Array<Product>;
+    //               }
+    //             )
+    //           );
+    //       }
+    //     )
+    //   );
+
+    // Approach 1 ends here
+
+    // Approach 2 starts here
+
+    // return this.http
+    //   .get<{ data: CJsonApi[] }>(
+    //     `api/v1/taxons/products?id=${id}&per_page=20&data_set=small`
+    //   )
+    //   .pipe(
+    //     map(
+    //       resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+    //     )
+    //   );
+
+    // Approach 2 ends here
   }
 
   getTaxonByName(name: string): Observable<Array<Taxonomy>> {

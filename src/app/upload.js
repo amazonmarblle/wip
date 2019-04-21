@@ -6,7 +6,7 @@ admin.initializeApp({
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-const data = require("./data/call2ProductsLandingPage.json");
+const data = require("./data/call6FavouriteProducts.json");
 
 /**
  * Data is a collection if
