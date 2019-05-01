@@ -108,6 +108,50 @@ export class CheckoutService {
   createEmptyOrder() {
     const headers = new HttpHeaders().set('Content-Type', 'text/plain');
 
+    let newOrder : Order = {
+      "id": 0,
+      "number": "0",
+      "item_total": "0.0",
+      "total": "0.0",
+      "ship_total": "0.0",
+      "state": "cart",
+      "adjustment_total": "0.0",
+      "user_id": null,
+      "created_at": "2019-04-21T17:23:32.562Z",
+      "updated_at": "2019-04-21T17:23:32.687Z",
+      "completed_at": null,
+      "payment_total": "0.0",
+      "shipment_state": null,
+      "payment_state": null,
+      "email": null,
+      "special_instructions": null,
+      "channel": "spree",
+      "included_tax_total": "0.0",
+      "additional_tax_total": "0.0",
+      "display_included_tax_total": "$0.00",
+      "display_additional_tax_total": "$0.00",
+      "tax_total": "0.0",
+      "currency": "USD",
+      "considered_risky": false,
+      "canceler_id": null,
+      "display_item_total": "$0.00",
+      "total_quantity": 0,
+      "display_total": "$0.00",
+      "display_ship_total": "$0.00",
+      "display_tax_total": "$0.00",
+      "display_adjustment_total": "$0.00",
+      "token": "51n5hV52XRzYLmzY0zEDCQ1555867412562",
+      "checkout_steps": [
+        "address",
+        "delivery",
+        "complete"
+      ],
+      "bill_address": null,
+      "ship_address": null,
+      "line_items": null,
+      "payments": null
+    }
+
     return this.http
       .post<Order>('api/v1/orders.json', null, { headers: headers })
       .pipe(

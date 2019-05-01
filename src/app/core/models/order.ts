@@ -28,12 +28,18 @@ export class Order {
   currency: string;
   considered_risky: boolean;
   canceler_id: string;
-  total_quantity: string;
+  total_quantity: number;
   token: string;
+  display_item_total: string;
+  display_total: string;
+  display_ship_total: string;
+  display_tax_total: string;
+  display_adjustment_total: string;
   bill_address: [Address];
   ship_address: [Address];
   line_items: [LineItem];
   payments: [Payment];
+  checkout_steps: string[];
 }
 
 export class LightOrder {
