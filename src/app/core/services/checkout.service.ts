@@ -12,6 +12,8 @@ import * as CryptoJS from 'crypto-js';
 import { environment } from '../../../environments/environment';
 import { isPlatformBrowser } from '@angular/common';
 import { AngularFirestore } from '@angular/fire/firestore';
+import * as firebase from 'firebase';
+import { from } from 'rxjs';
 
 @Injectable()
 export class CheckoutService {
@@ -108,17 +110,20 @@ export class CheckoutService {
   createEmptyOrder() {
     const headers = new HttpHeaders().set('Content-Type', 'text/plain');
 
-    let newOrder : Order = {
+    let newOrder: Order = {
       "id": 0,
       "number": "0",
       "item_total": "0.0",
       "total": "0.0",
       "ship_total": "0.0",
       "state": "cart",
+      "adjustments": [],
+      "credit_cards": [],
+      "line_items": [],
       "adjustment_total": "0.0",
       "user_id": null,
-      "created_at": "2019-04-21T17:23:32.562Z",
-      "updated_at": "2019-04-21T17:23:32.687Z",
+      "created_at": `${firebase.firestore.Timestamp.fromDate(new Date()).toDate()}`,
+      "updated_at":  `${firebase.firestore.Timestamp.fromDate(new Date()).toMillis()}`,
       "completed_at": null,
       "payment_total": "0.0",
       "shipment_state": null,
@@ -148,25 +153,50 @@ export class CheckoutService {
       ],
       "bill_address": null,
       "ship_address": null,
-      "line_items": null,
-      "payments": null
+      "payments": [],
+      "permissions": {can_update: true},
+      "shipments": []
     }
 
-    return this.http
-      .post<Order>('api/v1/orders.json', null, { headers: headers })
-      .pipe(
-        map(order => {
-          this.setOrderTokenInLocalStorage({ order_token: order.token });
+    // Create a reference to the SF doc.
+    let ordersCollection = this.firestore.firestore.collection('orders');
+    var orderCountDocumentRef = ordersCollection.doc('0');
+    
+    return from(this.firestore.firestore.runTransaction(transaction =>
+      // This code may get re-run multiple times if there are conflicts.
+      transaction.get(orderCountDocumentRef)
+        .then(orderCountDocumet => {
+          const newOrderNumber = orderCountDocumet.data().orderNumber + 1;
+          transaction.update(orderCountDocumentRef, { orderNumber: newOrderNumber });
+          let newOrderRef = ordersCollection.doc(`${newOrderNumber}`);
+          newOrder.id = newOrderNumber;
+          newOrder.number = newOrderNumber.toString();
+          newOrder.token = newOrderNumber.toString();
+          this.setOrderTokenInLocalStorage({ order_token: newOrder.token });
+          transaction.set(newOrderRef, newOrder);
+        })).then(() => {
+          console.log("Transaction successfully committed!");
           return this.store.dispatch(
-            this.actions.fetchCurrentOrderSuccess(order)
+            this.actions.fetchCurrentOrderSuccess(newOrder)
           );
-        }),
-        tap(
-          _ => _,
-          _ =>
-            this.toastyService.error('Unable to create empty order', 'ERROR!!')
-        )
-      );
+        })
+      .catch(error => this.toastyService.error('Unable to create empty order', 'ERROR!!')));
+
+    // return this.http
+    //   .post<Order>('api/v1/orders.json', null, { headers: headers })
+    //   .pipe(
+    //     map(order => {
+    //       this.setOrderTokenInLocalStorage({ order_token: order.token });
+    //       return this.store.dispatch(
+    //         this.actions.fetchCurrentOrderSuccess(order)
+    //       );
+    //     }),
+    //     tap(
+    //       _ => _,
+    //       _ =>
+    //         this.toastyService.error('Unable to create empty order', 'ERROR!!')
+    //     )
+    //   );
   }
 
   /**
@@ -337,7 +367,7 @@ export class CheckoutService {
   private setOrderTokenInLocalStorage(token: any): void {
     const jsonData = JSON.stringify(token);
     if (isPlatformBrowser(this.platformId)) {
-      localStorage.setItem('order', jsonData) ;
+      localStorage.setItem('order', jsonData);
     }
   }
 }

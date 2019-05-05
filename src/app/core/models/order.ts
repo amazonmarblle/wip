@@ -5,6 +5,9 @@ import { Payment } from './payment';
 export class Order {
   id: number;
   number: string;
+  adjustments: [];
+  credit_cards: [];
+  line_items: [];
   item_total: string;
   total: string;
   ship_total: string;
@@ -37,9 +40,11 @@ export class Order {
   display_adjustment_total: string;
   bill_address: [Address];
   ship_address: [Address];
-  line_items: [LineItem];
-  payments: [Payment];
+  payments: [];
   checkout_steps: string[];
+  permissions: any;
+  shipments: []
+
 }
 
 export class LightOrder {
