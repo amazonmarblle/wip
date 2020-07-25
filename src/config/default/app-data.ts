@@ -3,7 +3,7 @@ const cdn_url = 'https://res.cloudinary.com/aviabird/image/upload/q_60/v15294331
 export const DEFAULT_APP_DATA = {
   landing_page_banner: [
     {
-      image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbanner_1.jpg?alt=media&token=5985dc81-f1eb-49de-a29e-dc739914ec0b`,
+      image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbanner-1.jpg?alt=media&token=ad0be70f-6266-4377-9d7a-15e3e095fb86`,
       link_url: '#'
     },
     {
