@@ -1,6 +1,6 @@
 <div>
   <div class="btn helpbtn" [ngClass]="[isOpen ? 'openhelp':'']" (mouseenter)="dropdown.show()" (mouseleave)="dropdown.hide()">
-    <strong>24/7 help</strong>
+    <strong><i class="fa fa-phone" style="font-size:20px;color:green" ></i>  {{contactno}}</strong>
     <i class="fa pl-3 fa-chevron-down"></i>
   </div>
   <div class="dpmenu" dropdown #dropdown="bs-dropdown" [autoClose]="false" (isOpenChange)="onOpenChange($event)" (mouseenter)="dropdown.show()"
@@ -13,10 +13,10 @@
           <h2 class="text-danger">{{contactno}}</h2>
         </li>
         <li class="divider dropdown-divider"></li>
-        <li></li>
+        <!-- <li></li>
         <li role="menuitem">
           <a class="dropdown-item" [routerLink]="['/']">Contact Us</a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>

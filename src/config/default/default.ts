@@ -23,7 +23,7 @@ export const DEFAULT_CONFIG = {
     authDomain: "1538415571879.firebaseapp.com",
     databaseURL: "https://1538415571879.firebaseio.com",
     projectId: "amazon-1538415571879",
-    storageBucket: "",
+    storageBucket: "gs://amazon-1538415571879.appspot.com",
     messagingSenderId: "690488944028"
   },
   showDummyCardInfo: true,

@@ -102,6 +102,6 @@ export const DEFAULT_APP_DATA = {
   ],
   contact_info: {
     contact_no: '99576-08288',
-    copyright: 'Copyright © 2018 Amazon, Inc.'
+    copyright: 'Copyright © 2020 Amazon, Inc.'
   }
 };
