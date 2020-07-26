@@ -72,8 +72,6 @@ export class ProductService {
           }
         )
       );
-
-    //  return this.http.get<Array<Taxonomy>>(`api/v1/taxonomies?set=nested`);
   }
 
   /**
@@ -96,16 +94,6 @@ export class ProductService {
           }
         )
       );
-
-    // return this.http
-    //   .get<{ data: CJsonApi[] }>(
-    //     `api/v1/products?q[s]=avg_rating+desc&page=${pageNumber}&per_page=100&data_set=small`
-    //   )
-    //   .pipe(
-    //     map(
-    //       resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
-    //     )
-    //   );
   }
 
   markAsFavorite(id: number): Observable<{}> {
@@ -129,15 +117,6 @@ export class ProductService {
           }
         )
       );
-    // return this.http
-    //   .get<{ data: CJsonApi[] }>(
-    //     `favorite_products.json?per_page=20&data_set=small`
-    //   )
-    //   .pipe(
-    //     map(
-    //       resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
-    //     )
-    //   );
   }
 
   getUserFavoriteProducts(): Observable<Array<Product>> {
@@ -191,57 +170,6 @@ export class ProductService {
         return this.apiParser.parseArrayofObject(products) as Array<Product>;
       }
     ));
-
-
-    // No need to use this way as call 1 & 2 can be fired in parall, use below code when Call 1 data 
-    // is needed in call 2. 
-    // Approach 1 starts here
-
-    // let productIds = new Array<number>();
-    // return this.firestore.collection('products').get()
-    //   .pipe(
-    //     mergeMap(
-    //       querySnapshot => {
-    //         querySnapshot.forEach(function (doc) {
-    //           let taxon_ids = doc.data().taxon_ids;
-    //           if (taxon_ids.indexOf(id) != -1) {
-    //             productIds.push(doc.data().id);
-    //           }
-
-    //         });
-
-    //         return this.firestore.collection('productsLandingPage').get()
-    //           .pipe(
-    //             map(
-    //               querySnapshot => {
-    //                 let products: Array<Product> = [];
-    //                 querySnapshot.forEach(function (doc) {
-    //                   if (productIds.indexOf(doc.data().id) != -1)
-    //                     products.push(doc.data() as Product);
-    //                 });
-    //                 return this.apiParser.parseArrayofObject(products) as Array<Product>;
-    //               }
-    //             )
-    //           );
-    //       }
-    //     )
-    //   );
-
-    // Approach 1 ends here
-
-    // Approach 2 starts here
-
-    // return this.http
-    //   .get<{ data: CJsonApi[] }>(
-    //     `api/v1/taxons/products?id=${id}&per_page=20&data_set=small`
-    //   )
-    //   .pipe(
-    //     map(
-    //       resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
-    //     )
-    //   );
-
-    // Approach 2 ends here
   }
 
   getTaxonByName(name: string): Observable<Array<Taxonomy>> {
@@ -256,10 +184,6 @@ export class ProductService {
         }
       )
     );
-
-    // return this.http.get<Array<Taxonomy>>(
-    //   `api/v1/taxonomies?q[name_cont]=${name}&set=nested&per_page=2`
-    // );
   }
 
   getproductsByKeyword(keyword: string): Observable<any> {
