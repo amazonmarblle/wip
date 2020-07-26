@@ -1,12 +1,13 @@
 const admin = require('firebase-admin');
 const serviceAccount = require("./service-key.json");
+const collectionKey = "myNewProducts";
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-const data = require("./data/call6FavouriteProducts.json");
+const data = require("./data/call2ProductsLandingPage.json");
 
 /**
  * Data is a collection if
