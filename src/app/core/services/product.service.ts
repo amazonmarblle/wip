@@ -37,7 +37,7 @@ export class ProductService {
    * @memberof ProductService
    */
   getProduct(id: string): Observable<Product> {
-    return this.firestore.collection('allProducts', ref => ref.where('subversion', '==', id)).get()
+    return this.firestore.collection('allProducts_DetailPage', ref => ref.where('subversion', '==', id)).get()
       .pipe(
         map(
           querySnapshot => {
@@ -63,7 +63,7 @@ export class ProductService {
    * @memberof ProductService
    */
   getTaxonomies(): any {
-    return this.firestore.collection('taxonomies').get()
+    return this.firestore.collection('taxonomies_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
@@ -85,7 +85,7 @@ export class ProductService {
    * @memberof ProductService
    */
   getProducts(pageNumber: number): Observable<Array<Product>> {
-    return this.firestore.collection('productsLandingPage').get()
+    return this.firestore.collection('allProductsMini_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
@@ -108,7 +108,7 @@ export class ProductService {
   }
 
   getFavoriteProducts(): Observable<Array<Product>> {
-    return this.firestore.collection('favouriteProducts').get()
+    return this.firestore.collection('favouriteProducts_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
@@ -151,8 +151,8 @@ export class ProductService {
   }
 
   getProductsByTaxonNP(id: string): Observable<Array<Product>> {
-    let products = this.firestore.collection('products').get();
-    let consiceProducts = this.firestore.collection('productsLandingPage').get();
+    let products = this.firestore.collection('allProductsFull_LandingPage').get();
+    let consiceProducts = this.firestore.collection('allProductsMini_LandingPage').get();
 
     return forkJoin([products, consiceProducts]).pipe(map(
       results => {
@@ -176,7 +176,7 @@ export class ProductService {
   }
 
   getTaxonByName(name: string): Observable<Array<Taxonomy>> {
-    return this.firestore.collection('taxonomies', ref => ref.where('name', '==', name)).get().pipe(
+    return this.firestore.collection('taxonomies_LandingPage', ref => ref.where('name', '==', name)).get().pipe(
       map(
         querySnapshot => {
           let taxonomies: Array<Taxonomy> = [];

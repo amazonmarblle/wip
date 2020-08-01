@@ -6,8 +6,16 @@ admin.initializeApp({
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-// const allDataFiles = ["./data/allProducts.json","./data/call2ProductsLandingPage.json","./data/call3Taxonomies.json","./data/call6FavouriteProducts.json","./data/XproductsCall2.json"]
-const allDataFiles = ["./data/emptyOrder.json"]
+const allDataFiles = [
+                        "./data/allProducts_DetailPage.json",
+                        "./data/allProductsMini_LandingPage.json",
+                        "./data/taxonomies_LandingPage.json",
+                        "./data/favouriteProducts_LandingPage.json",
+                        "./data/emptyOrder.json",
+                        "./data/allProductsFull_LandingPage.json"
+                      ];
+
+// const allDataFiles = [allDataFiles[i]];
 
 allDataFiles.forEach(function(file) {
   const data = require(file);
