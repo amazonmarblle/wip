@@ -1,13 +1,16 @@
 const admin = require('firebase-admin');
 const serviceAccount = require("./service-key.json");
-const collectionKey = "myNewProducts";
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-const data = require("./data/call2ProductsLandingPage.json");
+const allDataFiles = ["./data/allProducts.json","./data/call2ProductsLandingPage.json","./data/call3Taxonomies.json","./data/call6FavouriteProducts.json","./data/XproductsCall2.json"]
+
+allDataFiles.forEach(function(file) {
+  const data = require(file);
+
 
 /**
  * Data is a collection if
@@ -88,3 +91,4 @@ async function resolve(data, path = []) {
 }
 
 resolve(data);
+});

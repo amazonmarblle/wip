@@ -930,10 +930,10 @@
                         "alt": "",
                         "viewable_type": "Spree::Variant",
                         "viewable_id": 29,
-                        "mini_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e0458c081ef7afdf0d416047dc842338f8dbe3a5\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lMTkRoNE5EZytCam9HUlZRNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--ec1ac405bcd7aadb0ffeee15755673c3ca7d7b7c\/nedja-cushion-multicolour2.jpg",
-                        "small_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e0458c081ef7afdf0d416047dc842338f8dbe3a5\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTVRBd2VERXdNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--78b9edcc4863e3a4289c2404c26116feb11fae6c\/nedja-cushion-multicolour2.jpg",
-                        "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e0458c081ef7afdf0d416047dc842338f8dbe3a5\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTWpRd2VESTBNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--c1c1d6a04c4dab6063e899ea09bde542f3e65d62\/nedja-cushion-multicolour2.jpg",
-                        "large_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e0458c081ef7afdf0d416047dc842338f8dbe3a5\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTmpBd2VEWXdNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--01373afef0d5a784fe223f630fc09ed232dc3045\/nedja-cushion-multicolour2.jpg"
+                        "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                        "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                        "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
                     }
                 ],
                 "display_price": "$5.30",

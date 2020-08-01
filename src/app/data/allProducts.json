@@ -1,0 +1,647 @@
+{
+    "allProducts": 
+        [
+            {
+                "id": 1,
+                "type": "products",
+                "major": "importedMable",
+                "minor": "black",
+                "subversion": "belgianWhite",
+                "attributes": {
+                  "id": 1,
+                  "name": "Belgian White",
+                  "description": "<p>White quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                  "price": "22999.0",
+                  "display_price": "$22,999.00",
+                  "available_on": "2019-11-04T00:00:00.000Z",
+                  "slug": "ruby-on-rails-bag",
+                  "meta_description": "",
+                  "meta_keywords": "",
+                  "shipping_category_id": 1,
+                  "taxon_ids": [
+                    3
+                  ],
+                  "total_on_hand": 9,
+                  "avg_rating": "0.0",
+                  "reviews_count": 0,
+                  "currency": "USD",
+                  "currency_symbol": "$",
+                  "has_variants": false,
+                  "cost_price": "21000.0",
+                  "is_favorited_by_current_user": false
+                },
+                "relationships": {
+                  "master": {
+                    "data": {
+                      "type": "master",
+                      "id": 2
+                    }
+                  },
+                  "variants": {
+                    "data": []
+                  },
+                  "option_types": {
+                    "data": []
+                  },
+                  "product_properties": {
+                    "data": [
+                      {
+                        "type": "product_properties",
+                        "id": 28
+                      },
+                      {
+                        "type": "product_properties",
+                        "id": 29
+                      },
+                      {
+                        "type": "product_properties",
+                        "id": 30
+                      }
+                    ]
+                  },
+                  "classifications": {
+                    "data": [
+                      {
+                        "type": "classifications",
+                        "id": 2
+                      }
+                    ]
+                  }
+                },
+                "included": {
+                  "master": {
+                    "data": {
+                      "attributes": {
+                        "id": 2,
+                        "name": "Belgian White",
+                        "sku": "ROR-00012",
+                        "price": "22999.0",
+                        "weight": "0.0",
+                        "height": null,
+                        "width": null,
+                        "depth": null,
+                        "is_master": true,
+                        "slug": "ruby-on-rails-bag",
+                        "description": "<p>White quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                        "track_inventory": true,
+                        "display_price": "$22,999.00",
+                        "options_text": "",
+                        "in_stock": true,
+                        "is_backorderable": true,
+                        "is_orderable": true,
+                        "total_on_hand": 9,
+                        "is_destroyed": false,
+                        "cost_price": "21000.0"
+                      },
+                      "relationships": {
+                        "option_values": {
+                          "data": []
+                        },
+                        "images": {
+                          "data": [
+                            {
+                              "type": "images",
+                              "id": 23
+                            }
+                          ]
+                        }
+                      },
+                      "included": {
+                        "option_values": [],
+                        "images": [
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 23,
+                                "position": 1,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 24,
+                                "position": 2,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "variants": [],
+                  "option_types": [],
+                  "product_properties": [
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 28,
+                          "product_id": 2,
+                          "property_id": 9,
+                          "value": "Messenger",
+                          "property_name": "Type"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 29,
+                          "product_id": 2,
+                          "property_id": 10,
+                          "value": "14 1/2' x 12' x 5'",
+                          "property_name": "Size"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 30,
+                          "product_id": 2,
+                          "property_id": 11,
+                          "value": "600 Denier Polyester",
+                          "property_name": "Material"
+                        }
+                      }
+                    }
+                  ],
+                  "classifications": [
+                    {
+                      "data": {
+                        "attributes": {
+                          "taxon_id": 3,
+                          "position": 2,
+                          "taxon": {
+                            "id": 3,
+                            "name": "Necklaces",
+                            "pretty_name": "Gold Jewellery -> Necklaces",
+                            "permalink": "Gold Jewellery/bags",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 2,
+                "type": "products",
+                "major": "importedMable",
+                "minor": "black",
+                "subversion": "belgianPink",
+                "attributes": {
+                  "id": 2,
+                  "name": "Belgian Pink",
+                  "description": "<p>Pink quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                  "price": "22999.0",
+                  "display_price": "$22,999.00",
+                  "available_on": "2019-11-04T00:00:00.000Z",
+                  "slug": "ruby-on-rails-bag",
+                  "meta_description": "",
+                  "meta_keywords": "",
+                  "shipping_category_id": 1,
+                  "taxon_ids": [
+                    3
+                  ],
+                  "total_on_hand": 9,
+                  "avg_rating": "0.0",
+                  "reviews_count": 0,
+                  "currency": "USD",
+                  "currency_symbol": "$",
+                  "has_variants": false,
+                  "cost_price": "21000.0",
+                  "is_favorited_by_current_user": false
+                },
+                "relationships": {
+                  "master": {
+                    "data": {
+                      "type": "master",
+                      "id": 2
+                    }
+                  },
+                  "variants": {
+                    "data": []
+                  },
+                  "option_types": {
+                    "data": []
+                  },
+                  "product_properties": {
+                    "data": [
+                      {
+                        "type": "product_properties",
+                        "id": 28
+                      },
+                      {
+                        "type": "product_properties",
+                        "id": 29
+                      },
+                      {
+                        "type": "product_properties",
+                        "id": 30
+                      }
+                    ]
+                  },
+                  "classifications": {
+                    "data": [
+                      {
+                        "type": "classifications",
+                        "id": 2
+                      }
+                    ]
+                  }
+                },
+                "included": {
+                  "master": {
+                    "data": {
+                      "attributes": {
+                        "id": 2,
+                        "name": "Belgian Pink",
+                        "sku": "ROR-00012",
+                        "price": "22999.0",
+                        "weight": "0.0",
+                        "height": null,
+                        "width": null,
+                        "depth": null,
+                        "is_master": true,
+                        "slug": "ruby-on-rails-bag",
+                        "description": "<p>Pink quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                        "track_inventory": true,
+                        "display_price": "$22,999.00",
+                        "options_text": "",
+                        "in_stock": true,
+                        "is_backorderable": true,
+                        "is_orderable": true,
+                        "total_on_hand": 9,
+                        "is_destroyed": false,
+                        "cost_price": "21000.0"
+                      },
+                      "relationships": {
+                        "option_values": {
+                          "data": []
+                        },
+                        "images": {
+                          "data": [
+                            {
+                              "type": "images",
+                              "id": 23
+                            }
+                          ]
+                        }
+                      },
+                      "included": {
+                        "option_values": [],
+                        "images": [
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 23,
+                                "position": 1,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 24,
+                                "position": 2,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "variants": [],
+                  "option_types": [],
+                  "product_properties": [
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 28,
+                          "product_id": 2,
+                          "property_id": 9,
+                          "value": "Messenger",
+                          "property_name": "Type"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 29,
+                          "product_id": 2,
+                          "property_id": 10,
+                          "value": "14 1/2' x 12' x 5'",
+                          "property_name": "Size"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 30,
+                          "product_id": 2,
+                          "property_id": 11,
+                          "value": "600 Denier Polyester",
+                          "property_name": "Material"
+                        }
+                      }
+                    }
+                  ],
+                  "classifications": [
+                    {
+                      "data": {
+                        "attributes": {
+                          "taxon_id": 3,
+                          "position": 2,
+                          "taxon": {
+                            "id": 3,
+                            "name": "Necklaces",
+                            "pretty_name": "Gold Jewellery -> Necklaces",
+                            "permalink": "Gold Jewellery/bags",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 3,
+                "type": "products",
+                "major": "importedMable",
+                "minor": "black",
+                "subversion": "belgiumBlack",
+                "attributes": {
+                  "id": 1,
+                  "name": "Belgian Black",
+                  "description": "<p>Black quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                  "price": "22999.0",
+                  "display_price": "$22,999.00",
+                  "available_on": "2019-11-04T00:00:00.000Z",
+                  "slug": "ruby-on-rails-bag",
+                  "meta_description": "",
+                  "meta_keywords": "",
+                  "shipping_category_id": 1,
+                  "taxon_ids": [
+                    3
+                  ],
+                  "total_on_hand": 9,
+                  "avg_rating": "0.0",
+                  "reviews_count": 0,
+                  "currency": "USD",
+                  "currency_symbol": "$",
+                  "has_variants": false,
+                  "cost_price": "21000.0",
+                  "is_favorited_by_current_user": false
+                },
+                "relationships": {
+                  "master": {
+                    "data": {
+                      "type": "master",
+                      "id": 2
+                    }
+                  },
+                  "variants": {
+                    "data": []
+                  },
+                  "option_types": {
+                    "data": []
+                  },
+                  "product_properties": {
+                    "data": [
+                      {
+                        "type": "product_properties",
+                        "id": 28
+                      },
+                      {
+                        "type": "product_properties",
+                        "id": 29
+                      },
+                      {
+                        "type": "product_properties",
+                        "id": 30
+                      }
+                    ]
+                  },
+                  "classifications": {
+                    "data": [
+                      {
+                        "type": "classifications",
+                        "id": 2
+                      }
+                    ]
+                  }
+                },
+                "included": {
+                  "master": {
+                    "data": {
+                      "attributes": {
+                        "id": 2,
+                        "name": "Belgian Black",
+                        "sku": "ROR-00012",
+                        "price": "22999.0",
+                        "weight": "0.0",
+                        "height": null,
+                        "width": null,
+                        "depth": null,
+                        "is_master": true,
+                        "slug": "ruby-on-rails-bag",
+                        "description": "<p>Black quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                        "track_inventory": true,
+                        "display_price": "$22,999.00",
+                        "options_text": "",
+                        "in_stock": true,
+                        "is_backorderable": true,
+                        "is_orderable": true,
+                        "total_on_hand": 9,
+                        "is_destroyed": false,
+                        "cost_price": "21000.0"
+                      },
+                      "relationships": {
+                        "option_values": {
+                          "data": []
+                        },
+                        "images": {
+                          "data": [
+                            {
+                              "type": "images",
+                              "id": 23
+                            }
+                          ]
+                        }
+                      },
+                      "included": {
+                        "option_values": [],
+                        "images": [
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 23,
+                                "position": 1,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 24,
+                                "position": 2,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "variants": [],
+                  "option_types": [],
+                  "product_properties": [
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 28,
+                          "product_id": 2,
+                          "property_id": 9,
+                          "value": "Messenger",
+                          "property_name": "Type"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 29,
+                          "product_id": 2,
+                          "property_id": 10,
+                          "value": "14 1/2' x 12' x 5'",
+                          "property_name": "Size"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "attributes": {
+                          "id": 30,
+                          "product_id": 2,
+                          "property_id": 11,
+                          "value": "600 Denier Polyester",
+                          "property_name": "Material"
+                        }
+                      }
+                    }
+                  ],
+                  "classifications": [
+                    {
+                      "data": {
+                        "attributes": {
+                          "taxon_id": 3,
+                          "position": 2,
+                          "taxon": {
+                            "id": 3,
+                            "name": "Necklaces",
+                            "pretty_name": "Gold Jewellery -> Necklaces",
+                            "permalink": "Gold Jewellery/bags",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+        ]    
+}

@@ -37,15 +37,18 @@ export class ProductService {
    * @memberof ProductService
    */
   getProduct(id: string): Observable<Product> {
-    return this.http
-      .get<{ data: CJsonApi }>(
-        `api/v1/products/${id}?data_set=large&${+new Date().getDate()}`
-      )
+    return this.firestore.collection('allProducts', ref => ref.where('subversion', '==', id)).get()
       .pipe(
-        map(resp => {
-          const product = this.apiParser.parseSingleObj(resp.data) as Product;
-          return product;
-        })
+        map(
+          querySnapshot => {
+            let products: Array<Product> = [];
+            querySnapshot.forEach(function (doc) {
+              products.push(doc.data() as Product);
+            });
+            let myProduct: Product = this.apiParser.parseSingleObj(products[0]) as Product;
+            return myProduct;
+          }
+        )
       );
   }
 
