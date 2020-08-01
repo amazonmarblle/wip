@@ -1,5 +1,4 @@
 {
-    "taxonomies":{
         "taxonomies": [
             {
                 "id": 1,
@@ -1021,5 +1020,4 @@
         "count": 3,
         "current_page": 1,
         "pages": 1
-    }
 }

@@ -1,0 +1,48 @@
+{
+    "orders": [
+        {
+            "id": 0,
+            "number": "0",
+            "item_total": "0.0",
+            "total": "0.0",
+            "ship_total": "0.0",
+            "state": "cart",
+            "adjustments": [],
+            "credit_cards": [],
+            "line_items": [],
+            "adjustment_total": "0.0",
+            "user_id": null,
+            "completed_at": null,
+            "payment_total": "0.0",
+            "shipment_state": null,
+            "payment_state": null,
+            "email": null,
+            "special_instructions": null,
+            "channel": "spree",
+            "included_tax_total": "0.0",
+            "additional_tax_total": "0.0",
+            "display_included_tax_total": "$0.00",
+            "display_additional_tax_total": "$0.00",
+            "tax_total": "0.0",
+            "currency": "USD",
+            "considered_risky": false,
+            "canceler_id": null,
+            "display_item_total": "$0.00",
+            "total_quantity": 0,
+            "display_total": "$0.00",
+            "display_ship_total": "$0.00",
+            "display_tax_total": "$0.00",
+            "display_adjustment_total": "$0.00",
+            "token": "51n5hV52XRzYLmzY0zEDCQ1555867412562",
+            "checkout_steps": [
+                "address",
+                "delivery",
+                "complete"
+            ],
+            "bill_address": null,
+            "ship_address": null,
+            "payments": [],
+            "shipments": []
+        }
+    ]
+}

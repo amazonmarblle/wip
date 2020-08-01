@@ -6,7 +6,8 @@ admin.initializeApp({
   databaseURL: "https://1538415571879.firebaseio.com"
 });
 
-const allDataFiles = ["./data/allProducts.json","./data/call2ProductsLandingPage.json","./data/call3Taxonomies.json","./data/call6FavouriteProducts.json","./data/XproductsCall2.json"]
+// const allDataFiles = ["./data/allProducts.json","./data/call2ProductsLandingPage.json","./data/call3Taxonomies.json","./data/call6FavouriteProducts.json","./data/XproductsCall2.json"]
+const allDataFiles = ["./data/emptyOrder.json"]
 
 allDataFiles.forEach(function(file) {
   const data = require(file);
