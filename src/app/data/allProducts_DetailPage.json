@@ -10,6 +10,7 @@
                 "taxon_ids": [
                   19
                 ],
+                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
                 "attributes": {
                   "id": 1,
                   "name": "Belgian White",
@@ -228,6 +229,7 @@
                 "taxon_ids": [
                   19
                 ],
+                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
                 "attributes": {
                   "id": 2,
                   "name": "Belgian Pink",
@@ -446,6 +448,7 @@
                 "taxon_ids": [
                   5
                 ],
+                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
                 "attributes": {
                   "id": 1,
                   "name": "Belgian Black",
