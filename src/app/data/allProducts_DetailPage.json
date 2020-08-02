@@ -31,7 +31,8 @@
                   "currency_symbol": "$",
                   "has_variants": false,
                   "cost_price": "21000.0",
-                  "is_favorited_by_current_user": false
+                  "is_favorited_by_current_user": false,
+                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
                 },
                 "relationships": {
                   "master": {
@@ -248,7 +249,8 @@
                   "currency_symbol": "$",
                   "has_variants": false,
                   "cost_price": "21000.0",
-                  "is_favorited_by_current_user": false
+                  "is_favorited_by_current_user": false,
+                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
                 },
                 "relationships": {
                   "master": {

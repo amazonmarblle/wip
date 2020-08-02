@@ -19,9 +19,9 @@
         <div class="ngrating">
           <ngx-input-star-rating disabled="true" [value]="product.avg_rating"></ngx-input-star-rating>
         </div>
-        <small class="shipping">
+        <!-- <small class="shipping">
           FREE 1-2 day shipping over {{appConfig.currency_symbol}}{{appConfig.freeShippingAmount}}
-        </small>
+        </small> -->
       </div>
     </a>
   </div>
@@ -60,7 +60,7 @@
               <b>FREE 1-2 day</b> shipping at {{appConfig.currency_symbol}}{{appConfig.freeShippingAmount}}
             </p>
             <div class="ngrating">
-              <ngx-input-star-rating disabled="true" value="{{product.avg_rating }}"></ngx-input-star-rating>
+              <ngx-input-star-rating disabled="false" value="{{product.avg_rating }}"></ngx-input-star-rating>
             </div>
           </div>
         </div>

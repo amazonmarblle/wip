@@ -135,7 +135,7 @@ export class ProductService {
   }
 
   // tslint:disable-next-line:max-line-length
-  getProductsByTaxon(id: string): Observable<any> {
+  getProductsByTaxon(id: number): Observable<any> {
     return this.firestore.collection('allProducts_DetailPage', ref => ref.where('taxon_ids', 'array-contains', id)).get()
       .pipe(
         map(
