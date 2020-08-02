@@ -7,6 +7,9 @@
                 "major": "importedMable",
                 "minor": "black",
                 "subversion": "belgianWhite",
+                "taxon_ids": [
+                  19
+                ],
                 "attributes": {
                   "id": 1,
                   "name": "Belgian White",
@@ -14,7 +17,7 @@
                   "price": "22999.0",
                   "display_price": "$22,999.00",
                   "available_on": "2019-11-04T00:00:00.000Z",
-                  "slug": "ruby-on-rails-bag",
+                  "slug": "belgianWhite",
                   "meta_description": "",
                   "meta_keywords": "",
                   "shipping_category_id": 1,
@@ -221,6 +224,9 @@
                 "major": "importedMable",
                 "minor": "black",
                 "subversion": "belgianPink",
+                "taxon_ids": [
+                  19
+                ],
                 "attributes": {
                   "id": 2,
                   "name": "Belgian Pink",
@@ -435,6 +441,9 @@
                 "major": "importedMable",
                 "minor": "black",
                 "subversion": "belgiumBlack",
+                "taxon_ids": [
+                  5
+                ],
                 "attributes": {
                   "id": 1,
                   "name": "Belgian Black",
@@ -447,7 +456,7 @@
                   "meta_keywords": "",
                   "shipping_category_id": 1,
                   "taxon_ids": [
-                    3
+                    5
                   ],
                   "total_on_hand": 9,
                   "avg_rating": "0.0",

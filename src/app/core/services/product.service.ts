@@ -136,17 +136,20 @@ export class ProductService {
 
   // tslint:disable-next-line:max-line-length
   getProductsByTaxon(id: string): Observable<any> {
-    return this.http
-      .get<{ data: CJsonApi[]; pagination: Object }>(
-        `api/v1/taxons/products?${id}&per_page=20&data_set=small`
-      )
+    return this.firestore.collection('allProducts_DetailPage', ref => ref.where('taxon_ids', 'array-contains', id)).get()
       .pipe(
-        map(resp => {
-          return {
-            pagination: resp.pagination,
-            products: this.apiParser.parseArrayofObject(resp.data) as Array<Product>
-          };
-        })
+        map(
+          querySnapshot => {
+            let products: Array<Product> = [];
+            querySnapshot.forEach(function (doc) {
+              products.push(doc.data() as Product);
+            });
+            return {
+              pagination: {"total_count": products.length},
+              products: this.apiParser.parseArrayofObject(products) as Array<Product>
+            };
+          }
+        )
       );
   }
 
