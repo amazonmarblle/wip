@@ -589,6 +589,27 @@
                                 "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
                               }
                             }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 25,
+                                "position": 3,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Spree::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Spree::Variant",
+                                "viewable_id": 3,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                              }
+                            }
                           }
                         ]
                       }
