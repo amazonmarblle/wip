@@ -124,7 +124,7 @@
                                 }
                                 
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e12da709c93467550ac49dd6a07df4257f875288\/living.png"
+                            "icon": null
                         },
                         {
                             "id": 3,
@@ -226,7 +226,7 @@
                                 }
                                 
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBRZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1b1923beb3c5123074dae3cf3ad6b8f45c24618b\/bedroom.png"
+                            "icon": null
                         },
                         {
                             "id": 4,
@@ -350,7 +350,7 @@
                                 }
                                 
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBRdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--17d5f5da121190aad915d584c4fb919074bee50a\/dining.png"
+                            "icon": null
                         },
                         {
                             "id": 5,
@@ -419,7 +419,7 @@
                                 }
                                 
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--026ffe294bbadf5a79112261e23769a3fcc12dcf\/study.png"
+                            "icon": null
                         },
                         {
                             "id": 6,
@@ -476,7 +476,7 @@
                                     "icon": null
                                 }
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--026ffe294bbadf5a79112261e23769a3fcc12dcf\/study.png"
+                            "icon": null
                         },
                         {
                             "id": 7,
@@ -544,7 +544,7 @@
                                     "icon": null
                                 }
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--026ffe294bbadf5a79112261e23769a3fcc12dcf\/study.png"
+                            "icon": null
                         }
                     ]
                 }
