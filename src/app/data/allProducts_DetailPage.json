@@ -2,38 +2,38 @@
     "allProducts_DetailPage": 
         [
             {
-                "id": 1,
+                "id": 201,
                 "type": "products",
-                "major": "importedMable",
-                "minor": "black",
-                "subversion": "belgianWhite",
+                "major": "indianMarbles",
+                "minor": "whiteMarbles",
+                "version": "flawlessWhite",
                 "taxon_ids": [
-                  19
+                  2, 42
                 ],
-                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-product-main.jpg?alt=media&token=7b942873-2b8e-4c84-896e-7da470083d59",
                 "attributes": {
-                  "id": 1,
-                  "name": "Belgian White",
-                  "description": "<p>White quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
-                  "price": "22999.0",
-                  "display_price": "$22,999.00",
+                  "id": 201,
+                  "name": "Flawless White",
+                  "description": "<p>Purest white marble and regarded as the epitome of elegance infused luxury, Flawless White’s fine grain and glossy finish makes it a universal favourite.</p>",
+                  "price": "NA",
+                  "display_price": "NA",
                   "available_on": "2019-11-04T00:00:00.000Z",
-                  "slug": "belgianWhite",
+                  "slug": "flawlessWhite",
                   "meta_description": "",
                   "meta_keywords": "",
                   "shipping_category_id": 1,
                   "taxon_ids": [
-                    3
+                    2, 42
                   ],
                   "total_on_hand": 9,
                   "avg_rating": "0.0",
                   "reviews_count": 0,
-                  "currency": "USD",
-                  "currency_symbol": "$",
+                  "currency": "Rs.",
+                  "currency_symbol": "Rs",
                   "has_variants": false,
-                  "cost_price": "21000.0",
+                  "cost_price": "NA",
                   "is_favorited_by_current_user": false,
-                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-product-main.jpg?alt=media&token=7b942873-2b8e-4c84-896e-7da470083d59"
                 },
                 "relationships": {
                   "master": {
@@ -77,26 +77,26 @@
                   "master": {
                     "data": {
                       "attributes": {
-                        "id": 2,
-                        "name": "Belgian White",
-                        "sku": "ROR-00012",
-                        "price": "22999.0",
+                        "id": 201,
+                        "name": "Flawless White",
+                        "sku": "flawlessWhite",
+                        "price": "NA",
                         "weight": "0.0",
                         "height": null,
                         "width": null,
                         "depth": null,
                         "is_master": true,
-                        "slug": "ruby-on-rails-bag",
-                        "description": "<p>White quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                        "slug": "flawlessWhite",
+                        "description": "<p>Purest white marble and regarded as the epitome of elegance infused luxury, Flawless White’s fine grain and glossy finish makes it a universal favourite.</p>",
                         "track_inventory": true,
-                        "display_price": "$22,999.00",
+                        "display_price": "NA",
                         "options_text": "",
                         "in_stock": true,
                         "is_backorderable": true,
                         "is_orderable": true,
                         "total_on_hand": 9,
                         "is_destroyed": false,
-                        "cost_price": "21000.0"
+                        "cost_price": "NA"
                       },
                       "relationships": {
                         "option_values": {
@@ -121,17 +121,17 @@
                                 "position": 1,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
+                                "viewable_type": "Amazon::Variant",
                                 "viewable_id": 2,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-product-mini.jpg?alt=media&token=7d13d4b9-cebf-4a96-90db-e10b616c0ce9",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-product-small.jpg?alt=media&token=9a37fdcb-89a0-42d5-a842-af1f1485137a",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-product-main.jpg?alt=media&token=7b942873-2b8e-4c84-896e-7da470083d59",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-product-large.jpg?alt=media&token=47415576-1157-4738-acd2-1a27b0f8b8a6"
                               }
                             }
                           },
@@ -142,17 +142,59 @@
                                 "position": 2,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
+                                "viewable_type": "Amazon::Variant",
                                 "viewable_id": 2,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use1-mini.jpg?alt=media&token=c95cbfc3-314d-4e0e-bd19-8b765e0e7003",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use1-small.jpg?alt=media&token=c86f2ebb-2faf-454e-80d3-bf65d9ad177a",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use1-main.jpg?alt=media&token=14b35868-9175-4b18-ae96-56377fd49d64",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use1-large.jpg?alt=media&token=068abdcf-939d-4bf1-ab0f-0a437843323e"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 25,
+                                "position": 3,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Amazon::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Amazon::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use2-mini.jpg?alt=media&token=a7898593-694e-4009-a88f-085a87456e2d",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use2-mini.jpg?alt=media&token=7545bb95-b3f7-4d01-8e01-d26bc7de5b9e",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use2-main.jpg?alt=media&token=470bef71-7768-4454-9d05-bfeab20a16c0",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-use2-large.jpg?alt=media&token=e561b34c-0425-4603-9a97-6136d39dd8ed"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 26,
+                                "position": 4,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Amazon::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Amazon::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-slab-mini.jpg?alt=media&token=75d78517-e419-42cc-85a5-9a88285bf1f5",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-slab-small.jpg?alt=media&token=e33b2a62-bfa9-4e72-a098-9d5a8991f05f",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-slab-main.jpg?alt=media&token=565003d9-f336-4abf-b584-2f59b4859da4",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FindianMarbles-whiteMarbles-flawlessWhite-slab-large.jpg?alt=media&token=43be72ec-82d0-489e-908c-d2ba199d729d"
                               }
                             }
                           }
@@ -225,9 +267,9 @@
                 "type": "products",
                 "major": "importedMable",
                 "minor": "black",
-                "subversion": "belgianPink",
+                "version": "belgianPink",
                 "taxon_ids": [
-                  19
+                  19,41,42
                 ],
                 "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
                 "attributes": {
@@ -444,7 +486,7 @@
                 "type": "products",
                 "major": "importedMable",
                 "minor": "black",
-                "subversion": "belgiumBlack",
+                "version": "belgiumBlack",
                 "taxon_ids": [
                   5
                 ],

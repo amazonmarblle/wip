@@ -37,7 +37,7 @@ export class ProductService {
    * @memberof ProductService
    */
   getProduct(id: string): Observable<Product> {
-    return this.firestore.collection('allProducts_DetailPage', ref => ref.where('subversion', '==', id)).get()
+    return this.firestore.collection('allProducts_DetailPage', ref => ref.where('version', '==', id)).get()
       .pipe(
         map(
           querySnapshot => {
