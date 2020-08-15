@@ -1,7 +1,7 @@
 {
     "allProducts_DetailPage": 
         [
-            {
+              {
                 "id": 201,
                 "type": "products",
                 "major": "indianMarbles",
@@ -263,38 +263,38 @@
                 }
               },
               {
-                "id": 2,
+                "id": 202,
                 "type": "products",
-                "major": "importedMable",
-                "minor": "black",
-                "version": "belgianPink",
+                "major": "indianMarbles",
+                "minor": "whiteMarbles",
+                "version": "premiumMorwadWhite",
                 "taxon_ids": [
-                  19,41,42
+                  2, 42
                 ],
-                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fmain_product.jpg?alt=media&token=37484f65-04d0-4999-95dc-428b7f232e65",
                 "attributes": {
-                  "id": 2,
-                  "name": "Belgian Pink",
-                  "description": "<p>Pink quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
-                  "price": "22999.0",
-                  "display_price": "$22,999.00",
+                  "id": 202,
+                  "name": "Premium Morwad White",
+                  "description": "<p>Morwad White Marble is the best option for flooring purpose. It can be also used for the Counter top and wall cladding. Morwad White Marble has stunning White appearance. It has nice strength and durability.</p>",
+                  "price": "NA",
+                  "display_price": "NA",
                   "available_on": "2019-11-04T00:00:00.000Z",
-                  "slug": "ruby-on-rails-bag",
+                  "slug": "premiumMorwadWhite",
                   "meta_description": "",
                   "meta_keywords": "",
                   "shipping_category_id": 1,
                   "taxon_ids": [
-                    3
+                    2, 42
                   ],
                   "total_on_hand": 9,
                   "avg_rating": "0.0",
                   "reviews_count": 0,
-                  "currency": "USD",
-                  "currency_symbol": "$",
+                  "currency": "Rs.",
+                  "currency_symbol": "Rs",
                   "has_variants": false,
-                  "cost_price": "21000.0",
+                  "cost_price": "NA",
                   "is_favorited_by_current_user": false,
-                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fmain_product.jpg?alt=media&token=37484f65-04d0-4999-95dc-428b7f232e65"
                 },
                 "relationships": {
                   "master": {
@@ -338,26 +338,26 @@
                   "master": {
                     "data": {
                       "attributes": {
-                        "id": 2,
-                        "name": "Belgian Pink",
-                        "sku": "ROR-00012",
-                        "price": "22999.0",
+                        "id": 202,
+                        "name": "Premium Morwad White",
+                        "sku": "premiumMorwadWhite",
+                        "price": "NA",
                         "weight": "0.0",
                         "height": null,
                         "width": null,
                         "depth": null,
                         "is_master": true,
-                        "slug": "ruby-on-rails-bag",
-                        "description": "<p>Pink quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                        "slug": "premiumMorwadWhite",
+                        "description": "<p>Morwad White Marble is the best option for flooring purpose. It can be also used for the Counter top and wall cladding. Morwad White Marble has stunning White appearance. It has nice strength and durability.</p>",
                         "track_inventory": true,
-                        "display_price": "$22,999.00",
+                        "display_price": "NA",
                         "options_text": "",
                         "in_stock": true,
                         "is_backorderable": true,
                         "is_orderable": true,
                         "total_on_hand": 9,
                         "is_destroyed": false,
-                        "cost_price": "21000.0"
+                        "cost_price": "NA"
                       },
                       "relationships": {
                         "option_values": {
@@ -382,17 +382,17 @@
                                 "position": 1,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
+                                "viewable_type": "Amazon::Variant",
                                 "viewable_id": 2,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fmain_mini.jpg?alt=media&token=fb549dcf-2072-4be3-9e7f-085e895bb582",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fmain_small.jpg?alt=media&token=bf623615-eaa1-44c6-aedf-88bab2abf9ac",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fmain_product.jpg?alt=media&token=37484f65-04d0-4999-95dc-428b7f232e65",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fmain_product.jpg?alt=media&token=37484f65-04d0-4999-95dc-428b7f232e65"
                               }
                             }
                           },
@@ -403,17 +403,38 @@
                                 "position": 2,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
+                                "viewable_type": "Amazon::Variant",
                                 "viewable_id": 2,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse_mini.jpg?alt=media&token=a3bbaaf8-d9a5-448c-a276-d371db1dfa3e",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse_small.jpg?alt=media&token=8ec0f5f1-f802-4832-bff8-fc587f287eea",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse_large.jpg?alt=media&token=d8e2632c-771d-478f-b5a8-109cca53b1a0",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse_large.jpg?alt=media&token=d8e2632c-771d-478f-b5a8-109cca53b1a0"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "attributes": {
+                                "id": 25,
+                                "position": 3,
+                                "attachment_content_type": null,
+                                "attachment_file_name": null,
+                                "type": "Amazon::Image",
+                                "attachment_updated_at": null,
+                                "attachment_width": null,
+                                "attachment_height": null,
+                                "alt": "",
+                                "viewable_type": "Amazon::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab_mini.jpg?alt=media&token=017fef76-e93b-47bf-a545-7e827c4991d7",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab_sma.jpg?alt=media&token=48b34513-6a12-40ea-a59e-09b8b8b9dc19",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab_large.jpg?alt=media&token=39660133-8382-4c20-9e39-2def68238ad7",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab_large.jpg?alt=media&token=39660133-8382-4c20-9e39-2def68238ad7"
                               }
                             }
                           }
@@ -482,37 +503,38 @@
                 }
               },
               {
-                "id": 3,
+                "id": 203,
                 "type": "products",
-                "major": "importedMable",
-                "minor": "black",
-                "version": "belgiumBlack",
+                "major": "indianMarbles",
+                "minor": "whiteMarbles",
+                "version": "makranaWhite",
                 "taxon_ids": [
-                  5
+                  2, 42
                 ],
-                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
+                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab.jpg?alt=media&token=4d8c7c37-efd0-4d1a-aedc-f815180d774d",
                 "attributes": {
-                  "id": 1,
-                  "name": "Belgian Black",
-                  "description": "<p>Black quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
-                  "price": "22999.0",
-                  "display_price": "$22,999.00",
+                  "id": 203,
+                  "name": "Makrana White",
+                  "description": "<p>Purest white marble and regarded as the epitome of elegance infused luxury, Makrana White's fine grain and glossy finish makes it a universal favourite.</p>",
+                  "price": "NA",
+                  "display_price": "NA",
                   "available_on": "2019-11-04T00:00:00.000Z",
-                  "slug": "ruby-on-rails-bag",
+                  "slug": "makranaWhite",
                   "meta_description": "",
                   "meta_keywords": "",
                   "shipping_category_id": 1,
                   "taxon_ids": [
-                    5
+                    2, 42
                   ],
                   "total_on_hand": 9,
                   "avg_rating": "0.0",
                   "reviews_count": 0,
-                  "currency": "USD",
-                  "currency_symbol": "$",
+                  "currency": "Rs.",
+                  "currency_symbol": "Rs",
                   "has_variants": false,
-                  "cost_price": "21000.0",
-                  "is_favorited_by_current_user": false
+                  "cost_price": "NA",
+                  "is_favorited_by_current_user": false,
+                  "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab.jpg?alt=media&token=4d8c7c37-efd0-4d1a-aedc-f815180d774d"
                 },
                 "relationships": {
                   "master": {
@@ -556,26 +578,26 @@
                   "master": {
                     "data": {
                       "attributes": {
-                        "id": 2,
-                        "name": "Belgian Black",
-                        "sku": "ROR-00012",
-                        "price": "22999.0",
+                        "id": 203,
+                        "name": "Makrana White",
+                        "sku": "makranaWhite",
+                        "price": "NA",
                         "weight": "0.0",
                         "height": null,
                         "width": null,
                         "depth": null,
                         "is_master": true,
-                        "slug": "ruby-on-rails-bag",
-                        "description": "<p>Black quod rerum quis voluptate harum perferendis. Ea quas odit dolore vel quod doloribus. Iure et sit doloremque laboriosam.</p>",
+                        "slug": "makranaWhite",
+                        "description": "<p>Purest white marble and regarded as the epitome of elegance infused luxury, Makrana White’s fine grain and glossy finish makes it a universal favourite.</p>",
                         "track_inventory": true,
-                        "display_price": "$22,999.00",
+                        "display_price": "NA",
                         "options_text": "",
                         "in_stock": true,
                         "is_backorderable": true,
                         "is_orderable": true,
                         "total_on_hand": 9,
                         "is_destroyed": false,
-                        "cost_price": "21000.0"
+                        "cost_price": "NA"
                       },
                       "relationships": {
                         "option_values": {
@@ -600,17 +622,17 @@
                                 "position": 1,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
+                                "viewable_type": "Amazon::Variant",
                                 "viewable_id": 2,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab.jpg?alt=media&token=4d8c7c37-efd0-4d1a-aedc-f815180d774d",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab.jpg?alt=media&token=4d8c7c37-efd0-4d1a-aedc-f815180d774d",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab.jpg?alt=media&token=4d8c7c37-efd0-4d1a-aedc-f815180d774d",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fslab.jpg?alt=media&token=4d8c7c37-efd0-4d1a-aedc-f815180d774d"
                               }
                             }
                           },
@@ -621,17 +643,17 @@
                                 "position": 2,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
+                                "viewable_type": "Amazon::Variant",
                                 "viewable_id": 2,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse.jpg?alt=media&token=031b03ed-0601-4379-98ed-16eea44907ce",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse.jpg?alt=media&token=031b03ed-0601-4379-98ed-16eea44907ce",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse.jpg?alt=media&token=031b03ed-0601-4379-98ed-16eea44907ce",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fuse.jpg?alt=media&token=031b03ed-0601-4379-98ed-16eea44907ce"
                               }
                             }
                           },
@@ -642,17 +664,17 @@
                                 "position": 3,
                                 "attachment_content_type": null,
                                 "attachment_file_name": null,
-                                "type": "Spree::Image",
+                                "type": "Amazon::Image",
                                 "attachment_updated_at": null,
                                 "attachment_width": null,
                                 "attachment_height": null,
                                 "alt": "",
-                                "viewable_type": "Spree::Variant",
-                                "viewable_id": 3,
-                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_mini.jpg?alt=media&token=eb6bf963-ed08-4697-b61d-73c268f878cb",
-                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_small.jpg?alt=media&token=79b12df7-6482-42df-a381-1d2a08509cb7",
-                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e"
+                                "viewable_type": "Amazon::Variant",
+                                "viewable_id": 2,
+                                "mini_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F97cad3fc5915143657b94f93830d46d8.jpg?alt=media&token=a6c24605-bedb-4d5c-bd9a-fc09995a069d",
+                                "small_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F97cad3fc5915143657b94f93830d46d8.jpg?alt=media&token=a6c24605-bedb-4d5c-bd9a-fc09995a069d",
+                                "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F97cad3fc5915143657b94f93830d46d8.jpg?alt=media&token=a6c24605-bedb-4d5c-bd9a-fc09995a069d",
+                                "large_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F97cad3fc5915143657b94f93830d46d8.jpg?alt=media&token=a6c24605-bedb-4d5c-bd9a-fc09995a069d"
                               }
                             }
                           }
