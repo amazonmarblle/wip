@@ -19,7 +19,7 @@ export class OrderListItemComponent implements OnInit {
   }
 
   getProductImageUrl(line_item: LineItem) {
-    return line_item.variant.images[0].small_url;
+    return line_item.variant.images[0].product_url;
   }
   retryPayment(order: Order) {
     this.checkoutService.makePayment(+order.total, order.bill_address, order.number)

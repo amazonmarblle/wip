@@ -1003,7 +1003,7 @@
                 "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Frsz_main.jpg?alt=media&token=9e93c0f2-9a30-4a18-abfe-fbb602d087fa",
                 "attributes": {
                   "id": 205,
-                  "name": "Opan White",
+                  "name": "Opal White",
                   "description": "<p>Pure expression of timeless charm and elegance, Opal White stands out for this dazzling color, a white mother-of-pearl white shade with gray veins that cross its surface. The bright and delicate tone allows to obtain monochromatic surfaces of great impact in various environments.</p>",
                   "price": "NA",
                   "display_price": "NA",
@@ -1068,7 +1068,7 @@
                     "data": {
                       "attributes": {
                         "id": 205,
-                        "name": "Opan White",
+                        "name": "Opal White",
                         "sku": "opalWhite",
                         "price": "NA",
                         "weight": "0.0",
