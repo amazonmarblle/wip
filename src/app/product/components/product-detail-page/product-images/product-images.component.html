@@ -5,7 +5,7 @@
       <div class="col-1">
         <div class="thumbnails-vertical-container d-none d-lg-block">
           <button class="thumbnails-thumbnail-button" *ngFor="let image of images">
-            <img class="thumbnails-thumbnail img-fluid" [src]="getProductImageUrl(image.product_url" [alt]="image.alt" (mouseover)="onMouseOver(image)">
+            <img class="thumbnails-thumbnail img-fluid" [src]="getProductImageUrl(image.product_url)" [alt]="image.alt" (mouseover)="onMouseOver(image)">
           </button>
         </div>
       </div>
