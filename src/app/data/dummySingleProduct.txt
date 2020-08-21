@@ -1,29 +1,29 @@
 {
-    "id": 226,
+    "id": 230,
     "type": "products",
     "major": "indianMarbles",
-    "minor": "makranaIndianMarble",
-    "version": "tajWhiteIndianMarble",
+    "minor": "blackIndianMarble",
+    "version": "nadiBlackIndianMarble",
     "taxon_ids": [
         2,
-        47
+        48
     ],
-    "display_price": "550",
-    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_main.jpg?alt=media&token=fd7dc8e3-bfec-403b-802d-499f5b079f50",
+    "display_price": "27",
+    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_main.jpg?alt=media&token=6f305313-50d9-4812-b430-8bc236d057d2",
     "attributes": {
-        "id": 226,
-        "name": "Taj Mahal White",
-        "description": "<p>This is the finest and superior quality of Taj Mahal White Marble. </p>",
-        "price": "550",
-        "display_price": "550",
+        "id": 230,
+        "name": "Nadi Black",
+        "description": "<p>This is the finest and superior quality of Nadi Black. </p>",
+        "price": "27",
+        "display_price": "27",
         "available_on": "2019-11-04T00:00:00.000Z",
-        "slug": "tajWhiteIndianMarble",
+        "slug": "nadiBlackIndianMarble",
         "meta_description": "",
         "meta_keywords": "",
         "shipping_category_id": 1,
         "taxon_ids": [
             2,
-            47
+            48
         ],
         "total_on_hand": 9,
         "avg_rating": "4.5",
@@ -31,9 +31,9 @@
         "currency": "Rs.",
         "currency_symbol": "Rs",
         "has_variants": false,
-        "cost_price": "550",
+        "cost_price": "27",
         "is_favorited_by_current_user": false,
-        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_main.jpg?alt=media&token=fd7dc8e3-bfec-403b-802d-499f5b079f50"
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_main.jpg?alt=media&token=6f305313-50d9-4812-b430-8bc236d057d2"
     },
     "relationships": {
         "master": {
@@ -77,26 +77,26 @@
         "master": {
             "data": {
                 "attributes": {
-                    "id": 226,
-                    "name": "Taj Mahal White",
-                    "sku": "tajWhiteIndianMarble",
-                    "price": "550",
+                    "id": 230,
+                    "name": "Nadi Black",
+                    "sku": "nadiBlackIndianMarble",
+                    "price": "27",
                     "weight": "0.0",
                     "height": null,
                     "width": null,
                     "depth": null,
                     "is_master": true,
-                    "slug": "tajWhiteIndianMarble",
-                    "description": "<p>This is the finest and superior quality of Taj Mahal White Marble.</p>",
+                    "slug": "nadiBlackIndianMarble",
+                    "description": "<p>This is the finest and superior quality of Nadi Black.</p>",
                     "track_inventory": true,
-                    "display_price": "550",
+                    "display_price": "27",
                     "options_text": "",
                     "in_stock": true,
                     "is_backorderable": true,
                     "is_orderable": true,
                     "total_on_hand": 9,
                     "is_destroyed": false,
-                    "cost_price": "550"
+                    "cost_price": "27"
                 },
                 "relationships": {
                     "option_values": {
@@ -128,7 +128,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_main.jpg?alt=media&token=fd7dc8e3-bfec-403b-802d-499f5b079f50"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_main.jpg?alt=media&token=6f305313-50d9-4812-b430-8bc236d057d2"
                                 }
                             }
                         },
@@ -146,7 +146,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_use1.jpg?alt=media&token=e14c201a-f4fa-4391-98ce-25fe9c5c27d2"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_use1.jpg?alt=media&token=581bbf8c-1030-4975-b37c-69793fcd019b"
                                 }
                             }
                         },
@@ -164,7 +164,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_use2.jpg?alt=media&token=31347dc4-87c2-4187-b540-fc1f95b5071a"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_use2.jpg?alt=media&token=d3f35ffc-fa6d-4281-add3-6e0669b522cc"
                                 }
                             }
                         },
@@ -182,43 +182,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_use3.jpg?alt=media&token=c275630c-0645-4d3f-9d12-1ee0b47c8972"
-                                }
-                            }
-                        },
-                        {
-                            "data": {
-                                "attributes": {
-                                    "id": 26,
-                                    "position": 5,
-                                    "attachment_content_type": null,
-                                    "attachment_file_name": null,
-                                    "type": "Amazon::Image",
-                                    "attachment_updated_at": null,
-                                    "attachment_width": null,
-                                    "attachment_height": null,
-                                    "alt": "",
-                                    "viewable_type": "Amazon::Variant",
-                                    "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_use4.jpg?alt=media&token=1c521df9-d15f-447f-94b7-6479205cc220"
-                                }
-                            }
-                        },
-                        {
-                            "data": {
-                                "attributes": {
-                                    "id": 27,
-                                    "position": 6,
-                                    "attachment_content_type": null,
-                                    "attachment_file_name": null,
-                                    "type": "Amazon::Image",
-                                    "attachment_updated_at": null,
-                                    "attachment_width": null,
-                                    "attachment_height": null,
-                                    "alt": "",
-                                    "viewable_type": "Amazon::Variant",
-                                    "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F222_slab.jpg?alt=media&token=2188a1ee-0bf2-41ab-bba2-e0db6312e15b"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_slab.jpg?alt=media&token=2be972a6-04aa-45e6-946b-924e5f365ab1"
                                 }
                             }
                         }
