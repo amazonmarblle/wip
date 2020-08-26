@@ -1,29 +1,29 @@
 {
-    "id": 230,
+    "id": 320,
     "type": "products",
-    "major": "indianMarbles",
-    "minor": "blackIndianMarble",
-    "version": "nadiBlackIndianMarble",
+    "major": "importedMarbles",
+    "minor": "italianImported",
+    "version": "vietnamWhiteItalianImported",
     "taxon_ids": [
-        2,
-        48
+        3,
+        57
     ],
-    "display_price": "27",
-    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_main.jpg?alt=media&token=6f305313-50d9-4812-b430-8bc236d057d2",
+    "display_price": "295",
+    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_main.jpg?alt=media&token=a2347f90-527d-471a-a779-64215f7540c2",
     "attributes": {
-        "id": 230,
-        "name": "Nadi Black",
-        "description": "<p>This is the finest and superior quality of Nadi Black. </p>",
-        "price": "27",
-        "display_price": "27",
+        "id": 320,
+        "name": "Vietnam White",
+        "description": "<p>Vietnam White Marble - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look </p>",
+        "price": "295",
+        "display_price": "295",
         "available_on": "2019-11-04T00:00:00.000Z",
-        "slug": "nadiBlackIndianMarble",
+        "slug": "vietnamWhiteItalianImported",
         "meta_description": "",
         "meta_keywords": "",
         "shipping_category_id": 1,
         "taxon_ids": [
-            2,
-            48
+            3,
+            57
         ],
         "total_on_hand": 9,
         "avg_rating": "4.5",
@@ -31,9 +31,9 @@
         "currency": "Rs.",
         "currency_symbol": "Rs",
         "has_variants": false,
-        "cost_price": "27",
+        "cost_price": "295",
         "is_favorited_by_current_user": false,
-        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_main.jpg?alt=media&token=6f305313-50d9-4812-b430-8bc236d057d2"
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_main.jpg?alt=media&token=a2347f90-527d-471a-a779-64215f7540c2"
     },
     "relationships": {
         "master": {
@@ -77,26 +77,26 @@
         "master": {
             "data": {
                 "attributes": {
-                    "id": 230,
-                    "name": "Nadi Black",
-                    "sku": "nadiBlackIndianMarble",
-                    "price": "27",
+                    "id": 320,
+                    "name": "Vietnam White",
+                    "sku": "vietnamWhiteItalianImported",
+                    "price": "295",
                     "weight": "0.0",
                     "height": null,
                     "width": null,
                     "depth": null,
                     "is_master": true,
-                    "slug": "nadiBlackIndianMarble",
-                    "description": "<p>This is the finest and superior quality of Nadi Black.</p>",
+                    "slug": "vietnamWhiteItalianImported",
+                    "description": "<p>Vietnam White Marble - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look</p>",
                     "track_inventory": true,
-                    "display_price": "27",
+                    "display_price": "295",
                     "options_text": "",
                     "in_stock": true,
                     "is_backorderable": true,
                     "is_orderable": true,
                     "total_on_hand": 9,
                     "is_destroyed": false,
-                    "cost_price": "27"
+                    "cost_price": "295"
                 },
                 "relationships": {
                     "option_values": {
@@ -128,7 +128,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_main.jpg?alt=media&token=6f305313-50d9-4812-b430-8bc236d057d2"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_main.jpg?alt=media&token=a2347f90-527d-471a-a779-64215f7540c2"
                                 }
                             }
                         },
@@ -146,7 +146,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_use1.jpg?alt=media&token=581bbf8c-1030-4975-b37c-69793fcd019b"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_use1.jpg?alt=media&token=431d06e1-6b47-4442-918d-f9bdc2e478b9"
                                 }
                             }
                         },
@@ -164,7 +164,7 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_use2.jpg?alt=media&token=d3f35ffc-fa6d-4281-add3-6e0669b522cc"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_use2.jpg?alt=media&token=a75ed29c-6f5f-43e8-9c0a-7b2bda6c9fa7"
                                 }
                             }
                         },
@@ -182,7 +182,25 @@
                                     "alt": "",
                                     "viewable_type": "Amazon::Variant",
                                     "viewable_id": 2,
-                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F230_slab.jpg?alt=media&token=2be972a6-04aa-45e6-946b-924e5f365ab1"
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_use3.jpg?alt=media&token=3911bd93-1145-4b0b-9590-135461760900"
+                                }
+                            }
+                        },
+                        {
+                            "data": {
+                                "attributes": {
+                                    "id": 27,
+                                    "position": 5,
+                                    "attachment_content_type": null,
+                                    "attachment_file_name": null,
+                                    "type": "Amazon::Image",
+                                    "attachment_updated_at": null,
+                                    "attachment_width": null,
+                                    "attachment_height": null,
+                                    "alt": "",
+                                    "viewable_type": "Amazon::Variant",
+                                    "viewable_id": 2,
+                                    "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_slab.jpg?alt=media&token=8f4b3d8d-17ce-4dbb-a4fd-6d3bdc689a0a"
                                 }
                             }
                         }
