@@ -165,148 +165,32 @@
             "has_variants": false
         },
         {
-            "id": 20,
-            "name": "Blue white bedsheets",
-            "description": "",
+            "id": 319,
+            "name": "Silvia",
             "price": "25.0",
-            "display_price": "$25.00",
-            "available_on": "2018-07-01T00:00:00.000Z",
-            "slug": "blue-white-bedsheets",
-            "meta_description": "White and blue bedsheets",
-            "meta_keywords": "bedsheet",
+            "display_price": "25.00",
+            "slug": "silviaItalianImported",
             "shipping_category_id": 1,
             "taxon_ids": [
-                51,
+                57,
                 12
             ],
-            "total_on_hand": -4,
             "avg_rating": "4.33333",
-            "reviews_count": 3,
             "master": {
-                "id": 30,
-                "name": "Blue white bedsheets",
-                "sku": "BW-s",
+                "id": 319,
+                "name": "Silvia",
+                "sku": "silviaItalianImported",
                 "price": "25.0",
-                "weight": "0.0",
-                "height": null,
-                "width": null,
-                "depth": null,
-                "is_master": true,
-                "slug": "blue-white-bedsheets",
-                "description": "",
-                "track_inventory": true,
-                "option_values": [],
+                "slug": "silviaItalianImported",
                 "images": [
                     {
                         "id": 74,
                         "position": 1,
-                        "attachment_content_type": null,
-                        "attachment_file_name": null,
-                        "type": "Spree::Image",
-                        "attachment_updated_at": null,
-                        "attachment_width": null,
-                        "attachment_height": null,
-                        "alt": "",
-                        "viewable_type": "Spree::Variant",
-                        "viewable_id": 30,
-                        "mini_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lMTkRoNE5EZytCam9HUlZRNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--ec1ac405bcd7aadb0ffeee15755673c3ca7d7b7c\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg",
-                        "small_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTVRBd2VERXdNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--78b9edcc4863e3a4289c2404c26116feb11fae6c\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg",
-                        "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTWpRd2VESTBNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--c1c1d6a04c4dab6063e899ea09bde542f3e65d62\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg",
-                        "large_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTmpBd2VEWXdNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--01373afef0d5a784fe223f630fc09ed232dc3045\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg"
+                        "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lOTWpRd2VESTBNRDRHT2daRlZEb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--c1c1d6a04c4dab6063e899ea09bde542f3e65d62\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg"
                     }
                 ],
-                "display_price": "$25.00",
-                "options_text": "",
-                "in_stock": false,
-                "is_backorderable": true,
-                "is_orderable": true,
-                "total_on_hand": -4,
-                "is_destroyed": false
-            },
-            "variants": [],
-            "option_types": [
-                {
-                    "id": 3,
-                    "name": "Size",
-                    "presentation": "Size",
-                    "position": 1
-                }
-            ],
-            "product_properties": [],
-            "classifications": [
-                {
-                    "taxon_id": 51,
-                    "position": 1,
-                    "taxon": {
-                        "id": 51,
-                        "name": "Bed",
-                        "pretty_name": "Categories -> Bedroom -> Bed",
-                        "permalink": "bedroom\/bed",
-                        "parent_id": 4,
-                        "taxonomy_id": 1,
-                        "meta_title": null,
-                        "meta_description": null,
-                        "taxons": [
-                            {
-                                "id": 52,
-                                "name": "Double Bed",
-                                "pretty_name": "Categories -> Bedroom -> Bed -> Double Bed",
-                                "permalink": "bedroom\/bed\/double-bed",
-                                "parent_id": 51,
-                                "taxonomy_id": 1,
-                                "meta_title": null,
-                                "meta_description": null
-                            },
-                            {
-                                "id": 53,
-                                "name": "Single Bed",
-                                "pretty_name": "Categories -> Bedroom -> Bed -> Single Bed",
-                                "permalink": "bedroom\/bed\/single-bed",
-                                "parent_id": 51,
-                                "taxonomy_id": 1,
-                                "meta_title": null,
-                                "meta_description": null
-                            },
-                            {
-                                "id": 54,
-                                "name": "Hydraulic Storage Beds",
-                                "pretty_name": "Categories -> Bedroom -> Bed -> Hydraulic Storage Beds",
-                                "permalink": "bedroom\/bed\/hydraulic-storage-beds",
-                                "parent_id": 51,
-                                "taxonomy_id": 1,
-                                "meta_title": null,
-                                "meta_description": null
-                            },
-                            {
-                                "id": 55,
-                                "name": "Bedroom Sets",
-                                "pretty_name": "Categories -> Bedroom -> Bed -> Bedroom Sets",
-                                "permalink": "bedroom\/bed\/bedroom-sets",
-                                "parent_id": 51,
-                                "taxonomy_id": 1,
-                                "meta_title": null,
-                                "meta_description": null
-                            }
-                        ]
-                    }
-                },
-                {
-                    "taxon_id": 12,
-                    "position": 2,
-                    "taxon": {
-                        "id": 12,
-                        "name": "Today's Deals",
-                        "pretty_name": "Today's Deals",
-                        "permalink": "todays-deals",
-                        "parent_id": null,
-                        "taxonomy_id": 3,
-                        "meta_title": null,
-                        "meta_description": null,
-                        "taxons": []
-                    }
-                }
-            ],
-            "has_variants": false
+                "display_price": "$25.00"
+            }
         },
         {
             "id": 23,
