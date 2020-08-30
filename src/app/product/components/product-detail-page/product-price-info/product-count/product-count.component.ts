@@ -23,7 +23,7 @@ export class ProductCountComponent implements OnInit {
   totalCartItems$: Observable<number>;
   cartCount: number;
 
-  count: any = 1;
+  count: any = 100;
   appConfig = environment.config;
   constructor(private router: Router,
     private store: Store<AppState>) {
@@ -35,7 +35,7 @@ export class ProductCountComponent implements OnInit {
   }
 
   increseCount() {
-    this.count += 1;
+    this.count += 100;
   }
 
   /**
@@ -44,9 +44,9 @@ export class ProductCountComponent implements OnInit {
    * @memberof ProductcountComponent
    */
   decreaseCount() {
-    this.count -= 1;
+    this.count -= 100;
     if (this.count <= 1) {
-      this.count = 1;
+      this.count = 100;
     }
 
   }
