@@ -179,6 +179,96 @@
         "currency": "INR",
         "currency_symbol": "₹"
       }
+    },
+    {
+      "id": 201,
+      "type": "products",
+      "attributes": {
+        "slug": "flawlessWhite",
+        "name": "Flawless White",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F201_use1.jpg?alt=media&token=4e597a9c-c9b3-4811-bb07-2251afe70baf",
+        "price": "210",
+        "cost_price": "210",
+        "avg_rating": "3.8",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 210,
+      "type": "products",
+      "attributes": {
+        "slug": "rainForestIndianMarble",
+        "name": "Rain Forest",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F210_use1.jpg?alt=media&token=7cfb5960-64c2-443d-85d8-becaca3521d1",
+        "price": "80",
+        "cost_price": "80",
+        "avg_rating": "4.0",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 221,
+      "type": "products",
+      "attributes": {
+        "slug": "torrentoBrownIndianMarble",
+        "name": "Torrento Brown",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F221_use1.jpg?alt=media&token=9e2d6db4-3c0c-4b12-9219-6df17bc0f9c7",
+        "price": "26",
+        "cost_price": "26",
+        "avg_rating": "4.2",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 225,
+      "type": "products",
+      "attributes": {
+        "slug": "albetaWhiteIndianMarble",
+        "name": "Albeta White",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F225_use1.jpg?alt=media&token=d9f6ded6-8bde-4ce6-a90f-5ac54d9e9290",
+        "price": "415",
+        "cost_price": "415",
+        "avg_rating": "5",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 229,
+      "type": "products",
+      "attributes": {
+        "slug": "indianBlackMarquinoIndianMarble",
+        "name": "Black Marquino",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F229_use1.jpg?alt=media&token=f26a9723-49c5-4518-9818-611557c1b43d",
+        "price": "135",
+        "cost_price": "135",
+        "avg_rating": "4.5",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 303,
+      "type": "products",
+      "attributes": {
+        "slug": "botticinoImportedMarble",
+        "name": "Botticino",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F303_use1.jpg?alt=media&token=986c17fc-eb01-47d0-8d37-82bff2ed41b3",
+        "price": "195",
+        "cost_price": "195",
+        "avg_rating": "4.5",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
     }
   ]
 }
