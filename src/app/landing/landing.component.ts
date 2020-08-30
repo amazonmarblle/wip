@@ -34,7 +34,7 @@ export class LandingComponent implements OnInit {
     private meta: Meta,
     private metaTitle: Title) {
     this.store.dispatch(this.actions.getAllProducts());
-    this.products$ = this.store.select(getProducts);
+    this.products$ = this.productService.getTopRatedProducts();  // this.store.select(getProducts);
     // #TO DO: Brands name hardcoded for now.
     this.brands$ = this.productService.getTaxonByName('Brands');
 

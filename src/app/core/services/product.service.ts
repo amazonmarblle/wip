@@ -122,6 +122,26 @@ export class ProductService {
       );
   }
 
+  getTopRatedProducts(): Observable<Array<Product>> {
+    let consiceProducts = this.firestore.collection('allProductsMini_LandingPage').get();
+    let favoriteProducts = this.firestore.collection('favouriteProducts_LandingPage').get();
+
+    return forkJoin([consiceProducts, favoriteProducts]).pipe(map(
+      results => {
+        let products: Array<Product> = [];
+        results[0].forEach(function (doc) {
+            products.push(doc.data() as Product);
+        });
+
+        results[1].forEach(function (doc) {
+          products.push(doc.data() as Product);
+        });
+        console.error("Optimize this call to use the cached consiceProduct data instead of new db call");
+        return this.apiParser.parseArrayofObject(products) as Array<Product>;
+      }
+    ));
+  }
+
   getUserFavoriteProducts(): Observable<Array<Product>> {
     return this.http
       .get<{ data: CJsonApi[] }>(
