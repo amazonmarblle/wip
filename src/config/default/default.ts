@@ -15,7 +15,7 @@ export const DEFAULT_CONFIG = {
       height: '42',
       width: '140'
     },
-    searchPlaceholder: 'Find good furniture for me please',
+    searchPlaceholder: 'Your search for Most Exclusive Marble & Granite ends here',
     showGithubRibon: false
   },
   firebaseConfig: {
