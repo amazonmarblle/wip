@@ -1,6 +1,10 @@
 <div>
   <div class="btn helpbtn" [ngClass]="[isOpen ? 'openhelp':'']" (mouseenter)="dropdown.show()" (mouseleave)="dropdown.hide()">
-    <strong><i class="fa fa-phone" style="font-size:20px;color:green" ></i>  {{contactno}}</strong>
+    
+    
+    <a href="tel:+91-9829126926">
+      <strong><i class="fa fa-phone" style="font-size:20px;color:green" ></i>  {{contactno}}</strong>
+    </a>
     <i class="fa pl-3 fa-chevron-down"></i>
   </div>
   <div class="dpmenu" dropdown #dropdown="bs-dropdown" [autoClose]="false" (isOpenChange)="onOpenChange($event)" (mouseenter)="dropdown.show()"
@@ -10,7 +14,11 @@
       <ul>
         <li role="menuitem">
           <h6>Get help from our experts 24/7</h6>
-          <h2 class="text-danger">{{contactno}}</h2>
+          <h5>
+            <a href="https://wa.me/919829126926">
+              <i class="fa fa-whatsapp" aria-hidden="true" style="font-size:20px;color:green"></i> Chat
+            </a>
+          </h5>
         </li>
         <li class="divider dropdown-divider"></li>
         <!-- <li></li>

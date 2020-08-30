@@ -38,7 +38,7 @@
     "@ngrx/entity": "^6.1.0",
     "@ngrx/router-store": "^6.1.0",
     "@ngrx/store": "^6.1.0",
-    "@ngu/carousel": "^1.4.8",
+    "@ngu/carousel": "1.5.2",
     "@nguniversal/common": "^6.0.0",
     "@nguniversal/express-engine": "^6.0.0",
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0",

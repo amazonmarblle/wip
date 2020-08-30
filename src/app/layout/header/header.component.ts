@@ -40,7 +40,7 @@ export class HeaderComponent implements OnInit {
   freeShippingAmount = environment.config.freeShippingAmount;
   currency = environment.config.currency_symbol;
   isModalShown = false;
-  isSearchopen = true;
+  isSearchopen = false;
   isAuthenticated: Observable<boolean>;
   totalCartItems: Observable<number>;
   taxonomies$: Observable<any>;
