@@ -1,0 +1,184 @@
+{
+  "topRatedProducts_LandingPage": [
+    {
+      "id": 314,
+      "type": "products",
+      "attributes": {
+        "slug": "blueBahiaExoticImported",
+        "name": "Blue Bahia",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F314_use1.jpg?alt=media&token=05960324-05b9-4d95-9965-e2935d2b512b",
+        "price": "375",
+        "avg_rating": "4.33333",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 302,
+      "type": "products",
+      "attributes": {
+        "slug": "biancoFusionMarble",
+        "name": "Bianco Fusion",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F302_use1.jpg?alt=media&token=8deb41c7-afa6-4955-9071-21288ea4ff78",
+        "price": "275",
+        "avg_rating": "4.33333",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 307,
+      "type": "products",
+      "attributes": {
+        "slug": "greySilverTravertine",
+        "name": "Grey Silver Travertine",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F307_use1.jpg?alt=media&token=b7b6b597-c0fe-42eb-b11c-0fc6271bf318",
+        "price": "174",
+        "avg_rating": "4.0",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 309,
+      "type": "products",
+      "attributes": {
+        "slug": "redTravertine",
+        "name": "Red Travertine",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F309_use1.jpg?alt=media&token=a41b3aa5-e6a0-4316-a1db-52347e658bdf",
+        "price": "135",
+        "avg_rating": "4.0",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 315,
+      "type": "products",
+      "attributes": {
+        "slug": "botanicGreenExoticImported",
+        "name": "Botanic Green",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F315_use1.jpg?alt=media&token=d9256ebb-f7f0-4ad8-b6e0-60783e49ae05",
+        "price": "138",
+        "avg_rating": "4.5",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 317,
+      "type": "products",
+      "attributes": {
+        "slug": "cremaMarfilItalianImported",
+        "name": "Crema Marfil",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F317_use1.jpg?alt=media&token=594af653-c195-424e-a4f7-d70b00c4a45d",
+        "price": "220",
+        "avg_rating": "5",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 309,
+      "type": "products",
+      "attributes": {
+        "slug": "redTravertine",
+        "name": "Red Travertine",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F309_use1.jpg?alt=media&token=a41b3aa5-e6a0-4316-a1db-52347e658bdf",
+        "price": "135",
+        "avg_rating": "4.0",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 305,
+      "type": "products",
+      "attributes": {
+        "slug": "classicBeigeImportedMarble",
+        "name": "Classic Beige",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F305_use1.jpg?alt=media&token=d32ad454-8cc1-49fd-a957-626cc68c6029",
+        "price": "120",
+        "cost_price": "120",
+        "avg_rating": "0.0",
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 212,
+      "type": "products",
+      "attributes": {
+        "slug": "itaGoldIndianMarble",
+        "name": "Ita Gold Marble",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F212_use1.jpg?alt=media&token=717f0eb9-ebed-475d-86fe-d3d84d7fcab2",
+        "price": "59",
+        "cost_price": "59",
+        "avg_rating": "4.0",
+        "reviews_count": 3,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 203,
+      "type": "products",
+      "attributes": {
+        "slug": "makranaWhite",
+        "name": "Makrana White",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F203_use1.jpg?alt=media&token=f2177e0b-8b1c-478e-8228-070451d2a0ae",
+        "price": "360",
+        "cost_price": "360",
+        "avg_rating": "4.5",
+        "reviews_count": 1,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 320,
+      "type": "products",
+      "attributes": {
+        "slug": "vietnamWhiteItalianImported",
+        "name": "Vietnam White",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_use1.jpg?alt=media&token=431d06e1-6b47-4442-918d-f9bdc2e478b9",
+        "price": "295",
+        "cost_price": "295",
+        "avg_rating": "5",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 316,
+      "type": "products",
+      "attributes": {
+        "slug": "dynaItalianImported",
+        "name": "Dyna",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F316_use1.jpg?alt=media&token=f07e1e19-4789-420c-86df-fc82a7245d1f",
+        "price": "200",
+        "cost_price": "200",
+        "avg_rating": "5",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    },
+    {
+      "id": 204,
+      "type": "products",
+      "attributes": {
+        "slug": "whiteStatuario",
+        "name": "White Statuario",
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F204_use1.jpg?alt=media&token=758f8a81-cd41-488d-a783-d39abf9b2f84",
+        "price": "135",
+        "cost_price": "135",
+        "avg_rating": "4.7",
+        "reviews_count": 2,
+        "currency": "INR",
+        "currency_symbol": "₹"
+      }
+    }
+  ]
+}
