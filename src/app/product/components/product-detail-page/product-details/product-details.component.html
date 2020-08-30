@@ -60,17 +60,17 @@
     <div class="col-12">
       <div class="row m-0">
         <div class="product-subtitle col-5 p-0">
-          <a [routerLink]="['/search']" [queryParams]="{'q[name_cont]': brand.name, id: brand.id}" *ngIf="brand">
+          <!-- <a [routerLink]="['/search']" [queryParams]="{'q[name_cont]': brand.name, id: brand.id}" *ngIf="brand"> -->
             <span>By </span>
-            {{brand.name}}
-          </a>
+            EXA
+          <!-- </a> -->
         </div>
         <div class="product-header-extras col-7 p-0">
           <div class="ugc pr-3">
             <a class="hide-phone js-revScrollTo reviewlink" (click)="scrollToReviewMobile()">
               <ngx-input-star-rating disabled="true" value="{{product.avg_rating }}" class="rating" required></ngx-input-star-rating>
               <span class="rating-count">
-                {{product.reviews_count}}
+                <!-- {{product.reviews_count}} -->4
               </span>
             </a>
           </div>
@@ -95,7 +95,7 @@
       </div>
     </div>
   </div>
-  <div *ngIf="relatedProducts$ | async; let relatedProducts">
+  <!-- <div *ngIf="relatedProducts$ | async; let relatedProducts">
     <div class="slider mb-5 pb-4" *ngIf="relatedProducts.length >0">
       <div class="container">
         <h2>
@@ -104,7 +104,7 @@
         <app-product-slider [productsList]="relatedProducts"></app-product-slider>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="container">
     <div class="row">
       <div class="col-12 mt-3 mb-3">
@@ -127,7 +127,7 @@
       </div>
     </div>
   </div> -->
-  <div class="container">
+  <!-- <div class="container">
     <app-product-review [product]="product" [isMobile]='isMobile' [reviewList]='reviewProducts$ | async'></app-product-review>
-  </div>
+  </div> -->
 </div>

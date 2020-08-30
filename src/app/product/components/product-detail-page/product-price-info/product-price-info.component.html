@@ -77,32 +77,32 @@
     <div class="buybox-wrapper">
       <div id="product-vitals">
         <div id="pricing">
-          <ul class="product-price pl-3">
-            <li>
+          <ul class="product-price pl-3" style="text-align: center;">
+            <!-- <li>
               <ul>
                 <li> List Price:</li>
                 <li>{{product.currency_symbol}}{{product.master.cost_price}}</li>
               </ul>
-            </li>
+            </li> -->
             <li>
               <ul>
                 <li> Price:</li>
                 <li>
                   <span class="ga-eec__price">
-                    {{product.display_price}}</span>
-                  <span class="free-shipping  d-xs-none d-sm-none d-none d-lg-block">FREE 1-2 Day
+                    {{product.currency_symbol}} {{product.display_price}}</span>
+                  <!-- <span class="free-shipping  d-xs-none d-sm-none d-none d-lg-block">FREE 1-2 Day
                     <span>Shipping on this item</span>
-                  </span>
+                  </span> -->
                 </li>
               </ul>
 
             </li>
-            <li>
+            <!-- <li>
               <ul>
                 <li> You Save:</li>
                 <li> {{product.currency_symbol}}{{discount}} ({{discountPercent}})</li>
               </ul>
-            </li>
+            </li> -->
           </ul>
           <div class="clearfix"></div>
         </div>
@@ -117,6 +117,6 @@
       </div>
     </div>
     <div class="clearfix"></div>
-    <app-check-pincode></app-check-pincode>
+    <!-- <app-check-pincode></app-check-pincode> -->
   </div>
 </div>
