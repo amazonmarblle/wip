@@ -11013,7 +11013,8 @@
       "version": "blueBahiaExoticImported",
       "taxon_ids": [
         3,
-        56
+        56,
+        12
       ],
       "display_price": "375",
       "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F314_main.jpg?alt=media&token=fc75493a-6550-4ec7-8895-c8cec776c0d0",
@@ -11030,7 +11031,8 @@
         "shipping_category_id": 1,
         "taxon_ids": [
           3,
-          56
+          56,
+          12
         ],
         "total_on_hand": 9,
         "avg_rating": "4.5",

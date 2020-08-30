@@ -1,63 +1,92 @@
 {
     "favouriteProducts_LandingPage": [
       {
-        "id": 19,
+        "id": 305,
         "type": "products",
         "attributes": {
-          "slug": "belgiumBlack",
-          "name": "Belgium Black",
-          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbelgiumblack_large.jpg?alt=media&token=5a9ce1ce-f22c-40bd-81ba-bd95e3b31f1e",
-          "price": "5.3",
-          "cost_price": "6.5",
+          "slug": "classicBeigeImportedMarble",
+          "name": "Classic Beige",
+          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F305_main.jpg?alt=media&token=17a8a8f4-d7ec-484c-8dc0-51159fad9edf",
+          "price": "120",
+          "cost_price": "120",
           "avg_rating": "0.0",
-          "reviews_count": 0,
-          "currency": "USD",
-          "currency_symbol": "$"
+          "currency": "INR",
+          "currency_symbol": "₹"
         }
       },
       {
-        "id": 20,
+        "id": 212,
         "type": "products",
         "attributes": {
-          "slug": "blue-white-bedsheets",
-          "name": "Blue white bedsheets",
-          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--63e8a8b023de9780b2b851d3d7df1ec51f67f082\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Modern-Bedroom-Comfort-Design-Bed-Pillows-1834916.jpg",
-          "price": "25.0",
-          "cost_price": "26.4",
-          "avg_rating": "4.33333",
+          "slug": "itaGoldIndianMarble",
+          "name": "Ita Gold Marble",
+          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F212_main.jpg?alt=media&token=98de4213-4aff-408f-93a3-24a5792cb06b",
+          "price": "59",
+          "cost_price": "59",
+          "avg_rating": "4.0",
           "reviews_count": 3,
-          "currency": "USD",
-          "currency_symbol": "$"
+          "currency": "INR",
+          "currency_symbol": "₹"
         }
       },
       {
-        "id": 24,
+        "id": 203,
         "type": "products",
         "attributes": {
-          "slug": "wood-chest-of-drawers-the-console-piece-of-furniture",
-          "name": "Wood Chest Of Drawers The Console Piece Of Furniture",
-          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBWUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8e43b4bb6cacb9f85f95edc16c09a7bddb641eb2\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/www.maxpixel.net-Wood-Chest-Of-Drawers-The-Console-Piece-Of-Furniture-2000125.jpg",
-          "price": "160.0",
-          "cost_price": "180.0",
-          "avg_rating": "4.0",
+          "slug": "makranaWhite",
+          "name": "Makrana White",
+          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F203_main.jpg?alt=media&token=f63cc2b2-6b16-48d2-95e0-20922a2970b0",
+          "price": "360",
+          "cost_price": "360",
+          "avg_rating": "4.5",
           "reviews_count": 1,
-          "currency": "USD",
-          "currency_symbol": "$"
+          "currency": "INR",
+          "currency_symbol": "₹"
         }
       },
       {
-        "id": 17,
+        "id": 320,
         "type": "products",
         "attributes": {
-          "slug": "ekebol-wooden-steal",
-          "name": "Sofa, Katorp natural",
-          "product_url": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/representations\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4c8261617f85badcfec9dd807f0bc47a36ea04ab\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MY21WemFYcGxTU0lNTWpBd2VESXdNQVk2QmtWVU9ncHpkSEpwY0ZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e7d7704654735081479a37a81334487a397af2a8\/EKEBOL-wooden-1.JPG",
-          "price": "399.0",
-          "cost_price": "420.0",
-          "avg_rating": "4.0",
+          "slug": "vietnamWhiteItalianImported",
+          "name": "Vietnam White",
+          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F320_main.jpg?alt=media&token=a2347f90-527d-471a-a779-64215f7540c2",
+          "price": "295",
+          "cost_price": "295",
+          "avg_rating": "5",
           "reviews_count": 2,
-          "currency": "USD",
-          "currency_symbol": "$"
+          "currency": "INR",
+          "currency_symbol": "₹"
+        }
+      },
+      {
+        "id": 316,
+        "type": "products",
+        "attributes": {
+          "slug": "dynaItalianImported",
+          "name": "Dyna",
+          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F316_main.jpg?alt=media&token=c9f3311c-7312-47a9-9be1-e26b6429abc9",
+          "price": "200",
+          "cost_price": "200",
+          "avg_rating": "5",
+          "reviews_count": 2,
+          "currency": "INR",
+          "currency_symbol": "₹"
+        }
+      },
+      {
+        "id": 204,
+        "type": "products",
+        "attributes": {
+          "slug": "whiteStatuario",
+          "name": "White Statuario",
+          "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F204_main.jpg?alt=media&token=743406c7-8d2d-40c8-b3a7-aea44261430c",
+          "price": "135",
+          "cost_price": "135",
+          "avg_rating": "4.7",
+          "reviews_count": 2,
+          "currency": "INR",
+          "currency_symbol": "₹"
         }
       }
     ]

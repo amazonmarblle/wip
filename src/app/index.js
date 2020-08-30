@@ -15,7 +15,7 @@ let allDataFiles = [
                         "./data/allProductsFull_LandingPage.json"
                       ];
 
-allDataFiles = [allDataFiles[2]];
+// allDataFiles = [allDataFiles[5]];
 
 allDataFiles.forEach(function(file) {
   const data = require(file);

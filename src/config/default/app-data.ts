@@ -42,7 +42,7 @@ export const DEFAULT_APP_DATA = {
     }
   },
   Deals: {
-    type: 'Today\'s Deals'
+    type: 'New Arrivals'
   },
 
   footer_page_links: [

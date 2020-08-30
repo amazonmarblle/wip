@@ -701,11 +701,11 @@
             },
             {
                 "id": 3,
-                "name": "Today's Deals",
+                "name": "New Arrivals",
                 "root": {
                     "id": 12,
-                    "name": "Today's Deals",
-                    "pretty_name": "Today's Deals",
+                    "name": "New Arrivals",
+                    "pretty_name": "New Arrivals",
                     "permalink": "todays-deals",
                     "parent_id": null,
                     "taxonomy_id": 3,
