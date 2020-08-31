@@ -47,20 +47,16 @@ export class CheckoutService {
    * @memberof CheckoutService
    */
   createNewLineItem(variant_id: number, quantity: number) {
-    const params = {
-      line_item: { variant_id: variant_id, quantity: quantity }
-    },
-      url = `api/v1/orders/${this.orderNumber}/line_items?order_token=${this.getOrderToken()}`;
-
-    return this.http.post<LineItem>(url, params).pipe(
-      tap(
-        lineItem => {
-          this.toastyService.success('Success!', 'Cart updated!');
-          return lineItem;
-        },
-        _ => this.toastyService.error('Something went wrong!', 'Failed')
-      )
-    );
+      let orderData: Order = this.getOrderFromSession();
+      const existingLineItem: LineItem[] = orderData['line_items'];
+      existingLineItem.push({ variant_id: variant_id, quantity: quantity, id: existingLineItem.length + 1 } as LineItem);
+      orderData['line_items'] = existingLineItem;
+      return this.firestore.collection('orders').doc(`${this.orderNumber}`).set(orderData)
+              .then(() => {
+                this.toastyService.success('Success!', 'Cart updated!');
+                return { variant_id: variant_id, quantity: quantity } as LineItem;
+              })
+              .catch(() => this.toastyService.error('Something went wrong!', 'Failed'));
   }
 
   /**
@@ -173,6 +169,7 @@ export class CheckoutService {
           newOrder.number = newOrderNumber.toString();
           newOrder.token = newOrderNumber.toString();
           this.setOrderTokenInLocalStorage({ order_token: newOrder.token });
+          this.setOrderInLocalStorage({ order: newOrder });
           transaction.set(newOrderRef, newOrder);
         })).then(() => {
           console.log("Transaction successfully committed!");
@@ -352,6 +349,11 @@ export class CheckoutService {
     return token;
   }
 
+  private getOrderFromSession() {
+    const order = isPlatformBrowser(this.platformId) ? JSON.parse(localStorage.getItem('orderFull')) : {};
+    return order.order;
+  }
+
   shipmentAvailability(pincode: number) {
     return this.http
       .post(`address/shipment_availability`, { pincode: pincode });
@@ -368,6 +370,13 @@ export class CheckoutService {
     const jsonData = JSON.stringify(token);
     if (isPlatformBrowser(this.platformId)) {
       localStorage.setItem('order', jsonData);
+    }
+  } 
+
+  private setOrderInLocalStorage(order: any): void {
+    const jsonData = JSON.stringify(order);
+    if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem('orderFull', jsonData);
     }
   }
 }

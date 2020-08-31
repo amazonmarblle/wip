@@ -54,7 +54,7 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
       // TODO : @Refactor this code later
       // return the same state if the item is already included.
       if (state.lineItemIds.includes(_lineItemId)) {
-        _totalCartItems = state.totalCartItems + _lineItem.quantity - state.lineItemEntities.toJS()[_lineItemId].quantity;
+        _totalCartItems = state.totalCartItems;
         _totalCartValue = state.totalCartValue + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
         _itemTotal = state.itemTotal + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
         _lineItemEntity = { [_lineItemId]: _lineItem };
@@ -69,7 +69,7 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
         }) as CheckoutState;
       }
 
-      _totalCartItems = state.totalCartItems + _lineItem.quantity;
+      _totalCartItems = state.totalCartItems + 1;
       _totalCartValue = state.totalCartValue + parseFloat(_lineItem.total);
       _itemTotal = state.itemTotal + parseFloat(_lineItem.total);
       _lineItemEntity = { [_lineItemId]: _lineItem };
