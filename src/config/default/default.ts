@@ -4,7 +4,7 @@ import { DEFAULT_META_DATA } from './meta-data';
 export const DEFAULT_CONFIG = {
   // Add Your custom configs hereh
   // prodApiEndpoint: 'https://amazon-api.herokuapp.com/',
-  // prodApiEndpoint: 'http://localhost:3000/',
+  prodApiEndpoint: 'http://localhost:3000/',
   frontEndUrl: 'https://angularamazon.firebaseapp.com/',
   appName: 'Exa',
   fevicon: '/assets/default/favicon',

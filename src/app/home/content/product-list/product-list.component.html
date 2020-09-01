@@ -51,13 +51,15 @@
             <div itemprop="offers" itemscope itemtype="https://schema.org/Offer" class="product-price">
               <span>
                 <span itemprop="price" class="product-discountedPrice">{{product.currency_symbol}} {{ product.price }}</span>
-                <span *ngIf="product.cost_price; let cost_price">
+                <!-- <span *ngIf="product.cost_price; let cost_price">
                   <span itemprop="price" class="disableprize">{{product.currency_symbol}}{{cost_price}}</span>
-                </span>
+                </span> -->
               </span>
             </div>
             <p class="shipping border-top border-bottom mt-1 mb-2">
-              <b>FREE 1-2 day</b> shipping at {{appConfig.currency_symbol}}{{appConfig.freeShippingAmount}}
+              <a href="https://wa.me/919082073532">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i> Chat on Whatsapp
+              </a>
             </p>
             <div class="ngrating">
               <ngx-input-star-rating disabled="false" value="{{product.avg_rating }}"></ngx-input-star-rating>

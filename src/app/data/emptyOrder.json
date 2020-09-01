@@ -2,6 +2,7 @@
     "orders": [
         {
             "id": 0,
+            "orderNumber": 0,
             "number": "0",
             "item_total": "0.0",
             "total": "0.0",
