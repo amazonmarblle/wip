@@ -134,13 +134,13 @@ export class ProductDetailsComponent implements OnInit {
         this.router.navigate(['checkout', 'cart']);
       } else {
         this.store.dispatch(
-          this.checkoutActions.addToCart(this.variantId, event.count)
+          this.checkoutActions.addToCart(this.variantId, event.count, event.mobileNumber)
         );
-        setTimeout(() => { this.router.navigate(['checkout', 'cart']); }, 1500);
+        // setTimeout(() => { this.router.navigate(['checkout', 'cart']); }, 1500);
       }
     } else {
       this.store.dispatch(
-        this.checkoutActions.addToCart(this.variantId, event.count)
+        this.checkoutActions.addToCart(this.variantId, event.count, null)
       );
     }
   }

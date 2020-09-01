@@ -19,7 +19,8 @@ export class CheckoutEffects {
     switchMap((action: any) => {
       return this.checkoutService.createNewLineItem(
         action.payload.variant_id,
-        action.payload.quantity
+        action.payload.quantity,
+        action.payload.mobile
       );
     }),
     map((lineItem: LineItem) => this.actions.addToCartSuccess(lineItem))

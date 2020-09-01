@@ -23,15 +23,25 @@
       </div>
       <div class="buttons row" *ngIf="isOrderable">
         <input type="submit" class="btn col-12 themebtnprimary js-add-cart" value="Add to Cart" (click)="addToCart(count)">
-        <button (click)="buyNow(count)" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Buy Now</button>
+        <button *ngIf="isValidMobileNumber" (click)="buyNow(count)" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Send Enquiry</button>
+        <button *ngIf="!isValidMobileNumber" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Send Enquiry</button>
       </div>
       <div class="buttons row" *ngIf="!isOrderable">
         <input type="submit" class=" btn col-12 themebtnprimary themebtndisable" value="Out of Stock" (click)="addToCart(count)" disabled>
       </div>
+      <div *ngIf="isOrderable">
+        <div class="register-input-item">
+          <input type="number" class="register-user-input-mobile register-user-input" name="mobile" placeholder="Enter Mobile to Send Enquiry" [(ngModel)]="mobileNumber" (ngModelChange)="onMobileNumberChange($event)">
+          <!-- <div *ngIf="signUpForm.get('mobile').errors && signUpForm.get('mobile').touched">
+            <span class="register-error-icon">!</span>
+            <p class="register-error-message">{{signUpForm.get('mobile').errors.msg || 'Please enter a valid mobile number (10 digits)'}}</p>
+          </div> -->
+        </div>
+      </div>
     </form>
   </div>
-  <a class="buybox__favorite" (click)="markAsFavorites()">
+  <!-- <a class="buybox__favorite" (click)="markAsFavorites()">
     <span>
       <i class="fa fa-heart"></i> Add to Favorites</span>
-  </a>
+  </a> -->
 </div>

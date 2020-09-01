@@ -30,10 +30,10 @@ export class CheckoutActions {
     };
   }
 
-  addToCart(variant_id: number, quantity: number) {
+  addToCart(variant_id: number, quantity: number, mobile: number) {
     return {
       type: CheckoutActions.ADD_TO_CART,
-      payload: { variant_id, quantity }
+      payload: { variant_id, quantity, mobile }
     };
   }
 

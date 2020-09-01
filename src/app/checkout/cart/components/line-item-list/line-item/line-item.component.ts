@@ -48,15 +48,15 @@ export class LineItemComponent implements OnInit {
     if (this.quantityCount <= 1) {
       this.quantityCount = 1;
       if (this.quantity > 1) {
-        this.store.dispatch(this.checkoutActions.addToCart(this.lineItem.variant_id, -1));
+        this.store.dispatch(this.checkoutActions.addToCart(this.lineItem.variant_id, -1, null));
       }
     } else if (this.quantityCount > 1) {
-      this.store.dispatch(this.checkoutActions.addToCart(this.lineItem.variant_id, -1));
+      this.store.dispatch(this.checkoutActions.addToCart(this.lineItem.variant_id, -1, null));
     }
   }
 
   addQuantity() {
     this.quantityCount += 1;
-    this.store.dispatch(this.checkoutActions.addToCart(this.lineItem.variant_id, 1));
+    this.store.dispatch(this.checkoutActions.addToCart(this.lineItem.variant_id, 1, null));
   }
 }

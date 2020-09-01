@@ -46,14 +46,15 @@ export class CheckoutService {
    *
    * @memberof CheckoutService
    */
-  createNewLineItem(variant_id: number, quantity: number) {
+  createNewLineItem(variant_id: number, quantity: number, mobile: number) {
       let orderData: Order = this.getOrderFromSession();
       const existingLineItem: LineItem[] = orderData['line_items'];
       existingLineItem.push({ variant_id: variant_id, quantity: quantity, id: existingLineItem.length + 1 } as LineItem);
       orderData['line_items'] = existingLineItem;
+      if(mobile != null) this.firestore.collection('ordersEnquiry').doc(`${this.orderNumber}_${mobile}_${new Date()}`).set(orderData);
       return this.firestore.collection('orders').doc(`${this.orderNumber}`).set(orderData)
               .then(() => {
-                this.toastyService.success('Success!', 'Cart updated!');
+                mobile == null ? this.toastyService.success('Success!', 'Cart updated!') :  this.toastyService.success('Success!', 'Enquiry Sent!');
                 return { variant_id: variant_id, quantity: quantity } as LineItem;
               })
               .catch(() => this.toastyService.error('Something went wrong!', 'Failed'));

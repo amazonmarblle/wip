@@ -22,6 +22,8 @@ export class ProductCountComponent implements OnInit {
 
   totalCartItems$: Observable<number>;
   cartCount: number;
+  mobileNumber: number;
+  isValidMobileNumber: boolean = false;
 
   count: any = 100;
   appConfig = environment.config;
@@ -56,10 +58,19 @@ export class ProductCountComponent implements OnInit {
   }
 
   buyNow(count: number) {
-    this.onAddToCart.emit({ count: count, buyNow: true });
+    console.log(this.mobileNumber);
+    this.onAddToCart.emit({ count: count, buyNow: true, mobileNumber: this.mobileNumber });
   }
 
   markAsFavorites() {
     this.onMarkAsFavorites.emit();
+  }
+
+  onMobileNumberChange(mobile) {
+    if (/^\d{10}$/.test(mobile)) {
+      this.isValidMobileNumber = true;
+    } else {
+      this.isValidMobileNumber = false;
+    }
   }
 }
