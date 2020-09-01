@@ -40,7 +40,7 @@ export class AuthService {
    * @memberof AuthService
    */
   login({ email, password }: Authenticate): Observable<User> {
-    const params = { spree_user: { email, password } };
+    const params = { amazon_user: { email, password } };
     return this.http.post<User>('login.json', params).pipe(
       map(user => {
         this.setTokenInLocalStorage(user);
@@ -67,7 +67,7 @@ export class AuthService {
    * @memberof AuthService
    */
   register(data: User): Observable<User> {
-    const params = { spree_user: data };
+    const params = { amazon_user: data };
     return this.http.post<User>('auth/accounts', params).pipe(
       map(user => {
         this.setTokenInLocalStorage(user);
@@ -93,7 +93,7 @@ export class AuthService {
    * @memberof AuthService
    */
   forgetPassword(data: User): Observable<any> {
-    return this.http.post('auth/passwords', { spree_user: data }).pipe(
+    return this.http.post('auth/passwords', { amazon_user: data }).pipe(
       map(_ =>
         this.toastrService.success(
           'Password reset link has be sent to your email.',
@@ -116,7 +116,7 @@ export class AuthService {
    */
   updatePassword(data: User): Observable<void | ActiveToast<any>> {
     return this.http
-      .put(`auth/passwords/${data.id}`, { spree_user: data })
+      .put(`auth/passwords/${data.id}`, { amazon_user: data })
       .pipe(
         map(_ =>
           this.toastrService.success(
@@ -184,7 +184,7 @@ export class AuthService {
       access_token: user.access_token || [],
       client: user.client || [],
       uid: user.uid || [],
-      'Auth-Token': user.spree_api_key || [],
+      'Auth-Token': user.amazon_api_key || [],
       'ng-api': 'true'
     });
   }

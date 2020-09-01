@@ -8,7 +8,7 @@ export interface Authenticate {
 export class User {
   id: string;
   uid: string;
-  spree_api_key: string;
+  amazon_api_key: string;
   email: string;
   created_at: string;
   updated_at: string;

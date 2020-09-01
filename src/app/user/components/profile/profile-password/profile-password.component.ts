@@ -40,7 +40,7 @@ export class ProfilePasswordComponent implements OnInit {
   }
   onPasswordChange(id) {
     const params = {
-      spree_user:
+      amazon_user:
       {
         email: this.userDetails.email,
         password: this.passwordForm.value.password,

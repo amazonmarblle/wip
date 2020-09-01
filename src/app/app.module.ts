@@ -47,7 +47,6 @@ import { ToastrModule } from 'ngx-toastr';
 
     EffectsModule.forRoot([]),
     BrowserAnimationsModule,
-    BrowserModule.withServerTransition({ appId: 'ng-spree' }),
     BrowserTransferStateModule,
     TransferHttpCacheModule,
     FormsModule,

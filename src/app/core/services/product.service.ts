@@ -140,7 +140,7 @@ export class ProductService {
   getUserFavoriteProducts(): Observable<Array<Product>> {
     return this.http
       .get<{ data: CJsonApi[] }>(
-        `spree/user_favorite_products.json?data_set=small`
+        `amazon/user_favorite_products.json?data_set=small`
       )
       .pipe(
         map(

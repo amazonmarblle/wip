@@ -258,7 +258,7 @@
                                     "icon": null
                                 }
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--56f8e26141a732e699948532bde4514b1ac13732\/ikea.png"
+                            "icon": null
                         },
                         {
                             "id": 17,
@@ -319,7 +319,7 @@
                                     "icon": null
                                 }
                             ],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--19f966cc46325aaef8136fc78e6034649133dabf\/tjmaxx.png"
+                            "icon": null
                         },
                         {
                             "id": 18,
@@ -331,7 +331,7 @@
                             "meta_title": "",
                             "meta_description": "",
                             "taxons": [],
-                            "icon": "https:\/\/ngspree-api.herokuapp.com\/rails\/active_storage\/blobs\/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--07a0c96abb5eba6036d4b9e7a66ec25cdeb48d3b\/whirlpool.png"
+                            "icon": null
                         }
                     ]
                 }

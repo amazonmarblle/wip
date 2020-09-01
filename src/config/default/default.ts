@@ -3,15 +3,15 @@ import { DEFAULT_META_DATA } from './meta-data';
 
 export const DEFAULT_CONFIG = {
   // Add Your custom configs hereh
-  prodApiEndpoint: 'https://ngspree-api.herokuapp.com/',
+  // prodApiEndpoint: 'https://amazon-api.herokuapp.com/',
   // prodApiEndpoint: 'http://localhost:3000/',
-  frontEndUrl: 'https://angularspree.firebaseapp.com/',
-  appName: 'Angularspree',
+  frontEndUrl: 'https://angularamazon.firebaseapp.com/',
+  appName: 'Amazon',
   fevicon: '/assets/default/favicon',
   header: {
     brand: {
       logo: '/assets/default/logo.svg',
-      name: 'Angularspree',
+      name: 'Amazon',
       height: '42',
       width: '140'
     },
