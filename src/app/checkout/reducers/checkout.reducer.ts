@@ -53,21 +53,21 @@ export function reducer(state = initialState, { type, payload }: any): CheckoutS
 
       // TODO : @Refactor this code later
       // return the same state if the item is already included.
-      if (state.lineItemIds.includes(_lineItemId)) {
-        _totalCartItems = state.totalCartItems;
-        _totalCartValue = state.totalCartValue + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
-        _itemTotal = state.itemTotal + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
-        _lineItemEntity = { [_lineItemId]: _lineItem };
-        _shipTotal = state.shipTotal;
+      // if (state.lineItemIds.includes(_lineItemId)) {
+      //   _totalCartItems = state.totalCartItems;
+      //   _totalCartValue = state.totalCartValue + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
+      //   _itemTotal = state.itemTotal + parseFloat(_lineItem.total) - state.lineItemEntities.toJS()[_lineItemId].total;
+      //   _lineItemEntity = { [_lineItemId]: _lineItem };
+      //   _shipTotal = state.shipTotal;
 
-        return state.merge({
-          lineItemEntities: state.lineItemEntities.merge(_lineItemEntity),
-          totalCartItems: _totalCartItems,
-          totalCartValue: _totalCartValue,
-          itemTotal: _itemTotal,
-          shipTotal: _shipTotal
-        }) as CheckoutState;
-      }
+      //   return state.merge({
+      //     lineItemEntities: state.lineItemEntities.merge(_lineItemEntity),
+      //     totalCartItems: _totalCartItems,
+      //     totalCartValue: _totalCartValue,
+      //     itemTotal: _itemTotal,
+      //     shipTotal: _shipTotal
+      //   }) as CheckoutState;
+      // }
 
       _totalCartItems = state.totalCartItems + 1;
       _totalCartValue = state.totalCartValue + parseFloat(_lineItem.total);

@@ -54,6 +54,7 @@ export class CheckoutService {
       if(mobile != null) this.firestore.collection('ordersEnquiry').doc(`${this.orderNumber}_${mobile}_${new Date()}`).set(orderData);
       return this.firestore.collection('orders').doc(`${this.orderNumber}`).set(orderData)
               .then(() => {
+                this.setOrderInLocalStorage({ order: orderData });
                 mobile == null ? this.toastyService.success('Success!', 'Cart updated!') :  this.toastyService.success('Success!', 'Enquiry Sent!');
                 return { variant_id: variant_id, quantity: quantity } as LineItem;
               })
