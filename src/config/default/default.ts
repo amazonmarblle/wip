@@ -6,12 +6,12 @@ export const DEFAULT_CONFIG = {
   // prodApiEndpoint: 'https://amazon-api.herokuapp.com/',
   // prodApiEndpoint: 'http://localhost:3000/',
   frontEndUrl: 'https://angularamazon.firebaseapp.com/',
-  appName: 'Amazon',
+  appName: 'Exa',
   fevicon: '/assets/default/favicon',
   header: {
     brand: {
       logo: '/assets/default/logo.svg',
-      name: 'Amazon',
+      name: 'Exa',
       height: '42',
       width: '140'
     },

@@ -3,7 +3,7 @@ const cdn_url = null;
 export const DEFAULT_APP_DATA = {
   landing_page_banner: [
     {
-      image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FTest.gif?alt=media&token=9d32d979-7b29-4c14-95f4-c47a9f14538b`,
+      image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2Fbanner-1.gif?alt=media&token=22815126-7d72-4641-bbb0-1004ad5dc40f`,
       link_url: '#'
     },
     {
@@ -19,8 +19,12 @@ export const DEFAULT_APP_DATA = {
       link_url: '#'
     }
   ],
-  promo_banner: {
-    image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FpromoBanner.png?alt=media&token=30d886e3-e84b-47c6-bac5-0afa9587aaf3`,
+  promo_banner1: {
+    image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FpromoBanner1.png?alt=media&token=7ebf8cc6-ea83-47f7-bfb9-59978f0b5c43`,
+    link_url: '#'
+  },
+  promo_banner2: {
+    image_link: `https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2FpromoBanner2.png?alt=media&token=00cf9fe8-b289-4652-a47d-32b88825246a`,
     link_url: '#'
   },
   category_banner: {
@@ -69,39 +73,28 @@ export const DEFAULT_APP_DATA = {
   ],
   footer_social_links: [
     {
-      link_url: 'https://twitter.com/XYZ',
-      name: 'Twitter',
-      icon: 'fa fa-twitter-square'
-    },
-    {
-      link_url: 'https://www.instagram.com/XYZ/',
+      link_url: 'https://www.instagram.com/examarble/',
       name: 'Instagram',
       icon: 'fa fa-instagram'
     },
     {
-      link_url:
-        'https://plus.google.com/b/XYZ',
-      name: 'Google +',
-      icon: 'fa fa-google-plus-square'
-    },
-    {
-      link_url: 'https://in.pinterest.com/XYZ/',
-      name: 'Pinterest',
-      icon: 'fa fa-pinterest-square'
-    },
-    {
-      link_url: 'https://www.facebook.com/XYZ/',
+      link_url: 'https://www.facebook.com/exa.marble.7',
       name: 'Facebook',
       icon: 'fa fa-facebook-square'
     },
     {
-      link_url: 'https://www.youtube.com/channel/XYZ',
+      link_url: 'https://in.pinterest.com/examarble/',
+      name: 'Pinterest',
+      icon: 'fa fa-pinterest-square'
+    },
+    {
+      link_url: 'https://www.youtube.com/channel/UC22Z0C10npnZls4qJlY6kFA',
       name: 'Youtube',
       icon: 'fa fa-youtube-square'
     }
   ],
   contact_info: {
-    contact_no: '98291-26926',
-    copyright: 'Copyright © 2020 Amazon, Inc.'
+    contact_no: '90820-73532',
+    copyright: 'Copyright © 2020 Exa Marble'
   }
 };

@@ -1,8 +1,13 @@
-<section *ngIf="promo_banners">
+<section *ngIf="promo_banners1">
   <div class="row">
-    <a href={{promo_banners.link_url}} class="col">
-      <img src={{promo_banners.image_link}} class="img-fluid w-100">
+    <a href={{promo_banners1.link_url}} class="col">
+      <img src={{promo_banners1.image_link}} class="img-fluid w-100">
     </a>
   </div>
   <hr>
+  <div class="row">
+    <a href={{promo_banners2.link_url}} class="col">
+      <img src={{promo_banners2.image_link}} class="img-fluid w-100">
+    </a>
+  </div>
 </section>

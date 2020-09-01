@@ -128,7 +128,7 @@ export class CheckoutService {
       "payment_state": null,
       "email": null,
       "special_instructions": null,
-      "channel": "amazon",
+      "channel": "exa",
       "included_tax_total": "0.0",
       "additional_tax_total": "0.0",
       "display_included_tax_total": "$0.00",

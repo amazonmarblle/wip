@@ -8,7 +8,8 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class LpPromoComponent implements OnInit {
-  promo_banners = environment.config.promo_banner;
+  promo_banners1 = environment.config.promo_banner1;
+  promo_banners2 = environment.config.promo_banner2;
   constructor() { }
 
   ngOnInit() {
