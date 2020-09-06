@@ -7,6 +7,7 @@ import { AppState } from '../../../../../interfaces';
 import { Store } from '@ngrx/store';
 import { getTotalCartItems } from '../../../../../checkout/reducers/selectors';
 import { WindowService } from '../../../../../core/services/window.service';
+import { ToastrService } from 'ngx-toastr';
 import * as firebase from 'firebase';
 
 @Component({
@@ -35,7 +36,8 @@ export class ProductCountComponent implements OnInit {
   appConfig = environment.config;
   constructor(private router: Router,
     private store: Store<AppState>,
-    private win: WindowService) {
+    private win: WindowService,
+    private toastrService: ToastrService) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
   }
 
@@ -44,8 +46,7 @@ export class ProductCountComponent implements OnInit {
     this.windowRef.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
       'size': 'invisible'
     });
-
-    this.windowRef.recaptchaVerifier.render()
+    // this.windowRef.recaptchaVerifier.render()
   }
 
   increseCount() {
@@ -97,24 +98,39 @@ export class ProductCountComponent implements OnInit {
             .then(result => {
 
                 this.windowRef.confirmationResult = result;
-                this.windowRef.confirmationResult ? console.log('Message Sent') : console.log('Message Not Sent');
-
+                if (this.windowRef.confirmationResult) {
+                  this.isMobileNumberEntered = true;
+                  this.toastrService.success('You will receive OTP shortly.');
+                  console.log('SUCCESS', 'Message Sent')
+                } else {
+                  this.isMobileNumberEntered = false;
+                  this.toastrService.error('Error while receiving OTP, try another mobile.');
+                  console.log('ERROR', 'Message Not Sent')
+                }
             })
-            .catch( error => console.log(error) );
+            .catch( error => {
+              this.toastrService.error('Error while receiving OTP, try another mobile.');
+              this.isMobileNumberEntered = false;
+              this.isMobileNumberValidated = false;
+              this.isValidMobileNumber = false;
+              console.log('ERROR', 'Message Not Sent')
+            });
   }
 
   submitOtp() {
-    console.log(this.mobileNumber);
-    console.log(this.mobileNumberOtp);
-    this.isMobileNumberValidated = true;
+    
     this.windowRef.confirmationResult
                   .confirm(this.mobileNumberOtp.toString())
                   .then( result => {
-
-                    console.log(result.user);
-
+                    this.isMobileNumberValidated = true;
+                    this.toastrService.success('SUCCESS', 'Hurray! Now Submit your Enquiry!');
+                    console.log("Success!!");
     })
-    .catch( error => console.log(error, "Incorrect code entered?"));
+    .catch( error => {
+      this.isMobileNumberValidated = false; 
+      this.toastrService.error('ERROR', 'Incorrect code entered?');
+      console.log("OTP Failed!!");
+    });
   }
   
 }
