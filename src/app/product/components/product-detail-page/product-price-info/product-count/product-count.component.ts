@@ -9,6 +9,8 @@ import { getTotalCartItems } from '../../../../../checkout/reducers/selectors';
 import { WindowService } from '../../../../../core/services/window.service';
 import { ToastrService } from 'ngx-toastr';
 import * as firebase from 'firebase';
+import { isPlatformBrowser } from '@angular/common';
+import { Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-product-count',
@@ -37,7 +39,8 @@ export class ProductCountComponent implements OnInit {
     private store: Store<AppState>,
     private win: WindowService,
     private ref: ChangeDetectorRef,
-    private toastrService: ToastrService) {
+    private toastrService: ToastrService,
+    @Inject(PLATFORM_ID) private platformId: any) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
   }
 
@@ -52,6 +55,11 @@ export class ProductCountComponent implements OnInit {
       }
     });
     this.windowRef.recaptchaVerifier.render()
+    const mobileNumberFromStorage = this.getMobileNumberInLocalStorage();
+    if (mobileNumberFromStorage) {
+      this.mobileNumber = mobileNumberFromStorage;
+      this.isMobileNumberValidated = true;
+    }
   }
 
   increseCount() {
@@ -127,6 +135,7 @@ export class ProductCountComponent implements OnInit {
               this.isMobileNumberValidated = false;
               this.isValidMobileNumber = false;
               console.log('ERROR', error.message);
+              this.setMobileNumberInLocalStorage(false);
               this.ref.detectChanges();
             });
   }
@@ -139,14 +148,37 @@ export class ProductCountComponent implements OnInit {
                     this.isMobileNumberValidated = true;
                     this.toastrService.success('SUCCESS', 'Hurray! Now Submit your Enquiry!');
                     console.log("Success!!");
+                    this.setMobileNumberInLocalStorage(true);
                     this.ref.detectChanges();
     })
     .catch( error => {
       this.isMobileNumberValidated = false; 
       this.toastrService.error('ERROR', 'Incorrect code entered?');
       console.log("OTP Failed!!", error.message);
+      this.setMobileNumberInLocalStorage(false);
       this.ref.detectChanges();
     });
+  }
+
+  private setMobileNumberInLocalStorage(authenticated: boolean): void {
+    const jsonData = JSON.stringify(authenticated ? this.mobileNumber : null);
+    if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem('mobileNumber', jsonData);
+    }
+  }
+
+  private getMobileNumberInLocalStorage() {
+    const mobileNumber = isPlatformBrowser(this.platformId) ? JSON.parse(localStorage.getItem('mobileNumber')) : {};
+    return mobileNumber;
+  }
+
+  private resetMobile() {
+    this.setMobileNumberInLocalStorage(false);
+    this.mobileNumber = null;
+    this.isValidMobileNumber = false;
+    this.mobileNumberOtp = null;
+    this.isMobileNumberEntered = false;
+    this.isMobileNumberValidated = false;
   }
   
 }

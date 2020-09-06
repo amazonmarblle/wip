@@ -25,6 +25,7 @@
       <div class="buttons row" *ngIf="isOrderable">
         <input type="submit" class="btn col-12 themebtnprimary js-add-cart" value="Add to Cart" (click)="addToCart(count)">
         <button *ngIf="isMobileNumberValidated" (click)="buyNow(count)" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Send Enquiry</button>
+        <button *ngIf="isMobileNumberValidated" (click)="resetMobile()" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Not {{mobileNumber}}?</button>
         <button *ngIf="!isMobileNumberValidated" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Send Enquiry</button>
       </div>
       <div class="buttons row" *ngIf="!isOrderable">
