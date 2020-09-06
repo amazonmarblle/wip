@@ -13,6 +13,7 @@ import { NgProgressHttpModule } from '@ngx-progressbar/http';
 // Services
 import { AuthService } from './services/auth.service';
 import { ProductService } from './services/product.service';
+import { WindowService } from './services/window.service';
 import { AuthActions } from '../auth/actions/auth.actions';
 import { VariantRetriverService } from './services/variant-retriver.service';
 import { VariantParserService } from './services/variant-parser.service';
@@ -60,6 +61,7 @@ import { CanActivateViaAuthGuard } from './guards/auth.guard';
     CheckoutService,
     // ProductDummyService,
     ProductService,
+    WindowService,
     AuthActions,
     CheckoutActions,
     UserActions,

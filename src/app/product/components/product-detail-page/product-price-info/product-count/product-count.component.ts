@@ -6,6 +6,8 @@ import { Observable } from 'rxjs';
 import { AppState } from '../../../../../interfaces';
 import { Store } from '@ngrx/store';
 import { getTotalCartItems } from '../../../../../checkout/reducers/selectors';
+import { WindowService } from '../../../../../core/services/window.service';
+import * as firebase from 'firebase';
 
 @Component({
   selector: 'app-product-count',
@@ -27,16 +29,23 @@ export class ProductCountComponent implements OnInit {
   mobileNumberOtp: number;
   isMobileNumberEntered: boolean = false;
   isMobileNumberValidated: boolean = false;
+  windowRef: any;
 
   count: any = 100;
   appConfig = environment.config;
   constructor(private router: Router,
-    private store: Store<AppState>) {
+    private store: Store<AppState>,
+    private win: WindowService) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
   }
 
   ngOnInit() {
+    this.windowRef = this.win.windowRef
+    this.windowRef.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
+      'size': 'invisible'
+    });
 
+    this.windowRef.recaptchaVerifier.render()
   }
 
   increseCount() {
@@ -80,12 +89,32 @@ export class ProductCountComponent implements OnInit {
 
   getOtp() {
     this.isMobileNumberEntered = true;
+    const appVerifier = this.windowRef.recaptchaVerifier;
+
+    const num = '+91' + this.mobileNumber.toString();
+
+    firebase.auth().signInWithPhoneNumber(num, appVerifier)
+            .then(result => {
+
+                this.windowRef.confirmationResult = result;
+                this.windowRef.confirmationResult ? console.log('Message Sent') : console.log('Message Not Sent');
+
+            })
+            .catch( error => console.log(error) );
   }
 
   submitOtp() {
     console.log(this.mobileNumber);
     console.log(this.mobileNumberOtp);
     this.isMobileNumberValidated = true;
+    this.windowRef.confirmationResult
+                  .confirm(this.mobileNumberOtp.toString())
+                  .then( result => {
+
+                    console.log(result.user);
+
+    })
+    .catch( error => console.log(error, "Incorrect code entered?"));
   }
   
 }
