@@ -23,8 +23,8 @@
       </div>
       <div class="buttons row" *ngIf="isOrderable">
         <input type="submit" class="btn col-12 themebtnprimary js-add-cart" value="Add to Cart" (click)="addToCart(count)">
-        <button *ngIf="isValidMobileNumber" (click)="buyNow(count)" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Send Enquiry</button>
-        <button *ngIf="!isValidMobileNumber" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Send Enquiry</button>
+        <button *ngIf="isMobileNumberValidated" (click)="buyNow(count)" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Send Enquiry</button>
+        <button *ngIf="!isMobileNumberValidated" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Send Enquiry</button>
       </div>
       <div class="buttons row" *ngIf="!isOrderable">
         <input type="submit" class=" btn col-12 themebtnprimary themebtndisable" value="Out of Stock" (click)="addToCart(count)" disabled>
@@ -32,6 +32,11 @@
       <div *ngIf="isOrderable">
         <div class="register-input-item">
           <input type="number" class="register-user-input-mobile register-user-input" name="mobile" placeholder="Enter Mobile to Send Enquiry" [(ngModel)]="mobileNumber" (ngModelChange)="onMobileNumberChange($event)">
+          <input type="number" class="register-user-input-mobile register-user-input" name="mobileOtp" placeholder="Enter OTP Received" [(ngModel)]="mobileNumberOtp">
+          <button *ngIf="isValidMobileNumber && !isMobileNumberEntered" (click)="getOtp()" id="sign-in-button" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Get OTP</button>
+          <button *ngIf="!isValidMobileNumber && !isMobileNumberEntered" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Get OTP</button>
+          <button *ngIf="isMobileNumberEntered" (click)="submitOtp()" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Submit OTP</button>
+          <div id="recaptcha-container"></div>
           <!-- <div *ngIf="signUpForm.get('mobile').errors && signUpForm.get('mobile').touched">
             <span class="register-error-icon">!</span>
             <p class="register-error-message">{{signUpForm.get('mobile').errors.msg || 'Please enter a valid mobile number (10 digits)'}}</p>

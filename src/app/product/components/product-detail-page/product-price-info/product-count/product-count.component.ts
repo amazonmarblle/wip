@@ -24,6 +24,9 @@ export class ProductCountComponent implements OnInit {
   cartCount: number;
   mobileNumber: number;
   isValidMobileNumber: boolean = false;
+  mobileNumberOtp: number;
+  isMobileNumberEntered: boolean = false;
+  isMobileNumberValidated: boolean = false;
 
   count: any = 100;
   appConfig = environment.config;
@@ -71,6 +74,18 @@ export class ProductCountComponent implements OnInit {
       this.isValidMobileNumber = true;
     } else {
       this.isValidMobileNumber = false;
+      this.isMobileNumberEntered = false;
     }
   }
+
+  getOtp() {
+    this.isMobileNumberEntered = true;
+  }
+
+  submitOtp() {
+    console.log(this.mobileNumber);
+    console.log(this.mobileNumberOtp);
+    this.isMobileNumberValidated = true;
+  }
+  
 }

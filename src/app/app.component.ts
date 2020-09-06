@@ -43,6 +43,20 @@ export class AppComponent implements OnInit, OnDestroy {
           window.scrollTo(0, 0);
         }
         this.addMetaInfo();
+        // if (e.url && e.url.length != 0 && e.url.indexOf('id') >=0) {
+        //   const equalIndex = e.url.indexOf('=');
+        //   const length = e.url.length;
+        //   const myId = Number(e.url.substring(equalIndex+1,length));
+        //   if (0 < myId && myId < 100) {
+        //     this.router.navigate(['/search'], {
+        //       queryParams: {
+        //         'q[name_cont]': "White Marble",
+        //         id: myId
+        //       }
+        //     });
+        //   }
+          
+        // }
       });
 
     this.schema = {
