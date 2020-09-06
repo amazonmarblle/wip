@@ -30,7 +30,7 @@
       <div class="buttons row" *ngIf="!isOrderable">
         <input type="submit" class=" btn col-12 themebtnprimary themebtndisable" value="Out of Stock" (click)="addToCart(count)" disabled>
       </div>
-      <div *ngIf="isOrderable">
+      <div *ngIf="isOrderable && !isMobileNumberValidated">
         <div class="register-input-item">
           <input type="number" class="register-user-input-mobile register-user-input" name="mobile" placeholder="Enter Mobile to Send Enquiry" [(ngModel)]="mobileNumber" (ngModelChange)="onMobileNumberChange($event)">
           <input type="number" class="register-user-input-mobile register-user-input" name="mobileOtp" placeholder="Enter OTP Received" [(ngModel)]="mobileNumberOtp">

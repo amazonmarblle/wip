@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation, Output, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation, Output, EventEmitter, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Product } from '../../../../../core/models/product';
 import { Router } from '@angular/router';
 import { environment } from '../../../../../../environments/environment';
@@ -14,7 +14,6 @@ import * as firebase from 'firebase';
   selector: 'app-product-count',
   templateUrl: './product-count.component.html',
   styleUrls: ['./product-count.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None
 })
 export class ProductCountComponent implements OnInit {
@@ -37,16 +36,22 @@ export class ProductCountComponent implements OnInit {
   constructor(private router: Router,
     private store: Store<AppState>,
     private win: WindowService,
+    private ref: ChangeDetectorRef,
     private toastrService: ToastrService) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
   }
 
   ngOnInit() {
     this.windowRef = this.win.windowRef
-    this.windowRef.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
-      'size': 'invisible'
+    this.windowRef.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container',
+    {
+      size: "invisible",
+      callback: (response) => {
+        console.log("in the callback", response);
+        this.getOtp;
+      }
     });
-    // this.windowRef.recaptchaVerifier.render()
+    this.windowRef.recaptchaVerifier.render()
   }
 
   increseCount() {
@@ -82,9 +87,11 @@ export class ProductCountComponent implements OnInit {
   onMobileNumberChange(mobile) {
     if (/^\d{10}$/.test(mobile)) {
       this.isValidMobileNumber = true;
+      this.ref.detectChanges();
     } else {
       this.isValidMobileNumber = false;
       this.isMobileNumberEntered = false;
+      this.ref.detectChanges();
     }
   }
 
@@ -100,20 +107,27 @@ export class ProductCountComponent implements OnInit {
                 this.windowRef.confirmationResult = result;
                 if (this.windowRef.confirmationResult) {
                   this.isMobileNumberEntered = true;
-                  this.toastrService.success('You will receive OTP shortly.');
-                  console.log('SUCCESS', 'Message Sent')
+                  
+                  this.toastrService.success('Success', 'You will receive OTP shortly.');
+                  
+                  // this.toastrService.success('Success!', 'Cart updated!')
+                  console.log('SUCCESS', 'Message Sent');
                 } else {
                   this.isMobileNumberEntered = false;
-                  this.toastrService.error('Error while receiving OTP, try another mobile.');
-                  console.log('ERROR', 'Message Not Sent')
+                  this.toastrService.error('Error', 'Error while receiving OTP, try another mobile.');
+                  // this.toastrService.success('Success!', 'Cart updated!')
+                  console.log('ERROR', 'Message Not Sent 1');
                 }
+                this.ref.detectChanges();
             })
             .catch( error => {
-              this.toastrService.error('Error while receiving OTP, try another mobile.');
+              this.toastrService.error('Error', 'Error while receiving OTP, try another mobile.');
+              // this.toastrService.success('Success!', 'Cart updated!')
               this.isMobileNumberEntered = false;
               this.isMobileNumberValidated = false;
               this.isValidMobileNumber = false;
-              console.log('ERROR', 'Message Not Sent')
+              console.log('ERROR', error.message);
+              this.ref.detectChanges();
             });
   }
 
@@ -125,11 +139,13 @@ export class ProductCountComponent implements OnInit {
                     this.isMobileNumberValidated = true;
                     this.toastrService.success('SUCCESS', 'Hurray! Now Submit your Enquiry!');
                     console.log("Success!!");
+                    this.ref.detectChanges();
     })
     .catch( error => {
       this.isMobileNumberValidated = false; 
       this.toastrService.error('ERROR', 'Incorrect code entered?');
-      console.log("OTP Failed!!");
+      console.log("OTP Failed!!", error.message);
+      this.ref.detectChanges();
     });
   }
   
