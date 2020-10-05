@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { getProductsByKeyword } from './../../../../home/reducers/selectors';
 import { SearchActions } from './../../../../home/reducers/search.actions';
 import { ToastrService } from 'ngx-toastr';
-import { Router } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 import { AppState } from './../../../../interfaces';
 import { Store } from '@ngrx/store';
 import { CheckoutActions } from './../../../../checkout/actions/checkout.actions';
@@ -66,7 +66,16 @@ export class ProductDetailsComponent implements OnInit {
     private title: Title,
     @Inject(PLATFORM_ID) private platformId: any
   ) {
-
+    this.router.events.subscribe((ev) => {
+      if (ev instanceof NavigationEnd) { 
+        console.log('From Product');
+        if(ev.urlAfterRedirects.indexOf('id=') != -1 && ev.urlAfterRedirects.indexOf('search') == -1) {
+          const newUrl = ev.urlAfterRedirects.replace(ev.urlAfterRedirects.substring(0, ev.urlAfterRedirects.indexOf('?')), '/search')
+          console.warn('URL REwritten from old: ' + ev.urlAfterRedirects + ' To: ' + newUrl);
+          this.router.navigateByUrl(newUrl);
+        }
+      }
+    });
   }
 
   ngOnInit() {
@@ -106,7 +115,7 @@ export class ProductDetailsComponent implements OnInit {
 
     if (this.product.taxon_ids[0]) {
       this.store.dispatch(
-        this.searchActions.getProductsByTaxon(`id=${this.product.taxon_ids[0]}`)
+        this.searchActions.getProductsByTaxon(`id=1008`)
       );
       this.similarProducts$ = this.store.select(getProductsByKeyword);
     }

@@ -5,6 +5,7 @@
     "minor": "italianImported",
     "version": "vietnamWhiteItalianImported",
     "taxon_ids": [
+        1008,
         3,
         57
     ],
@@ -22,6 +23,7 @@
         "meta_keywords": "",
         "shipping_category_id": 1,
         "taxon_ids": [
+            1008,
             3,
             57
         ],

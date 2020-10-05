@@ -12,7 +12,10 @@ import { Product } from './../../../core/models/product';
 @Injectable()
 export class FilterPipe implements PipeTransform {
   transform(products: Product[], selectedTaxonIds: number[]): any[] {
-    const selectedIds = selectedTaxonIds;
+    const equalIndex = location.href.indexOf('id=');
+    const length = location.href.length;
+    console.log('Filtering ' + products.length + ' products ' + ' using taxonId: ' + Number(location.href.substring(equalIndex+3,length)));
+    const selectedIds = [Number(location.href.substring(equalIndex+3,length))];
     if (!products) {
       return [];
     }

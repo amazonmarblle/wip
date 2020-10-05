@@ -74,10 +74,10 @@ export class ProductEffects {
     .pipe(
       switchMap((action: any) => {
         if (action.payload && action.payload.length != 0 && action.payload.indexOf('id') >=0 && action.payload) {
-          const equalIndex = action.payload.indexOf('=');
+          const equalIndex = action.payload.indexOf('id=');
           const length = action.payload.length;
-          console.log("Searhing toxon products by taxon id= " + Number(action.payload.substring(equalIndex+1,length)));
-          return this.productService.getProductsByTaxon(Number(action.payload.substring(equalIndex+1,length)));
+          console.log("Searhing toxon products by taxon id= " + Number(action.payload.substring(equalIndex+3,length)));
+          return this.productService.getProductsByTaxon(Number(action.payload.substring(equalIndex+3,length)));
         }
       }
       ),

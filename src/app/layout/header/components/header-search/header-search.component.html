@@ -10,7 +10,7 @@
     'themecolor':isSearchopen }">
     <i class="fa fa-search" (click)="showsearch()"></i>
   </a> -->
-  <div (click)="onSearch(box.value)" *ngIf="isSearchopen" class="searchinput">
+  <div (click)="onSearch(box.value)" *ngIf="false" class="searchinput">
     <div class="search-container">
       <input class="desktop-search-bar bg-white" type="search" placeholder="{{searchPlaceholder}}" aria-label="Search" #box (keyup.enter)="onSearch(box.value)"
         (focus)="onFoucs()" (blur)="onFoucsOut()">
