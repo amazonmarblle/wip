@@ -9,6 +9,7 @@ import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { forkJoin } from "rxjs/observable/forkJoin";
 import { AngularFirestore } from '@angular/fire/firestore';
+import { NgxUiLoaderService } from 'ngx-ui-loader';
 
 @Injectable()
 export class ProductService {
@@ -22,7 +23,8 @@ export class ProductService {
     private http: HttpClient,
     private toastrService: ToastrService,
     private apiParser: JsonApiParserService,
-    private firestore: AngularFirestore
+    private firestore: AngularFirestore,
+    private ngxService: NgxUiLoaderService
   ) { }
   // tslint:disable-next-line:member-ordering
   success: any;
@@ -37,10 +39,12 @@ export class ProductService {
    * @memberof ProductService
    */
   getProduct(id: string): Observable<Product> {
+    this.ngxService.start();
     return this.firestore.collection('allProducts_DetailPage', ref => ref.where('version', '==', id)).get()
       .pipe(
         map(
           querySnapshot => {
+            this.ngxService.stop();
             let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
@@ -63,10 +67,12 @@ export class ProductService {
    * @memberof ProductService
    */
   getTaxonomies(): any {
+    this.ngxService.start();
     return this.firestore.collection('taxonomies_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
+            this.ngxService.stop();
             let taxonomies: Array<Taxonomy> = [];
             querySnapshot.forEach(function (doc) {
               taxonomies.push(doc.data() as Taxonomy);
@@ -85,10 +91,12 @@ export class ProductService {
    * @memberof ProductService
    */
   getProducts(pageNumber: number): Observable<Array<Product>> {
+    this.ngxService.start();
     return this.firestore.collection('allProductsMini_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
+            this.ngxService.stop();
             let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
@@ -108,10 +116,12 @@ export class ProductService {
   }
 
   getFavoriteProducts(): Observable<Array<Product>> {
+    this.ngxService.start();
     return this.firestore.collection('favouriteProducts_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
+            this.ngxService.stop();
             let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
@@ -123,10 +133,12 @@ export class ProductService {
   }
   
   getTopRatedProducts(): Observable<Array<Product>> {
+    this.ngxService.start();
     return this.firestore.collection('topRatedProducts_LandingPage').get()
       .pipe(
         map(
           querySnapshot => {
+            this.ngxService.stop();
             let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
@@ -138,23 +150,29 @@ export class ProductService {
   }
 
   getUserFavoriteProducts(): Observable<Array<Product>> {
+    this.ngxService.start();
     return this.http
       .get<{ data: CJsonApi[] }>(
         `amazon/user_favorite_products.json?data_set=small`
       )
       .pipe(
         map(
-          resp => this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+          resp => {
+            this.ngxService.stop();
+            return this.apiParser.parseArrayofObject(resp.data) as Array<Product>
+          }
         )
       );
   }
 
   // tslint:disable-next-line:max-line-length
   getProductsByTaxon(id: number): Observable<any> {
+    this.ngxService.start();
     return this.firestore.collection('allProducts_DetailPage', ref => ref.where('taxon_ids', 'array-contains', id)).get()
       .pipe(
         map(
           querySnapshot => {
+            this.ngxService.stop();
             let products: Array<Product> = [];
             querySnapshot.forEach(function (doc) {
               products.push(doc.data() as Product);
@@ -169,6 +187,7 @@ export class ProductService {
   }
 
   getProductsByTaxonNP(id: string): Observable<Array<Product>> {
+    this.ngxService.start();
     let products = this.firestore.collection('allProductsFull_LandingPage').get();
     let consiceProducts = this.firestore.collection('allProductsMini_LandingPage').get();
 
@@ -187,6 +206,7 @@ export class ProductService {
           if (productIds.indexOf(doc.data().id) != -1)
             products.push(doc.data() as Product);
         });
+        this.ngxService.stop();
         console.error("Optimize this call to use the cached consiceProduct data instead of new db call");
         return this.apiParser.parseArrayofObject(products) as Array<Product>;
       }
@@ -194,9 +214,11 @@ export class ProductService {
   }
 
   getTaxonByName(name: string): Observable<Array<Taxonomy>> {
+    this.ngxService.start();
     return this.firestore.collection('taxonomies_LandingPage', ref => ref.where('name', '==', name)).get().pipe(
       map(
         querySnapshot => {
+          this.ngxService.stop();
           let taxonomies: Array<Taxonomy> = [];
           querySnapshot.forEach(function (doc) {
             taxonomies.push(doc.data() as Taxonomy);
@@ -208,12 +230,14 @@ export class ProductService {
   }
 
   getproductsByKeyword(keyword: string): Observable<any> {
+    this.ngxService.start();
     return this.http
       .get<{ data: CJsonApi[]; pagination: Object }>(
         `api/v1/products?${keyword}&per_page=20&data_set=small&${+new Date().getDate()}`
       )
       .pipe(
         map(resp => {
+          this.ngxService.stop();
           return {
             pagination: resp.pagination,
             products: this.apiParser.parseArrayofObject(resp.data) as Array<

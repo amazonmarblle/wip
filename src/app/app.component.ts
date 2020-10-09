@@ -12,6 +12,7 @@ import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core
 import { Router, NavigationEnd } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 import { isPlatformBrowser } from '../../node_modules/@angular/common';
+import { SPINNER } from 'ngx-ui-loader';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +26,9 @@ export class AppComponent implements OnInit, OnDestroy {
   checkoutUrls = ['/checkout/cart', '/checkout/address', '/checkout/payment'];
   layoutState$: Observable<LayoutState>;
   schema = {};
+  loaderType: string;
+  loaderColor: string;
+  loaderLogoUrl: string;
 
   constructor(
     private router: Router,
@@ -34,6 +38,9 @@ export class AppComponent implements OnInit, OnDestroy {
     private meta: Meta,
     @Inject(PLATFORM_ID) private platformId: any
   ) {
+    this.loaderType = SPINNER.ballScaleMultiple;
+    this.loaderColor = "#225378";
+    this.loaderLogoUrl = "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F201_main.jpg?alt=media&token=704c8a3e-9b41-4c27-8f6d-5b89682e788c";
     this.router.events
       .pipe(filter(e => e instanceof NavigationEnd))
       .subscribe((e: NavigationEnd) => {

@@ -1,8 +1,7 @@
 <ngx-json-ld [json]="schema"></ngx-json-ld>
 <div class="selected-theme">
   <section>
-    <ng-progress [color]="'red'" [spinner]="false"></ng-progress>
-
+    <ngx-ui-loader fgsSize="75" [fgsType]="loaderType" [fgsColor]="loaderColor" [logoUrl]="loaderLogoUrl"></ngx-ui-loader>
     <app-header *ngIf="currentUrl" [layoutState]="layoutState$ | async"></app-header>
 
     <main class="main-body">
@@ -11,3 +10,4 @@
     <app-footer *ngIf="currentUrl"></app-footer>
   </section>
 </div>
+

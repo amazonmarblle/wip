@@ -30,6 +30,7 @@ import { CheckoutHeaderComponent } from './layout/checkout-header/checkout-heade
 import { CheckoutFooterComponent } from './layout/checkout-footer/checkout-footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { NgxUiLoaderModule } from 'ngx-ui-loader';
 
 
 @NgModule({
@@ -62,6 +63,7 @@ import { ToastrModule } from 'ngx-toastr';
     }),
     CoreModule,
     SharedModule,
+    NgxUiLoaderModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [AppPreloadingStrategy],

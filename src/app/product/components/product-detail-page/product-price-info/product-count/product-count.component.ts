@@ -11,6 +11,7 @@ import { ToastrService } from 'ngx-toastr';
 import * as firebase from 'firebase';
 import { isPlatformBrowser } from '@angular/common';
 import { Inject, PLATFORM_ID } from '@angular/core';
+import { NgxUiLoaderService } from 'ngx-ui-loader';
 
 @Component({
   selector: 'app-product-count',
@@ -40,6 +41,7 @@ export class ProductCountComponent implements OnInit {
     private win: WindowService,
     private ref: ChangeDetectorRef,
     private toastrService: ToastrService,
+    private ngxService: NgxUiLoaderService,
     @Inject(PLATFORM_ID) private platformId: any) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
   }
@@ -104,6 +106,7 @@ export class ProductCountComponent implements OnInit {
   }
 
   getOtp() {
+    this.ngxService.start();
     this.isMobileNumberEntered = true;
     const appVerifier = this.windowRef.recaptchaVerifier;
 
@@ -111,7 +114,7 @@ export class ProductCountComponent implements OnInit {
 
     firebase.auth().signInWithPhoneNumber(num, appVerifier)
             .then(result => {
-
+              this.ngxService.stop();
                 this.windowRef.confirmationResult = result;
                 if (this.windowRef.confirmationResult) {
                   this.isMobileNumberEntered = true;
@@ -129,6 +132,7 @@ export class ProductCountComponent implements OnInit {
                 this.ref.detectChanges();
             })
             .catch( error => {
+              this.ngxService.stop();
               this.toastrService.error('Error', 'Error while receiving OTP, try another mobile.');
               // this.toastrService.success('Success!', 'Cart updated!')
               this.isMobileNumberEntered = false;
@@ -141,10 +145,11 @@ export class ProductCountComponent implements OnInit {
   }
 
   submitOtp() {
-    
+    this.ngxService.start();
     this.windowRef.confirmationResult
                   .confirm(this.mobileNumberOtp.toString())
                   .then( result => {
+                    this.ngxService.stop();
                     this.isMobileNumberValidated = true;
                     this.toastrService.success('SUCCESS', 'Hurray! Now Submit your Enquiry!');
                     console.log("Success!!");
@@ -152,6 +157,7 @@ export class ProductCountComponent implements OnInit {
                     this.ref.detectChanges();
     })
     .catch( error => {
+      this.ngxService.stop();
       this.isMobileNumberValidated = false; 
       this.toastrService.error('ERROR', 'Incorrect code entered?');
       console.log("OTP Failed!!", error.message);
