@@ -10,10 +10,10 @@ export const DEFAULT_CONFIG = {
   fevicon: '/assets/default/favicon',
   header: {
     brand: {
-      logo: '/assets/default/logo.svg',
+      logo: '/assets/default/currentLogo2.png',
       name: 'Exa',
-      height: '42',
-      width: '140'
+      height: '110',
+      width: '110'
     },
     searchPlaceholder: 'Your search for Most Exclusive Marble & Granite ends here',
     showGithubRibon: false

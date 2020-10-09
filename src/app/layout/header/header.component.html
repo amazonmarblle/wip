@@ -21,7 +21,7 @@
           <app-header-search [isMobile]="isMobile" (onSubCatClicked)="childCatLoaded($event)" [isSearchopen]="isSearchopen"></app-header-search>
         </div>
         <div class="mlogo">
-          <a class="navbar-brand small-logo" routerLink="/" *ngIf="isMobile">
+          <a class="navbar-brand small-logo mobile-logo-center" routerLink="/" *ngIf="isMobile">
             <img [src]="this.headerConfig.brand.logo" [alt]="this.headerConfig.brand.name" [width]="this.headerConfig.brand.width" height="this.headerConfig.brand.height"
               class="d-inline-block align-top" alt="">
           </a>

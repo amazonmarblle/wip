@@ -39,8 +39,8 @@ export class AppComponent implements OnInit, OnDestroy {
     @Inject(PLATFORM_ID) private platformId: any
   ) {
     this.loaderType = SPINNER.ballScaleMultiple;
-    this.loaderColor = "#225378";
-    this.loaderLogoUrl = "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F201_main.jpg?alt=media&token=704c8a3e-9b41-4c27-8f6d-5b89682e788c";
+    this.loaderColor = "#FFFFFF";
+    this.loaderLogoUrl = "/assets/default/spinnerLogo.png";
     this.router.events
       .pipe(filter(e => e instanceof NavigationEnd))
       .subscribe((e: NavigationEnd) => {

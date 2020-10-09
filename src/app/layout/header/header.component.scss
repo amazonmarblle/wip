@@ -73,6 +73,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  .mobile-logo-center {
+    margin-right: 0px !important;
+  }
 }
 
 .cart {
@@ -93,7 +96,7 @@
 }
 
 .small-logo img {
-  width: 120px;
+  width: 50px;
   margin-top: 0;
 }
 
