@@ -65,10 +65,6 @@ export const DEFAULT_APP_DATA = {
     {
       name: 'FAQs',
       link_url: '#'
-    },
-    {
-      name: 'Testimonials',
-      link_url: '#'
     }
   ],
   footer_social_links: [

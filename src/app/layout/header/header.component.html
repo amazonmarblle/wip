@@ -6,7 +6,7 @@
         <img [src]="this.headerConfig.brand.logo" [alt]="this.headerConfig.brand.name" [width]="this.headerConfig.brand.width" [height]="this.headerConfig.brand.height"
           class="d-inline-block align-top" alt="">
       </a>
-      <a (click)="showModal()" for="main-nav-state" class="main-nav-trigger" *ngIf="isMobile" [ngClass]="{'main-nav-trigger-open':isModalShown}">
+      <a id="step4" (click)="showModal()" for="main-nav-state" class="main-nav-trigger" *ngIf="isMobile" [ngClass]="{'main-nav-trigger-open':isModalShown}">
         <span></span>
       </a>
       <!-- Collect the nav links, forms, and other content for toggling -->
