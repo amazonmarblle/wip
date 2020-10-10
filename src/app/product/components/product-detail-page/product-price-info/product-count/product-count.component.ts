@@ -85,8 +85,9 @@ export class ProductCountComponent implements OnInit {
     if (mobileNumberFromStorage) {
       this.mobileNumber = mobileNumberFromStorage;
       this.isMobileNumberValidated = true;
+    } else {
+      setTimeout(() => this.introJS2.start(), 5000);
     }
-    setTimeout(() => this.introJS2.start(), 5000);
   }
 
   increseCount() {
