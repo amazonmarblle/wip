@@ -12,6 +12,7 @@ import * as firebase from 'firebase';
 import { isPlatformBrowser } from '@angular/common';
 import { Inject, PLATFORM_ID } from '@angular/core';
 import { NgxUiLoaderService } from 'ngx-ui-loader';
+import * as introJs from '../../../../../../../node_modules/intro.js/intro.js';
 
 @Component({
   selector: 'app-product-count',
@@ -36,6 +37,7 @@ export class ProductCountComponent implements OnInit {
 
   count: any = 100;
   appConfig = environment.config;
+  introJS2 = introJs();
   constructor(private router: Router,
     private store: Store<AppState>,
     private win: WindowService,
@@ -44,6 +46,28 @@ export class ProductCountComponent implements OnInit {
     private ngxService: NgxUiLoaderService,
     @Inject(PLATFORM_ID) private platformId: any) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
+    this.introJS2.setOptions({
+      steps: [
+        {
+          element: '#step5',
+          intro: 'Enter Mobile Number',
+          position: 'bottom'
+        },
+        {
+          element: '#step6',
+          intro: "Get OTP & Submit the received OTP",
+          position: 'bottom'
+        },
+        {
+          element: '#step8',
+          intro: 'Submit Enquiry, we will reach out to you.',
+          position: 'bottom'
+        }
+      ],
+      showProgress: true
+    });
+    this.introJS2.oncomplete(this.handleOnComplete);
+    this.introJS2.onexit(() => this.handleOnExit(introJs));
   }
 
   ngOnInit() {
@@ -62,6 +86,7 @@ export class ProductCountComponent implements OnInit {
       this.mobileNumber = mobileNumberFromStorage;
       this.isMobileNumberValidated = true;
     }
+    setTimeout(() => this.introJS2.start(), 5000);
   }
 
   increseCount() {
@@ -186,5 +211,18 @@ export class ProductCountComponent implements OnInit {
     this.isMobileNumberEntered = false;
     this.isMobileNumberValidated = false;
   }
+
+  scollTop() {
+    if (isPlatformBrowser(this.platformId)) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  handleOnComplete = () => {
+    this.scollTop();
+  }
+  handleOnExit = (introJs) => {
+    this.scollTop();
+  };
   
 }

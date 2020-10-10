@@ -2,6 +2,8 @@ import { environment } from './../../../../../environments/environment';
 import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '../../../../../../node_modules/@angular/common';
 import * as introJs from '../../../../../../node_modules/intro.js/intro.js';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-footer-contact-info',
@@ -11,7 +13,7 @@ import * as introJs from '../../../../../../node_modules/intro.js/intro.js';
 export class FooterContactInfoComponent implements OnInit {
   contact_info = environment.config.contact_info;
   introJS = introJs();
-  constructor(@Inject(PLATFORM_ID) private platformId: any) {
+  constructor(@Inject(PLATFORM_ID) private platformId: any, private router: Router) {
     this.introJS.setOptions({
       steps: [
         {
@@ -37,8 +39,10 @@ export class FooterContactInfoComponent implements OnInit {
   }
 
   ngOnInit() {
-    setTimeout(() => this.introJS.start(), 6000);
-
+    console.log("The URL is:", this.router.url);
+    if(this.router.url === '/') {
+      setTimeout(() => this.introJS.start(), 6000);
+    }
   }
   scollTop() {
     if (isPlatformBrowser(this.platformId)) {
