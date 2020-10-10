@@ -60,7 +60,7 @@ export class ProductCountComponent implements OnInit {
         },
         {
           element: '#step8',
-          intro: 'Submit Enquiry, we will reach out to you.',
+          intro: 'Submit Enquiry, we will reach out to you (Click Done).',
           position: 'bottom'
         }
       ],

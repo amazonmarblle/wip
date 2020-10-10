@@ -28,7 +28,7 @@ export class FooterContactInfoComponent implements OnInit {
         },
         {
           element: '#step4',
-          intro: 'Click to view more Products.',
+          intro: 'Click to view more Products. (Click Done)',
           position: 'top'
         }
       ],
@@ -50,10 +50,10 @@ export class FooterContactInfoComponent implements OnInit {
     }
   }
 
-  handleOnComplete() {
+  handleOnComplete = () => {
     this.scollTop();
   }
-  handleOnExit(introJs) {
+  handleOnExit = (introJs) => {
     this.scollTop();
   };
 }
