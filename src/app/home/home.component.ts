@@ -12,11 +12,12 @@ import { ProductActions } from './../product/actions/product-actions';
 import { AppState } from './../interfaces';
 import { getTaxonomies, rootTaxonomyId } from './../product/reducers/selectors';
 import { Store } from '@ngrx/store';
-import { Observable } from 'rxjs';
+import { from, Observable } from 'rxjs';
 import { Component, OnInit, ViewChild, ChangeDetectionStrategy, PLATFORM_ID, Inject } from '@angular/core';
 import { ModalDirective } from 'ngx-bootstrap/modal';
 import { Product } from '../core/models/product';
 import { isPlatformBrowser } from '../../../node_modules/@angular/common';
+import { map, take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -38,6 +39,7 @@ export class HomeComponent implements OnInit {
   screenwidth;
   isMobile;
   rootTaxonomyId: any;
+  products: Product[];
   constructor(
     private store: Store<AppState>,
     private actions: ProductActions,
@@ -49,6 +51,9 @@ export class HomeComponent implements OnInit {
     this.brands$ = this.store.select(getTaxonomies);
     this.selectedTaxonIds$ = this.store.select(getSelectedTaxonIds);
     this.products$ = this.store.select(getProductsByKeyword);
+
+    this.store.select(getProductsByKeyword).subscribe(s => this.products = s);
+
     this.pagination$ = this.store.select(getPaginationData);
     this.isFilterOn$ = this.store.select(searchFilterStatus);
     this.store.select(rootTaxonomyId)
@@ -97,5 +102,19 @@ export class HomeComponent implements OnInit {
 
   isOpenChangeaccourdian() {
     this.isCategoryOpen = !this.isCategoryOpen;
+  }
+
+  sortingUpdated(selectedIndex) {
+    if (selectedIndex.value == "Z To A") {
+      this.products = [...this.products.sort((p1, p2) => p1.name < p2.name ? 1 : -1)];
+    } else if (selectedIndex.value == "A To Z") {
+      this.products = [...this.products.sort((p1, p2) => p1.name > p2.name ? 1 : -1)];
+    } else if (selectedIndex.value == "Avg.Customer Review") {
+      this.products = [...this.products.sort((p1, p2) => p1.avg_rating < p2.avg_rating ? 1 : -1)];
+    } else if (selectedIndex.value == "Price") {
+      this.products = [...this.products.sort((p1, p2) => p1.price < p2.price ? 1 : -1)];
+    } else {
+      this.products = [...this.products.sort((p1, p2) => p1.name > p2.name ? 1 : -1)];
+    }
   }
 }

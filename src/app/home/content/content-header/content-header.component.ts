@@ -9,19 +9,22 @@ import { isPlatformBrowser } from '../../../../../node_modules/@angular/common';
 })
 export class ContentHeaderComponent implements OnInit {
   @Output() toggleSize = new EventEmitter();
+  @Output() sortingUpdated = new EventEmitter<Object>();
   @Input() paginationInfo;
   @Input() fillterList;
+  @Input() products;
   subselectedItem;
   childselectedItem;
   screenWidth: any;
+  filteredProducts;
 
   options = [
-    { name: 'Newest', value: 1 },
+    { name: 'Price', value: 1 },
     { name: 'Avg.Customer Review', value: 2 },
-    { name: 'Most Reviews', value: 3 },
+    // { name: 'Most Reviews', value: 3 },
     { name: 'A To Z', value: 4 },
     { name: 'Z To A', value: 5 },
-    { name: 'Relevence', value: 6 }
+    { name: 'Newest', value: 6 }
   ];
 
   queryMap = {
@@ -33,14 +36,14 @@ export class ContentHeaderComponent implements OnInit {
     Relevance: '',
   };
 
-  selectedOption = 'Relevance';
+  selectedOption = 'Newest';
   isMobile: any;
   selectedSize = 'COZY';
   searchKeyword = '';
   selectedEntry;
   isfilterModalShown;
   issortModalShown;
-  defaultselectedEntry = 'Relevance';
+  defaultselectedEntry = 'Newest';
   constructor(private routernomal: Router, @Inject(PLATFORM_ID) private platformId: any) { }
 
   sortModalShow() { this.issortModalShown = true; }
@@ -66,6 +69,25 @@ export class ContentHeaderComponent implements OnInit {
         this.screenWidth = window.screen.width;
       }
     }
+    const equalIndex = location.href.indexOf('id=');
+    const length = location.href.length;
+    console.log('Filtering ' + this.products.length + ' products ' + ' using taxonId: ' + Number(location.href.substring(equalIndex+3,length)));
+    const selectedIds = [Number(location.href.substring(equalIndex+3,length))];
+    if (!this.products) {
+      return [];
+    }
+    if (!selectedIds || selectedIds.length === 0) {
+      return this.products;
+    }
+    this.filteredProducts = this.products.filter(product => {
+      let productPresent = false;
+      selectedIds.forEach(id => {
+        if (product.taxon_ids.findIndex(taxon_id => taxon_id === id) !== -1) {
+          productPresent = true;
+        }
+      });
+      return productPresent;
+    });
   }
 
   toggleView(view) {
@@ -93,12 +115,6 @@ export class ContentHeaderComponent implements OnInit {
   }
 
   sortFilter(i) {
-    const urlTree = this.routernomal.createUrlTree([], {
-      queryParams: { 'q[s]': this.queryMap[i] },
-      queryParamsHandling: 'merge',
-      preserveFragment: true,
-    });
-    this.routernomal.navigateByUrl(urlTree);
-    this.selectedOption = i;
+    this.sortingUpdated.emit({ value: i });
   }
 }

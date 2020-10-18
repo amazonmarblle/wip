@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation, Output, EventEmitter, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation, Output, EventEmitter, ChangeDetectionStrategy, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { Product } from '../../../../../core/models/product';
 import { Router } from '@angular/router';
 import { environment } from '../../../../../../environments/environment';
@@ -20,11 +20,12 @@ import * as introJs from '../../../../../../../node_modules/intro.js/intro.js';
   styleUrls: ['./product-count.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class ProductCountComponent implements OnInit {
+export class ProductCountComponent implements OnInit, OnDestroy {
   @Input() product: Product;
   @Input() isOrderable;
   @Output() onAddToCart = new EventEmitter<Object>();
   @Output() onMarkAsFavorites = new EventEmitter<Object>();
+  introTimer;
 
   totalCartItems$: Observable<number>;
   cartCount: number;
@@ -86,7 +87,7 @@ export class ProductCountComponent implements OnInit {
       this.mobileNumber = mobileNumberFromStorage;
       this.isMobileNumberValidated = true;
     } else {
-      setTimeout(() => this.introJS2.start(), 5000);
+      this.introTimer = setTimeout(() => this.introJS2.start(), 5000);
     }
   }
 
@@ -225,5 +226,9 @@ export class ProductCountComponent implements OnInit {
   handleOnExit = (introJs) => {
     this.scollTop();
   };
+
+  ngOnDestroy() {
+    clearInterval(this.introTimer);
+  }
   
 }

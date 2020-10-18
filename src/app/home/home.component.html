@@ -11,7 +11,7 @@
           <app-brand-filter [taxonomiList]="brands$ | async" [isFilterOn]="isFilterOn$ | async"></app-brand-filter> -->
         </div>
         <div class="col-lg-9 col-12 col-sm-12" [ngClass]="[isMobile ? 'p-0' : '']">
-          <app-content [productsList]="products$ | async" [paginationData]="paginationData" [fillterList]="taxonomies" class="col-12">
+          <app-content [productsList]="products" [paginationData]="paginationData" [fillterList]="taxonomies" (sortingUpdated)="sortingUpdated($event)" class="col-12">
             <!-- [taxonIds]="selectedTaxonIds$ | async"  -->
           </app-content>
         </div>

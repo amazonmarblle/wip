@@ -1,5 +1,5 @@
 import { environment } from './../../../../../environments/environment';
-import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID, OnDestroy } from '@angular/core';
 import { isPlatformBrowser } from '../../../../../../node_modules/@angular/common';
 import * as introJs from '../../../../../../node_modules/intro.js/intro.js';
 import { Router } from '@angular/router';
@@ -10,9 +10,10 @@ import { Router } from '@angular/router';
   templateUrl: './footer-contact-info.component.html',
   styleUrls: ['./footer-contact-info.component.scss']
 })
-export class FooterContactInfoComponent implements OnInit {
+export class FooterContactInfoComponent implements OnInit, OnDestroy {
   contact_info = environment.config.contact_info;
   introJS = introJs();
+  introTimer;
   constructor(@Inject(PLATFORM_ID) private platformId: any, private router: Router) {
     this.introJS.setOptions({
       steps: [
@@ -41,7 +42,7 @@ export class FooterContactInfoComponent implements OnInit {
   ngOnInit() {
     console.log("The URL is:", this.router.url);
     if(this.router.url === '/') {
-      setTimeout(() => this.introJS.start(), 6000);
+      this.introTimer = setTimeout(() => this.introJS.start(), 7000);
     }
   }
   scollTop() {
@@ -56,4 +57,8 @@ export class FooterContactInfoComponent implements OnInit {
   handleOnExit = (introJs) => {
     this.scollTop();
   };
+
+  ngOnDestroy() {
+    clearInterval(this.introTimer);
+  }
 }
