@@ -26,7 +26,6 @@
         <input type="submit" class="btn col-12 themebtnprimary js-add-cart" value="Add to Cart" (click)="addToCart(count)">
         <button *ngIf="isMobileNumberValidated" (click)="buyNow(count)" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Send Enquiry</button>
         <button *ngIf="isMobileNumberValidated" (click)="resetMobile()" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Not {{mobileNumber}}?</button>
-        <button id="step8" *ngIf="!isMobileNumberValidated" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Send Enquiry</button>
       </div>
       <div class="buttons row" *ngIf="!isOrderable">
         <input type="submit" class=" btn col-12 themebtnprimary themebtndisable" value="Out of Stock" (click)="addToCart(count)" disabled>
@@ -38,6 +37,8 @@
           <button *ngIf="isValidMobileNumber && !isMobileNumberEntered" (click)="getOtp()" id="sign-in-button" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Get OTP</button>
           <button id="step6" *ngIf="!isValidMobileNumber && !isMobileNumberEntered" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Get OTP</button>
           <button id="step7" *ngIf="isMobileNumberEntered" (click)="submitOtp()" class="btn col-12 themebtnprimary themebtnprimarysade mt-1">Submit OTP</button>
+          
+          <button id="step8" *ngIf="!isMobileNumberValidated" class="btn col-12 themebtnprimary themebtnprimarysade mt-1" disabled>Send Enquiry</button>
           <div id="recaptcha-container"></div>
           <!-- <div *ngIf="signUpForm.get('mobile').errors && signUpForm.get('mobile').touched">
             <span class="register-error-icon">!</span>

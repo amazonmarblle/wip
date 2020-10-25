@@ -87,7 +87,9 @@ export class ProductCountComponent implements OnInit, OnDestroy {
       this.mobileNumber = mobileNumberFromStorage;
       this.isMobileNumberValidated = true;
     } else {
-      this.introTimer = setTimeout(() => this.introJS2.start(), 5000);
+      if (this.getIsIntro2Visited() !== true) {
+        this.introTimer = setTimeout(() => this.introJS2.start(), 5000);
+      }
     }
   }
 
@@ -221,9 +223,11 @@ export class ProductCountComponent implements OnInit, OnDestroy {
   }
 
   handleOnComplete = () => {
+    this.setIsIntro2Visited();
     this.scollTop();
   }
   handleOnExit = (introJs) => {
+    this.setIsIntro2Visited();
     this.scollTop();
   };
 
@@ -231,4 +235,13 @@ export class ProductCountComponent implements OnInit, OnDestroy {
     clearInterval(this.introTimer);
   }
   
+  private setIsIntro2Visited(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem('isIntro2Visited', 'true');
+    }
+  }
+
+  private getIsIntro2Visited() {
+    return isPlatformBrowser(this.platformId) ? JSON.parse(localStorage.getItem('isIntro2Visited')) : {};
+  }
 }

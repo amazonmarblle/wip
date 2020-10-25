@@ -1,5 +1,5 @@
 import { Router } from '@angular/router';
-import { Component, OnInit, Output, EventEmitter, Input, ChangeDetectionStrategy, PLATFORM_ID, Inject } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input, ChangeDetectionStrategy, PLATFORM_ID, Inject, OnChanges, SimpleChanges } from '@angular/core';
 import { isPlatformBrowser } from '../../../../../node_modules/@angular/common';
 @Component({
   selector: 'app-content-header',
@@ -7,7 +7,7 @@ import { isPlatformBrowser } from '../../../../../node_modules/@angular/common';
   styleUrls: ['./content-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ContentHeaderComponent implements OnInit {
+export class ContentHeaderComponent implements OnInit, OnChanges {
   @Output() toggleSize = new EventEmitter();
   @Output() sortingUpdated = new EventEmitter<Object>();
   @Input() paginationInfo;
@@ -45,6 +45,28 @@ export class ContentHeaderComponent implements OnInit {
   issortModalShown;
   defaultselectedEntry = 'Newest';
   constructor(private routernomal: Router, @Inject(PLATFORM_ID) private platformId: any) { }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    const equalIndex = location.href.indexOf('id=');
+    const length = location.href.length;
+    console.log('Filtering ' + this.products.length + ' products ' + ' using taxonId: ' + Number(location.href.substring(equalIndex+3,length)));
+    const selectedIds = [Number(location.href.substring(equalIndex+3,length))];
+    if (!this.products) {
+      return;
+    }
+    if (!selectedIds || selectedIds.length === 0) {
+      return this.products;
+    }
+    this.filteredProducts = this.products.filter(product => {
+      let productPresent = false;
+      selectedIds.forEach(id => {
+        if (product.taxon_ids.findIndex(taxon_id => taxon_id === id) !== -1) {
+          productPresent = true;
+        }
+      });
+      return productPresent;
+    });
+  }
 
   sortModalShow() { this.issortModalShown = true; }
   sortModalhide() { this.issortModalShown = false; }

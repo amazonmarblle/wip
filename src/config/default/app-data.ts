@@ -54,18 +54,19 @@ export const DEFAULT_APP_DATA = {
       name: 'About Us',
       link_url: '#'
     },
+    // {
+    //   name: 'Blog',
+    //   link_url: '#'
+    // },
     {
-      name: 'Blog',
-      link_url: '#'
-    },
-    {
-      name: 'Return Policy',
-      link_url: '#'
-    },
-    {
-      name: 'FAQs',
+      name: 'Privacy Policy',
       link_url: '#'
     }
+    // ,
+    // {
+    //   name: 'FAQs',
+    //   link_url: '#'
+    // }
   ],
   footer_social_links: [
     {

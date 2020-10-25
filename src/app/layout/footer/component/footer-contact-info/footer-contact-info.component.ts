@@ -41,7 +41,7 @@ export class FooterContactInfoComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     console.log("The URL is:", this.router.url);
-    if(this.router.url === '/') {
+    if(this.router.url === '/' && this.getIsIntro2Visited() !== true) {
       this.introTimer = setTimeout(() => this.introJS.start(), 7000);
     }
   }
@@ -52,13 +52,25 @@ export class FooterContactInfoComponent implements OnInit, OnDestroy {
   }
 
   handleOnComplete = () => {
+    this.setIsIntro2Visited();
     this.scollTop();
   }
   handleOnExit = (introJs) => {
+    this.setIsIntro2Visited();
     this.scollTop();
   };
 
   ngOnDestroy() {
     clearInterval(this.introTimer);
+  }
+
+  private setIsIntro2Visited(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem('isIntro1Visited', 'true');
+    }
+  }
+
+  private getIsIntro2Visited() {
+    return isPlatformBrowser(this.platformId) ? JSON.parse(localStorage.getItem('isIntro1Visited')) : {};
   }
 }
