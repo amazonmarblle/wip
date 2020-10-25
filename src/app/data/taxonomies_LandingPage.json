@@ -182,6 +182,52 @@
                                 }
                             ],
                             "icon": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "Granite",
+                            "pretty_name": "Categories -> Granite",
+                            "permalink": "granite",
+                            "parent_id": 1,
+                            "taxonomy_id": 1,
+                            "meta_title": "",
+                            "meta_description": "",
+                            "taxons": [
+                                {
+                                    "id": 73,
+                                    "name": "Black Granite",
+                                    "pretty_name": "Categories -> Granite -> Black Granite",
+                                    "permalink": "blackGranite",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "icon": null
+                                },
+                                {
+                                    "id": 74,
+                                    "name": "White Granite",
+                                    "pretty_name": "Categories -> Granite -> White Granite",
+                                    "permalink": "whiteGranite",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "icon": null
+                                },
+                                {
+                                    "id": 75,
+                                    "name": "Red Granite",
+                                    "pretty_name": "Categories -> Granite -> Red Granite",
+                                    "permalink": "redGranite",
+                                    "parent_id": 3,
+                                    "taxonomy_id": 1,
+                                    "meta_title": null,
+                                    "meta_description": null,
+                                    "icon": null
+                                }
+                            ],
+                            "icon": null
                         }
                     ]
                 }

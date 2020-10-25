@@ -7,13 +7,13 @@ admin.initializeApp({
 });
 
 let allDataFiles = [
-                        "./data/allProducts_DetailPage.json",
-                        "./data/allProductsMini_LandingPage.json",
-                        "./data/taxonomies_LandingPage.json",
-                        "./data/favouriteProducts_LandingPage.json",
-                        "./data/emptyOrder.json",
-                        "./data/allProductsFull_LandingPage.json",
-                        "./data/topRatedProducts_LandingPage.json"
+                        "./data/allProducts_DetailPage.json"
+                        // "./data/allProductsMini_LandingPage.json",
+                        // "./data/taxonomies_LandingPage.json"
+                        // "./data/favouriteProducts_LandingPage.json",
+                        // "./data/emptyOrder.json",
+                        // "./data/allProductsFull_LandingPage.json",
+                        // "./data/topRatedProducts_LandingPage.json"
                       ];
 
 // allDataFiles = [allDataFiles[5]];

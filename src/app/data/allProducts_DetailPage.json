@@ -12940,6 +12940,750 @@
           }
         ]
       }
+    },
+    {
+      "id": 402,
+      "type": "products",
+      "major": "granite",
+      "minor": "blackGranite",
+      "version": "absoluteBlackGranite",
+      "taxon_ids": [
+        1008,
+        4,
+        73
+      ],
+      "display_price": "200",
+      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F402_main.jpg?alt=media&token=7f2a7fa2-187c-411c-bb37-8f14ccc5f567",
+      "attributes": {
+        "id": 402,
+        "name": "Absolute Black",
+        "description": "<p>Absolute Black Granite - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look </p>",
+        "price": "200",
+        "display_price": "200",
+        "available_on": "2019-11-04T00:00:00.000Z",
+        "slug": "absoluteBlackGranite",
+        "meta_description": "",
+        "meta_keywords": "",
+        "shipping_category_id": 1,
+        "taxon_ids": [
+          1008,
+          4,
+          73
+        ],
+        "total_on_hand": 9,
+        "avg_rating": "4.5",
+        "reviews_count": 0,
+        "currency": "₹.",
+        "currency_symbol": "₹",
+        "has_variants": false,
+        "cost_price": "200",
+        "is_favorited_by_current_user": false,
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F402_main.jpg?alt=media&token=7f2a7fa2-187c-411c-bb37-8f14ccc5f567"
+      },
+      "relationships": {
+        "master": {
+          "data": {
+            "type": "master",
+            "id": 2
+          }
+        },
+        "variants": {
+          "data": []
+        },
+        "option_types": {
+          "data": []
+        },
+        "product_properties": {
+          "data": [
+            {
+              "type": "product_properties",
+              "id": 28
+            },
+            {
+              "type": "product_properties",
+              "id": 29
+            },
+            {
+              "type": "product_properties",
+              "id": 30
+            }
+          ]
+        },
+        "classifications": {
+          "data": [
+            {
+              "type": "classifications",
+              "id": 2
+            }
+          ]
+        }
+      },
+      "included": {
+        "master": {
+          "data": {
+            "attributes": {
+              "id": 402,
+              "name": "Absolute Black",
+              "sku": "absoluteBlackGranite",
+              "price": "200",
+              "weight": "0.0",
+              "height": null,
+              "width": null,
+              "depth": null,
+              "is_master": true,
+              "slug": "absoluteBlackGranite",
+              "description": "<p>Absolute Black Granite - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look</p>",
+              "track_inventory": true,
+              "display_price": "200",
+              "options_text": "",
+              "in_stock": true,
+              "is_backorderable": true,
+              "is_orderable": true,
+              "total_on_hand": 9,
+              "is_destroyed": false,
+              "cost_price": "200"
+            },
+            "relationships": {
+              "option_values": {
+                "data": []
+              },
+              "images": {
+                "data": [
+                  {
+                    "type": "images",
+                    "id": 23
+                  }
+                ]
+              }
+            },
+            "included": {
+              "option_values": [],
+              "images": [
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 23,
+                      "position": 1,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F402_main.jpg?alt=media&token=7f2a7fa2-187c-411c-bb37-8f14ccc5f567"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 24,
+                      "position": 2,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F402_use1.jpg?alt=media&token=644249e0-6c0b-44ea-a648-f83911934eb2"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 25,
+                      "position": 3,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F402_use2.jpg?alt=media&token=f5056637-2fa1-44ed-bd26-0d8758786a5f"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 26,
+                      "position": 4,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F402_slab.jpg?alt=media&token=2be2951c-8648-4a06-9f18-e3be9a2858f3"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "variants": [],
+        "option_types": [],
+        "product_properties": [
+          {
+            "data": {
+              "attributes": {
+                "id": 28,
+                "product_id": 2,
+                "property_id": 9,
+                "value": "Messenger",
+                "property_name": "Type"
+              }
+            }
+          },
+          {
+            "data": {
+              "attributes": {
+                "id": 29,
+                "product_id": 2,
+                "property_id": 10,
+                "value": "14 1/2' x 12' x 5'",
+                "property_name": "Size"
+              }
+            }
+          },
+          {
+            "data": {
+              "attributes": {
+                "id": 30,
+                "product_id": 2,
+                "property_id": 11,
+                "value": "600 Denier Polyester",
+                "property_name": "Material"
+              }
+            }
+          }
+        ],
+        "classifications": [
+          {
+            "data": {
+              "attributes": {
+                "taxon_id": 3,
+                "position": 2,
+                "taxon": {
+                  "id": 3,
+                  "name": "Necklaces",
+                  "pretty_name": "Gold Jewellery -> Necklaces",
+                  "permalink": "Gold Jewellery/bags",
+                  "parent_id": 1,
+                  "taxonomy_id": 1,
+                  "meta_title": "",
+                  "meta_description": "",
+                  "taxons": []
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 403,
+      "type": "products",
+      "major": "granite",
+      "minor": "whiteGranite",
+      "version": "galaxyWhiteGranite",
+      "taxon_ids": [
+        1008,
+        4,
+        74
+      ],
+      "display_price": "200",
+      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F403_main.jpg?alt=media&token=cd4897a8-872a-44b9-abae-b20415afd44e",
+      "attributes": {
+        "id": 403,
+        "name": "Galaxy White",
+        "description": "<p>Galaxy White Granite - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look </p>",
+        "price": "200",
+        "display_price": "200",
+        "available_on": "2019-11-04T00:00:00.000Z",
+        "slug": "galaxyWhiteGranite",
+        "meta_description": "",
+        "meta_keywords": "",
+        "shipping_category_id": 1,
+        "taxon_ids": [
+          1008,
+          4,
+          74
+        ],
+        "total_on_hand": 9,
+        "avg_rating": "4.5",
+        "reviews_count": 0,
+        "currency": "₹.",
+        "currency_symbol": "₹",
+        "has_variants": false,
+        "cost_price": "200",
+        "is_favorited_by_current_user": false,
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F403_main.jpg?alt=media&token=cd4897a8-872a-44b9-abae-b20415afd44e"
+      },
+      "relationships": {
+        "master": {
+          "data": {
+            "type": "master",
+            "id": 2
+          }
+        },
+        "variants": {
+          "data": []
+        },
+        "option_types": {
+          "data": []
+        },
+        "product_properties": {
+          "data": [
+            {
+              "type": "product_properties",
+              "id": 28
+            },
+            {
+              "type": "product_properties",
+              "id": 29
+            },
+            {
+              "type": "product_properties",
+              "id": 30
+            }
+          ]
+        },
+        "classifications": {
+          "data": [
+            {
+              "type": "classifications",
+              "id": 2
+            }
+          ]
+        }
+      },
+      "included": {
+        "master": {
+          "data": {
+            "attributes": {
+              "id": 403,
+              "name": "Galaxy White",
+              "sku": "galaxyWhiteGranite",
+              "price": "200",
+              "weight": "0.0",
+              "height": null,
+              "width": null,
+              "depth": null,
+              "is_master": true,
+              "slug": "galaxyWhiteGranite",
+              "description": "<p>Galaxy White Granite - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look</p>",
+              "track_inventory": true,
+              "display_price": "200",
+              "options_text": "",
+              "in_stock": true,
+              "is_backorderable": true,
+              "is_orderable": true,
+              "total_on_hand": 9,
+              "is_destroyed": false,
+              "cost_price": "200"
+            },
+            "relationships": {
+              "option_values": {
+                "data": []
+              },
+              "images": {
+                "data": [
+                  {
+                    "type": "images",
+                    "id": 23
+                  }
+                ]
+              }
+            },
+            "included": {
+              "option_values": [],
+              "images": [
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 23,
+                      "position": 1,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F403_main.jpg?alt=media&token=cd4897a8-872a-44b9-abae-b20415afd44e"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 24,
+                      "position": 2,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F403_use1.jpg?alt=media&token=1c6f8895-1f1d-4c79-979d-c4edad99515c"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 25,
+                      "position": 3,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F403_use2.jpg?alt=media&token=763e43b1-aaa1-48bc-af0b-73609c3ca8ab"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 26,
+                      "position": 4,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F403_slab.jpg?alt=media&token=be1dfa27-38ab-480e-b696-1b48445fbfc4"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "variants": [],
+        "option_types": [],
+        "product_properties": [
+          {
+            "data": {
+              "attributes": {
+                "id": 28,
+                "product_id": 2,
+                "property_id": 9,
+                "value": "Messenger",
+                "property_name": "Type"
+              }
+            }
+          },
+          {
+            "data": {
+              "attributes": {
+                "id": 29,
+                "product_id": 2,
+                "property_id": 10,
+                "value": "14 1/2' x 12' x 5'",
+                "property_name": "Size"
+              }
+            }
+          },
+          {
+            "data": {
+              "attributes": {
+                "id": 30,
+                "product_id": 2,
+                "property_id": 11,
+                "value": "600 Denier Polyester",
+                "property_name": "Material"
+              }
+            }
+          }
+        ],
+        "classifications": [
+          {
+            "data": {
+              "attributes": {
+                "taxon_id": 3,
+                "position": 2,
+                "taxon": {
+                  "id": 3,
+                  "name": "Necklaces",
+                  "pretty_name": "Gold Jewellery -> Necklaces",
+                  "permalink": "Gold Jewellery/bags",
+                  "parent_id": 1,
+                  "taxonomy_id": 1,
+                  "meta_title": "",
+                  "meta_description": "",
+                  "taxons": []
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 401,
+      "type": "products",
+      "major": "granite",
+      "minor": "redGranite",
+      "version": "SindooriRedGranite",
+      "taxon_ids": [
+        1008,
+        4,
+        75
+      ],
+      "display_price": "150",
+      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F401_main.jpg?alt=media&token=42ef1922-b271-46ce-8b98-6bf7fa7e8884",
+      "attributes": {
+        "id": 401,
+        "name": "Sindoori Red",
+        "description": "<p>Sindoori Red Granite - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look </p>",
+        "price": "150",
+        "display_price": "150",
+        "available_on": "2019-11-04T00:00:00.000Z",
+        "slug": "SindooriRedGranite",
+        "meta_description": "",
+        "meta_keywords": "",
+        "shipping_category_id": 1,
+        "taxon_ids": [
+          1008,
+          4,
+          75
+        ],
+        "total_on_hand": 9,
+        "avg_rating": "4.5",
+        "reviews_count": 0,
+        "currency": "₹.",
+        "currency_symbol": "₹",
+        "has_variants": false,
+        "cost_price": "150",
+        "is_favorited_by_current_user": false,
+        "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F401_main.jpg?alt=media&token=42ef1922-b271-46ce-8b98-6bf7fa7e8884"
+      },
+      "relationships": {
+        "master": {
+          "data": {
+            "type": "master",
+            "id": 2
+          }
+        },
+        "variants": {
+          "data": []
+        },
+        "option_types": {
+          "data": []
+        },
+        "product_properties": {
+          "data": [
+            {
+              "type": "product_properties",
+              "id": 28
+            },
+            {
+              "type": "product_properties",
+              "id": 29
+            },
+            {
+              "type": "product_properties",
+              "id": 30
+            }
+          ]
+        },
+        "classifications": {
+          "data": [
+            {
+              "type": "classifications",
+              "id": 2
+            }
+          ]
+        }
+      },
+      "included": {
+        "master": {
+          "data": {
+            "attributes": {
+              "id": 401,
+              "name": "Sindoori Red",
+              "sku": "SindooriRedGranite",
+              "price": "150",
+              "weight": "0.0",
+              "height": null,
+              "width": null,
+              "depth": null,
+              "is_master": true,
+              "slug": "SindooriRedGranite",
+              "description": "<p>Sindoori Red Granite - The choice that can never go wrong. You can apply it in your bedroom, it will always give a super luxurious look</p>",
+              "track_inventory": true,
+              "display_price": "150",
+              "options_text": "",
+              "in_stock": true,
+              "is_backorderable": true,
+              "is_orderable": true,
+              "total_on_hand": 9,
+              "is_destroyed": false,
+              "cost_price": "150"
+            },
+            "relationships": {
+              "option_values": {
+                "data": []
+              },
+              "images": {
+                "data": [
+                  {
+                    "type": "images",
+                    "id": 23
+                  }
+                ]
+              }
+            },
+            "included": {
+              "option_values": [],
+              "images": [
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 23,
+                      "position": 1,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F401_main.jpg?alt=media&token=42ef1922-b271-46ce-8b98-6bf7fa7e8884"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 24,
+                      "position": 2,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F401_use1.jpg?alt=media&token=73dd9413-8ff7-4feb-84ba-c6d075bf75f8"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "attributes": {
+                      "id": 25,
+                      "position": 3,
+                      "attachment_content_type": null,
+                      "attachment_file_name": null,
+                      "type": "Amazon::Image",
+                      "attachment_updated_at": null,
+                      "attachment_width": null,
+                      "attachment_height": null,
+                      "alt": "",
+                      "viewable_type": "Amazon::Variant",
+                      "viewable_id": 2,
+                      "product_url": "https://firebasestorage.googleapis.com/v0/b/amazon-1538415571879.appspot.com/o/amazon%2FlandingPage%2F401_slab.jpg?alt=media&token=7672b9c4-a183-4d89-a69a-699c0404ab90"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "variants": [],
+        "option_types": [],
+        "product_properties": [
+          {
+            "data": {
+              "attributes": {
+                "id": 28,
+                "product_id": 2,
+                "property_id": 9,
+                "value": "Messenger",
+                "property_name": "Type"
+              }
+            }
+          },
+          {
+            "data": {
+              "attributes": {
+                "id": 29,
+                "product_id": 2,
+                "property_id": 10,
+                "value": "14 1/2' x 12' x 5'",
+                "property_name": "Size"
+              }
+            }
+          },
+          {
+            "data": {
+              "attributes": {
+                "id": 30,
+                "product_id": 2,
+                "property_id": 11,
+                "value": "600 Denier Polyester",
+                "property_name": "Material"
+              }
+            }
+          }
+        ],
+        "classifications": [
+          {
+            "data": {
+              "attributes": {
+                "taxon_id": 3,
+                "position": 2,
+                "taxon": {
+                  "id": 3,
+                  "name": "Necklaces",
+                  "pretty_name": "Gold Jewellery -> Necklaces",
+                  "permalink": "Gold Jewellery/bags",
+                  "parent_id": 1,
+                  "taxonomy_id": 1,
+                  "meta_title": "",
+                  "meta_description": "",
+                  "taxons": []
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   ]
 }
