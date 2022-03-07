@@ -49,9 +49,7 @@ import { CanActivateViaAuthGuard } from './guards/auth.guard';
       UserEffects
     ]),
     HttpClientModule,
-    NgProgressModule.forRoot({
-      meteor: false
-    }),
+    NgProgressModule,
     NgProgressHttpModule,
   ],
   providers: [
