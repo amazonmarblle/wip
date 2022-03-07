@@ -47,28 +47,28 @@ export class ProductCountComponent implements OnInit, OnDestroy {
     private ngxService: NgxUiLoaderService,
     @Inject(PLATFORM_ID) private platformId: any) {
     this.totalCartItems$ = this.store.select(getTotalCartItems);
-    this.introJS2.setOptions({
-      steps: [
-        {
-          element: '#step5',
-          intro: 'Enter Mobile Number',
-          position: 'bottom'
-        },
-        {
-          element: '#step6',
-          intro: "Get OTP & Submit the received OTP",
-          position: 'bottom'
-        },
-        {
-          element: '#step8',
-          intro: 'Submit Enquiry, we will reach out to you (Click Done).',
-          position: 'bottom'
-        }
-      ],
-      showProgress: true
-    });
-    this.introJS2.oncomplete(this.handleOnComplete);
-    this.introJS2.onexit(() => this.handleOnExit(introJs));
+    // this.introJS2.setOptions({
+    //   steps: [
+    //     // {
+    //     //   element: '#step1',
+    //     //   intro: 'Enter Mobile Number',
+    //     //   position: 'bottom'
+    //     // },
+    //     // {
+    //     //   element: '#step2',
+    //     //   intro: "Get OTP & Submit the received OTP",
+    //     //   position: 'bottom'
+    //     // },
+    //     // {
+    //     //   element: '#step3',
+    //     //   intro: 'Submit Enquiry, we will reach out to you (Click Done).',
+    //     //   position: 'bottom'
+    //     // }
+    //   ],
+    //   showProgress: true
+    // });
+    // this.introJS2.oncomplete(this.handleOnComplete);
+    // this.introJS2.onexit(() => this.handleOnExit(introJs));
   }
 
   ngOnInit() {

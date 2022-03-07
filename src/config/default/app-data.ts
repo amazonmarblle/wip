@@ -91,7 +91,7 @@ export const DEFAULT_APP_DATA = {
     }
   ],
   contact_info: {
-    contact_no: '90820-73532',
-    copyright: 'Copyright © 2020 Exa Marble'
+    contact_no: '86192-07203',
+    copyright: 'Copyright © 2022 Exa Marble'
   }
 };

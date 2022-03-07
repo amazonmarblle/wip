@@ -15,26 +15,26 @@ export class FooterContactInfoComponent implements OnInit, OnDestroy {
   introJS = introJs();
   introTimer;
   constructor(@Inject(PLATFORM_ID) private platformId: any, private router: Router) {
-    this.introJS.setOptions({
-      steps: [
-        {
-          element: '#step1',
-          intro: 'Click to connect over call',
-          position: 'bottom'
-        },
-        {
-          element: '#step2',
-          intro: "Click to connect over whatsapp",
-          position: 'bottom'
-        },
-        {
-          element: '#step4',
-          intro: 'Click to view more Products. (Click Done)',
-          position: 'top'
-        }
-      ],
-      showProgress: true
-    });
+    // this.introJS.setOptions({
+    //   steps: [
+    //     // {
+    //     //   element: '#step1',
+    //     //   intro: 'Click to connect over call',
+    //     //   position: 'bottom'
+    //     // },
+    //     // {
+    //     //   element: '#step2',
+    //     //   intro: "Click to connect over whatsapp",
+    //     //   position: 'bottom'
+    //     // },
+    //     // {
+    //     //   element: '#step4',
+    //     //   intro: 'Click to view more Products. (Click Done)',
+    //     //   position: 'top'
+    //     // }
+    //   ],
+    //   showProgress: true
+    // });
     this.introJS.oncomplete(this.handleOnComplete);
     this.introJS.onexit(() => this.handleOnExit(introJs));
   }
